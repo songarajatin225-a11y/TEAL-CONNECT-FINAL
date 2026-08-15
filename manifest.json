@@ -1,0 +1,21 @@
+{
+  "name": "TEAL LeadConnect",
+  "short_name": "LeadConnect",
+  "description": "Exhibition Lead Intelligence & Sales Conversion OS",
+  "start_url": "./index.html#/dashboard",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait-primary",
+  "background_color": "#070b12",
+  "theme_color": "#00a9b5",
+  "categories": ["business", "productivity"],
+  "icons": [
+    { "src": "./assets/teal-mark.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any" },
+    { "src": "./assets/teal-mark-maskable.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "maskable" }
+  ],
+  "shortcuts": [
+    { "name": "Capture Lead", "url": "./index.html#/capture" },
+    { "name": "Follow-ups", "url": "./index.html#/followups" },
+    { "name": "Pipeline", "url": "./index.html#/pipeline" }
+  ]
+}

@@ -1,0 +1,2462 @@
+[
+ {
+  "id": "ac-0001",
+  "leadId": "ld-001",
+  "companyId": "co-001",
+  "type": "lead_captured",
+  "title": "Lead captured at booth",
+  "body": "Captured on the stand and scored automatically.",
+  "actorId": "u-priya",
+  "at": "2026-08-12T11:00:00"
+ },
+ {
+  "id": "ac-0002",
+  "leadId": "ld-002",
+  "companyId": "co-002",
+  "type": "lead_captured",
+  "title": "Lead captured at booth",
+  "body": "Captured on the stand and scored automatically.",
+  "actorId": "u-arun",
+  "at": "2026-08-13T11:00:00"
+ },
+ {
+  "id": "ac-0003",
+  "leadId": "ld-003",
+  "companyId": "co-003",
+  "type": "lead_captured",
+  "title": "Lead captured at booth",
+  "body": "Captured on the stand and scored automatically.",
+  "actorId": "u-sneha",
+  "at": "2026-08-14T11:00:00"
+ },
+ {
+  "id": "ac-0004",
+  "leadId": "ld-003",
+  "companyId": "co-003",
+  "type": "call",
+  "title": "Follow-up call",
+  "body": "Discussed the requirement and confirmed the next step.",
+  "actorId": "u-sneha",
+  "at": "2026-08-16T12:00:00"
+ },
+ {
+  "id": "ac-0005",
+  "leadId": "ld-003",
+  "companyId": "co-003",
+  "type": "stage_change",
+  "title": "Pipeline stage advanced",
+  "body": "Moved forward after the last interaction.",
+  "actorId": "u-sneha",
+  "at": "2026-08-18T13:00:00"
+ },
+ {
+  "id": "ac-0006",
+  "leadId": "ld-004",
+  "companyId": "co-004",
+  "type": "lead_captured",
+  "title": "Lead captured at booth",
+  "body": "Captured on the stand and scored automatically.",
+  "actorId": "u-priya",
+  "at": "2026-08-14T11:00:00"
+ },
+ {
+  "id": "ac-0007",
+  "leadId": "ld-004",
+  "companyId": "co-004",
+  "type": "call",
+  "title": "Follow-up call",
+  "body": "Discussed the requirement and confirmed the next step.",
+  "actorId": "u-priya",
+  "at": "2026-08-16T12:00:00"
+ },
+ {
+  "id": "ac-0008",
+  "leadId": "ld-004",
+  "companyId": "co-004",
+  "type": "meeting",
+  "title": "Meeting held",
+  "body": "Reviewed the application in detail with their engineering team.",
+  "actorId": "u-priya",
+  "at": "2026-08-18T13:00:00"
+ },
+ {
+  "id": "ac-0009",
+  "leadId": "ld-004",
+  "companyId": "co-004",
+  "type": "technical",
+  "title": "Technical discussion",
+  "body": "Process window, fixturing and cycle time reviewed.",
+  "actorId": "u-priya",
+  "at": "2026-08-20T14:00:00"
+ },
+ {
+  "id": "ac-0010",
+  "leadId": "ld-004",
+  "companyId": "co-004",
+  "type": "stage_change",
+  "title": "Pipeline stage advanced",
+  "body": "Moved forward after the last interaction.",
+  "actorId": "u-priya",
+  "at": "2026-08-22T15:00:00"
+ },
+ {
+  "id": "ac-0011",
+  "leadId": "ld-005",
+  "companyId": "co-005",
+  "type": "lead_captured",
+  "title": "Lead captured at booth",
+  "body": "Captured on the stand and scored automatically.",
+  "actorId": "u-arun",
+  "at": "2026-08-13T11:00:00"
+ },
+ {
+  "id": "ac-0012",
+  "leadId": "ld-005",
+  "companyId": "co-005",
+  "type": "call",
+  "title": "Follow-up call",
+  "body": "Discussed the requirement and confirmed the next step.",
+  "actorId": "u-arun",
+  "at": "2026-08-15T12:00:00"
+ },
+ {
+  "id": "ac-0013",
+  "leadId": "ld-005",
+  "companyId": "co-005",
+  "type": "meeting",
+  "title": "Meeting held",
+  "body": "Reviewed the application in detail with their engineering team.",
+  "actorId": "u-arun",
+  "at": "2026-08-17T13:00:00"
+ },
+ {
+  "id": "ac-0014",
+  "leadId": "ld-005",
+  "companyId": "co-005",
+  "type": "demo",
+  "title": "Machine demo completed",
+  "body": "Sample parts run on the target platform; results shared.",
+  "actorId": "u-arun",
+  "at": "2026-08-19T14:00:00"
+ },
+ {
+  "id": "ac-0015",
+  "leadId": "ld-005",
+  "companyId": "co-005",
+  "type": "quotation",
+  "title": "Quotation issued",
+  "body": "Commercial proposal sent with delivery schedule.",
+  "actorId": "u-arun",
+  "at": "2026-08-21T15:00:00"
+ },
+ {
+  "id": "ac-0016",
+  "leadId": "ld-005",
+  "companyId": "co-005",
+  "type": "stage_change",
+  "title": "Pipeline stage advanced",
+  "body": "Moved forward after the last interaction.",
+  "actorId": "u-arun",
+  "at": "2026-08-23T16:00:00"
+ },
+ {
+  "id": "ac-0017",
+  "leadId": "ld-006",
+  "companyId": "co-006",
+  "type": "lead_captured",
+  "title": "Lead captured at booth",
+  "body": "Captured on the stand and scored automatically.",
+  "actorId": "u-sneha",
+  "at": "2026-08-13T11:00:00"
+ },
+ {
+  "id": "ac-0018",
+  "leadId": "ld-007",
+  "companyId": "co-007",
+  "type": "lead_captured",
+  "title": "Lead captured at booth",
+  "body": "Captured on the stand and scored automatically.",
+  "actorId": "u-priya",
+  "at": "2026-08-13T11:00:00"
+ },
+ {
+  "id": "ac-0019",
+  "leadId": "ld-007",
+  "companyId": "co-007",
+  "type": "call",
+  "title": "Follow-up call",
+  "body": "Discussed the requirement and confirmed the next step.",
+  "actorId": "u-priya",
+  "at": "2026-08-15T12:00:00"
+ },
+ {
+  "id": "ac-0020",
+  "leadId": "ld-007",
+  "companyId": "co-007",
+  "type": "stage_change",
+  "title": "Pipeline stage advanced",
+  "body": "Moved forward after the last interaction.",
+  "actorId": "u-priya",
+  "at": "2026-08-17T13:00:00"
+ },
+ {
+  "id": "ac-0021",
+  "leadId": "ld-008",
+  "companyId": "co-008",
+  "type": "lead_captured",
+  "title": "Lead captured at booth",
+  "body": "Captured on the stand and scored automatically.",
+  "actorId": "u-arun",
+  "at": "2026-08-13T11:00:00"
+ },
+ {
+  "id": "ac-0022",
+  "leadId": "ld-008",
+  "companyId": "co-008",
+  "type": "call",
+  "title": "Follow-up call",
+  "body": "Discussed the requirement and confirmed the next step.",
+  "actorId": "u-arun",
+  "at": "2026-08-15T12:00:00"
+ },
+ {
+  "id": "ac-0023",
+  "leadId": "ld-008",
+  "companyId": "co-008",
+  "type": "stage_change",
+  "title": "Pipeline stage advanced",
+  "body": "Moved forward after the last interaction.",
+  "actorId": "u-arun",
+  "at": "2026-08-17T13:00:00"
+ },
+ {
+  "id": "ac-0024",
+  "leadId": "ld-009",
+  "companyId": "co-009",
+  "type": "lead_captured",
+  "title": "Lead captured at booth",
+  "body": "Captured on the stand and scored automatically.",
+  "actorId": "u-sneha",
+  "at": "2026-08-12T11:00:00"
+ },
+ {
+  "id": "ac-0025",
+  "leadId": "ld-009",
+  "companyId": "co-009",
+  "type": "call",
+  "title": "Follow-up call",
+  "body": "Discussed the requirement and confirmed the next step.",
+  "actorId": "u-sneha",
+  "at": "2026-08-14T12:00:00"
+ },
+ {
+  "id": "ac-0026",
+  "leadId": "ld-009",
+  "companyId": "co-009",
+  "type": "meeting",
+  "title": "Meeting held",
+  "body": "Reviewed the application in detail with their engineering team.",
+  "actorId": "u-sneha",
+  "at": "2026-08-16T13:00:00"
+ },
+ {
+  "id": "ac-0027",
+  "leadId": "ld-009",
+  "companyId": "co-009",
+  "type": "technical",
+  "title": "Technical discussion",
+  "body": "Process window, fixturing and cycle time reviewed.",
+  "actorId": "u-sneha",
+  "at": "2026-08-18T14:00:00"
+ },
+ {
+  "id": "ac-0028",
+  "leadId": "ld-009",
+  "companyId": "co-009",
+  "type": "demo",
+  "title": "Machine demo completed",
+  "body": "Sample parts run on the target platform; results shared.",
+  "actorId": "u-sneha",
+  "at": "2026-08-20T15:00:00"
+ },
+ {
+  "id": "ac-0029",
+  "leadId": "ld-009",
+  "companyId": "co-009",
+  "type": "stage_change",
+  "title": "Pipeline stage advanced",
+  "body": "Moved forward after the last interaction.",
+  "actorId": "u-sneha",
+  "at": "2026-08-22T16:00:00"
+ },
+ {
+  "id": "ac-0030",
+  "leadId": "ld-010",
+  "companyId": "co-010",
+  "type": "lead_captured",
+  "title": "Lead captured at booth",
+  "body": "Captured on the stand and scored automatically.",
+  "actorId": "u-priya",
+  "at": "2026-08-13T11:00:00"
+ },
+ {
+  "id": "ac-0031",
+  "leadId": "ld-011",
+  "companyId": "co-011",
+  "type": "lead_captured",
+  "title": "Lead captured at booth",
+  "body": "Captured on the stand and scored automatically.",
+  "actorId": "u-arun",
+  "at": "2026-08-14T11:00:00"
+ },
+ {
+  "id": "ac-0032",
+  "leadId": "ld-012",
+  "companyId": "co-012",
+  "type": "lead_captured",
+  "title": "Lead captured at booth",
+  "body": "Captured on the stand and scored automatically.",
+  "actorId": "u-sneha",
+  "at": "2026-08-13T11:00:00"
+ },
+ {
+  "id": "ac-0033",
+  "leadId": "ld-012",
+  "companyId": "co-012",
+  "type": "call",
+  "title": "Follow-up call",
+  "body": "Discussed the requirement and confirmed the next step.",
+  "actorId": "u-sneha",
+  "at": "2026-08-15T12:00:00"
+ },
+ {
+  "id": "ac-0034",
+  "leadId": "ld-012",
+  "companyId": "co-012",
+  "type": "stage_change",
+  "title": "Pipeline stage advanced",
+  "body": "Moved forward after the last interaction.",
+  "actorId": "u-sneha",
+  "at": "2026-08-17T13:00:00"
+ },
+ {
+  "id": "ac-0035",
+  "leadId": "ld-013",
+  "companyId": "co-013",
+  "type": "lead_captured",
+  "title": "Lead captured at booth",
+  "body": "Captured on the stand and scored automatically.",
+  "actorId": "u-priya",
+  "at": "2026-08-14T11:00:00"
+ },
+ {
+  "id": "ac-0036",
+  "leadId": "ld-013",
+  "companyId": "co-013",
+  "type": "call",
+  "title": "Follow-up call",
+  "body": "Discussed the requirement and confirmed the next step.",
+  "actorId": "u-priya",
+  "at": "2026-08-16T12:00:00"
+ },
+ {
+  "id": "ac-0037",
+  "leadId": "ld-013",
+  "companyId": "co-013",
+  "type": "meeting",
+  "title": "Meeting held",
+  "body": "Reviewed the application in detail with their engineering team.",
+  "actorId": "u-priya",
+  "at": "2026-08-18T13:00:00"
+ },
+ {
+  "id": "ac-0038",
+  "leadId": "ld-013",
+  "companyId": "co-013",
+  "type": "technical",
+  "title": "Technical discussion",
+  "body": "Process window, fixturing and cycle time reviewed.",
+  "actorId": "u-priya",
+  "at": "2026-08-20T14:00:00"
+ },
+ {
+  "id": "ac-0039",
+  "leadId": "ld-013",
+  "companyId": "co-013",
+  "type": "stage_change",
+  "title": "Pipeline stage advanced",
+  "body": "Moved forward after the last interaction.",
+  "actorId": "u-priya",
+  "at": "2026-08-22T15:00:00"
+ },
+ {
+  "id": "ac-0040",
+  "leadId": "ld-014",
+  "companyId": "co-014",
+  "type": "lead_captured",
+  "title": "Lead captured at booth",
+  "body": "Captured on the stand and scored automatically.",
+  "actorId": "u-arun",
+  "at": "2026-08-13T11:00:00"
+ },
+ {
+  "id": "ac-0041",
+  "leadId": "ld-015",
+  "companyId": "co-015",
+  "type": "lead_captured",
+  "title": "Lead captured at booth",
+  "body": "Captured on the stand and scored automatically.",
+  "actorId": "u-sneha",
+  "at": "2026-08-13T11:00:00"
+ },
+ {
+  "id": "ac-0042",
+  "leadId": "ld-016",
+  "companyId": "co-016",
+  "type": "lead_captured",
+  "title": "Lead captured at booth",
+  "body": "Captured on the stand and scored automatically.",
+  "actorId": "u-priya",
+  "at": "2026-08-14T11:00:00"
+ },
+ {
+  "id": "ac-0043",
+  "leadId": "ld-016",
+  "companyId": "co-016",
+  "type": "call",
+  "title": "Follow-up call",
+  "body": "Discussed the requirement and confirmed the next step.",
+  "actorId": "u-priya",
+  "at": "2026-08-16T12:00:00"
+ },
+ {
+  "id": "ac-0044",
+  "leadId": "ld-016",
+  "companyId": "co-016",
+  "type": "stage_change",
+  "title": "Pipeline stage advanced",
+  "body": "Moved forward after the last interaction.",
+  "actorId": "u-priya",
+  "at": "2026-08-18T13:00:00"
+ },
+ {
+  "id": "ac-0045",
+  "leadId": "ld-017",
+  "companyId": "co-017",
+  "type": "lead_captured",
+  "title": "Lead captured at booth",
+  "body": "Captured on the stand and scored automatically.",
+  "actorId": "u-arun",
+  "at": "2026-08-13T11:00:00"
+ },
+ {
+  "id": "ac-0046",
+  "leadId": "ld-017",
+  "companyId": "co-017",
+  "type": "call",
+  "title": "Follow-up call",
+  "body": "Discussed the requirement and confirmed the next step.",
+  "actorId": "u-arun",
+  "at": "2026-08-15T12:00:00"
+ },
+ {
+  "id": "ac-0047",
+  "leadId": "ld-017",
+  "companyId": "co-017",
+  "type": "meeting",
+  "title": "Meeting held",
+  "body": "Reviewed the application in detail with their engineering team.",
+  "actorId": "u-arun",
+  "at": "2026-08-17T13:00:00"
+ },
+ {
+  "id": "ac-0048",
+  "leadId": "ld-017",
+  "companyId": "co-017",
+  "type": "technical",
+  "title": "Technical discussion",
+  "body": "Process window, fixturing and cycle time reviewed.",
+  "actorId": "u-arun",
+  "at": "2026-08-19T14:00:00"
+ },
+ {
+  "id": "ac-0049",
+  "leadId": "ld-017",
+  "companyId": "co-017",
+  "type": "stage_change",
+  "title": "Pipeline stage advanced",
+  "body": "Moved forward after the last interaction.",
+  "actorId": "u-arun",
+  "at": "2026-08-21T15:00:00"
+ },
+ {
+  "id": "ac-0050",
+  "leadId": "ld-018",
+  "companyId": "co-018",
+  "type": "lead_captured",
+  "title": "Lead captured at booth",
+  "body": "Captured on the stand and scored automatically.",
+  "actorId": "u-sneha",
+  "at": "2026-08-13T11:00:00"
+ },
+ {
+  "id": "ac-0051",
+  "leadId": "ld-019",
+  "companyId": "co-019",
+  "type": "lead_captured",
+  "title": "Lead captured at booth",
+  "body": "Captured on the stand and scored automatically.",
+  "actorId": "u-priya",
+  "at": "2026-08-14T11:00:00"
+ },
+ {
+  "id": "ac-0052",
+  "leadId": "ld-020",
+  "companyId": "co-020",
+  "type": "lead_captured",
+  "title": "Lead captured at booth",
+  "body": "Captured on the stand and scored automatically.",
+  "actorId": "u-arun",
+  "at": "2026-08-12T11:00:00"
+ },
+ {
+  "id": "ac-0053",
+  "leadId": "ld-020",
+  "companyId": "co-020",
+  "type": "call",
+  "title": "Follow-up call",
+  "body": "Discussed the requirement and confirmed the next step.",
+  "actorId": "u-arun",
+  "at": "2026-08-14T12:00:00"
+ },
+ {
+  "id": "ac-0054",
+  "leadId": "ld-020",
+  "companyId": "co-020",
+  "type": "stage_change",
+  "title": "Pipeline stage advanced",
+  "body": "Moved forward after the last interaction.",
+  "actorId": "u-arun",
+  "at": "2026-08-16T13:00:00"
+ },
+ {
+  "id": "ac-0055",
+  "leadId": "ld-021",
+  "companyId": "co-021",
+  "type": "lead_captured",
+  "title": "Lead captured at booth",
+  "body": "Captured on the stand and scored automatically.",
+  "actorId": "u-sneha",
+  "at": "2026-08-13T11:00:00"
+ },
+ {
+  "id": "ac-0056",
+  "leadId": "ld-021",
+  "companyId": "co-021",
+  "type": "call",
+  "title": "Follow-up call",
+  "body": "Discussed the requirement and confirmed the next step.",
+  "actorId": "u-sneha",
+  "at": "2026-08-15T12:00:00"
+ },
+ {
+  "id": "ac-0057",
+  "leadId": "ld-021",
+  "companyId": "co-021",
+  "type": "meeting",
+  "title": "Meeting held",
+  "body": "Reviewed the application in detail with their engineering team.",
+  "actorId": "u-sneha",
+  "at": "2026-08-17T13:00:00"
+ },
+ {
+  "id": "ac-0058",
+  "leadId": "ld-021",
+  "companyId": "co-021",
+  "type": "technical",
+  "title": "Technical discussion",
+  "body": "Process window, fixturing and cycle time reviewed.",
+  "actorId": "u-sneha",
+  "at": "2026-08-19T14:00:00"
+ },
+ {
+  "id": "ac-0059",
+  "leadId": "ld-021",
+  "companyId": "co-021",
+  "type": "stage_change",
+  "title": "Pipeline stage advanced",
+  "body": "Moved forward after the last interaction.",
+  "actorId": "u-sneha",
+  "at": "2026-08-21T15:00:00"
+ },
+ {
+  "id": "ac-0060",
+  "leadId": "ld-022",
+  "companyId": "co-022",
+  "type": "lead_captured",
+  "title": "Lead captured at booth",
+  "body": "Captured on the stand and scored automatically.",
+  "actorId": "u-priya",
+  "at": "2026-08-12T11:00:00"
+ },
+ {
+  "id": "ac-0061",
+  "leadId": "ld-022",
+  "companyId": "co-022",
+  "type": "call",
+  "title": "Follow-up call",
+  "body": "Discussed the requirement and confirmed the next step.",
+  "actorId": "u-priya",
+  "at": "2026-08-14T12:00:00"
+ },
+ {
+  "id": "ac-0062",
+  "leadId": "ld-022",
+  "companyId": "co-022",
+  "type": "meeting",
+  "title": "Meeting held",
+  "body": "Reviewed the application in detail with their engineering team.",
+  "actorId": "u-priya",
+  "at": "2026-08-16T13:00:00"
+ },
+ {
+  "id": "ac-0063",
+  "leadId": "ld-022",
+  "companyId": "co-022",
+  "type": "demo",
+  "title": "Machine demo completed",
+  "body": "Sample parts run on the target platform; results shared.",
+  "actorId": "u-priya",
+  "at": "2026-08-18T14:00:00"
+ },
+ {
+  "id": "ac-0064",
+  "leadId": "ld-022",
+  "companyId": "co-022",
+  "type": "quotation",
+  "title": "Quotation issued",
+  "body": "Commercial proposal sent with delivery schedule.",
+  "actorId": "u-priya",
+  "at": "2026-08-20T15:00:00"
+ },
+ {
+  "id": "ac-0065",
+  "leadId": "ld-022",
+  "companyId": "co-022",
+  "type": "stage_change",
+  "title": "Pipeline stage advanced",
+  "body": "Moved forward after the last interaction.",
+  "actorId": "u-priya",
+  "at": "2026-08-22T16:00:00"
+ },
+ {
+  "id": "ac-0066",
+  "leadId": "ld-023",
+  "companyId": "co-023",
+  "type": "lead_captured",
+  "title": "Lead captured at booth",
+  "body": "Captured on the stand and scored automatically.",
+  "actorId": "u-arun",
+  "at": "2026-08-13T11:00:00"
+ },
+ {
+  "id": "ac-0067",
+  "leadId": "ld-024",
+  "companyId": "co-024",
+  "type": "lead_captured",
+  "title": "Lead captured at booth",
+  "body": "Captured on the stand and scored automatically.",
+  "actorId": "u-sneha",
+  "at": "2026-08-14T11:00:00"
+ },
+ {
+  "id": "ac-0068",
+  "leadId": "ld-024",
+  "companyId": "co-024",
+  "type": "call",
+  "title": "Follow-up call",
+  "body": "Discussed the requirement and confirmed the next step.",
+  "actorId": "u-sneha",
+  "at": "2026-08-16T12:00:00"
+ },
+ {
+  "id": "ac-0069",
+  "leadId": "ld-024",
+  "companyId": "co-024",
+  "type": "stage_change",
+  "title": "Pipeline stage advanced",
+  "body": "Moved forward after the last interaction.",
+  "actorId": "u-sneha",
+  "at": "2026-08-18T13:00:00"
+ },
+ {
+  "id": "ac-0070",
+  "leadId": "ld-025",
+  "companyId": "co-025",
+  "type": "lead_captured",
+  "title": "Lead captured at booth",
+  "body": "Captured on the stand and scored automatically.",
+  "actorId": "u-priya",
+  "at": "2026-08-13T11:00:00"
+ },
+ {
+  "id": "ac-0071",
+  "leadId": "ld-025",
+  "companyId": "co-025",
+  "type": "call",
+  "title": "Follow-up call",
+  "body": "Discussed the requirement and confirmed the next step.",
+  "actorId": "u-priya",
+  "at": "2026-08-15T12:00:00"
+ },
+ {
+  "id": "ac-0072",
+  "leadId": "ld-025",
+  "companyId": "co-025",
+  "type": "stage_change",
+  "title": "Pipeline stage advanced",
+  "body": "Moved forward after the last interaction.",
+  "actorId": "u-priya",
+  "at": "2026-08-17T13:00:00"
+ },
+ {
+  "id": "ac-0073",
+  "leadId": "ld-026",
+  "companyId": "co-026",
+  "type": "lead_captured",
+  "title": "Lead captured at booth",
+  "body": "Captured on the stand and scored automatically.",
+  "actorId": "u-arun",
+  "at": "2026-08-12T11:00:00"
+ },
+ {
+  "id": "ac-0074",
+  "leadId": "ld-026",
+  "companyId": "co-026",
+  "type": "call",
+  "title": "Follow-up call",
+  "body": "Discussed the requirement and confirmed the next step.",
+  "actorId": "u-arun",
+  "at": "2026-08-14T12:00:00"
+ },
+ {
+  "id": "ac-0075",
+  "leadId": "ld-026",
+  "companyId": "co-026",
+  "type": "meeting",
+  "title": "Meeting held",
+  "body": "Reviewed the application in detail with their engineering team.",
+  "actorId": "u-arun",
+  "at": "2026-08-16T13:00:00"
+ },
+ {
+  "id": "ac-0076",
+  "leadId": "ld-026",
+  "companyId": "co-026",
+  "type": "technical",
+  "title": "Technical discussion",
+  "body": "Process window, fixturing and cycle time reviewed.",
+  "actorId": "u-arun",
+  "at": "2026-08-18T14:00:00"
+ },
+ {
+  "id": "ac-0077",
+  "leadId": "ld-026",
+  "companyId": "co-026",
+  "type": "demo",
+  "title": "Machine demo completed",
+  "body": "Sample parts run on the target platform; results shared.",
+  "actorId": "u-arun",
+  "at": "2026-08-20T15:00:00"
+ },
+ {
+  "id": "ac-0078",
+  "leadId": "ld-026",
+  "companyId": "co-026",
+  "type": "stage_change",
+  "title": "Pipeline stage advanced",
+  "body": "Moved forward after the last interaction.",
+  "actorId": "u-arun",
+  "at": "2026-08-22T16:00:00"
+ },
+ {
+  "id": "ac-0079",
+  "leadId": "ld-027",
+  "companyId": "co-027",
+  "type": "lead_captured",
+  "title": "Lead captured at booth",
+  "body": "Captured on the stand and scored automatically.",
+  "actorId": "u-sneha",
+  "at": "2026-08-14T11:00:00"
+ },
+ {
+  "id": "ac-0080",
+  "leadId": "ld-028",
+  "companyId": "co-028",
+  "type": "lead_captured",
+  "title": "Lead captured at booth",
+  "body": "Captured on the stand and scored automatically.",
+  "actorId": "u-priya",
+  "at": "2026-08-13T11:00:00"
+ },
+ {
+  "id": "ac-0081",
+  "leadId": "ld-029",
+  "companyId": "co-029",
+  "type": "lead_captured",
+  "title": "Lead captured at booth",
+  "body": "Captured on the stand and scored automatically.",
+  "actorId": "u-arun",
+  "at": "2026-08-12T11:00:00"
+ },
+ {
+  "id": "ac-0082",
+  "leadId": "ld-029",
+  "companyId": "co-029",
+  "type": "call",
+  "title": "Follow-up call",
+  "body": "Discussed the requirement and confirmed the next step.",
+  "actorId": "u-arun",
+  "at": "2026-08-14T12:00:00"
+ },
+ {
+  "id": "ac-0083",
+  "leadId": "ld-029",
+  "companyId": "co-029",
+  "type": "stage_change",
+  "title": "Pipeline stage advanced",
+  "body": "Moved forward after the last interaction.",
+  "actorId": "u-arun",
+  "at": "2026-08-16T13:00:00"
+ },
+ {
+  "id": "ac-0084",
+  "leadId": "ld-030",
+  "companyId": "co-030",
+  "type": "lead_captured",
+  "title": "Lead captured at booth",
+  "body": "Captured on the stand and scored automatically.",
+  "actorId": "u-sneha",
+  "at": "2026-08-14T11:00:00"
+ },
+ {
+  "id": "ac-0085",
+  "leadId": "ld-030",
+  "companyId": "co-030",
+  "type": "call",
+  "title": "Follow-up call",
+  "body": "Discussed the requirement and confirmed the next step.",
+  "actorId": "u-sneha",
+  "at": "2026-08-16T12:00:00"
+ },
+ {
+  "id": "ac-0086",
+  "leadId": "ld-030",
+  "companyId": "co-030",
+  "type": "meeting",
+  "title": "Meeting held",
+  "body": "Reviewed the application in detail with their engineering team.",
+  "actorId": "u-sneha",
+  "at": "2026-08-18T13:00:00"
+ },
+ {
+  "id": "ac-0087",
+  "leadId": "ld-030",
+  "companyId": "co-030",
+  "type": "technical",
+  "title": "Technical discussion",
+  "body": "Process window, fixturing and cycle time reviewed.",
+  "actorId": "u-sneha",
+  "at": "2026-08-20T14:00:00"
+ },
+ {
+  "id": "ac-0088",
+  "leadId": "ld-030",
+  "companyId": "co-030",
+  "type": "stage_change",
+  "title": "Pipeline stage advanced",
+  "body": "Moved forward after the last interaction.",
+  "actorId": "u-sneha",
+  "at": "2026-08-22T15:00:00"
+ },
+ {
+  "id": "ac-0089",
+  "leadId": "ld-031",
+  "companyId": "co-001",
+  "type": "lead_captured",
+  "title": "Lead captured at booth",
+  "body": "Captured on the stand and scored automatically.",
+  "actorId": "u-priya",
+  "at": "2026-08-12T11:00:00"
+ },
+ {
+  "id": "ac-0090",
+  "leadId": "ld-032",
+  "companyId": "co-002",
+  "type": "lead_captured",
+  "title": "Lead captured at booth",
+  "body": "Captured on the stand and scored automatically.",
+  "actorId": "u-arun",
+  "at": "2026-08-12T11:00:00"
+ },
+ {
+  "id": "ac-0091",
+  "leadId": "ld-033",
+  "companyId": "co-003",
+  "type": "lead_captured",
+  "title": "Lead captured at booth",
+  "body": "Captured on the stand and scored automatically.",
+  "actorId": "u-sneha",
+  "at": "2026-08-13T11:00:00"
+ },
+ {
+  "id": "ac-0092",
+  "leadId": "ld-033",
+  "companyId": "co-003",
+  "type": "call",
+  "title": "Follow-up call",
+  "body": "Discussed the requirement and confirmed the next step.",
+  "actorId": "u-sneha",
+  "at": "2026-08-15T12:00:00"
+ },
+ {
+  "id": "ac-0093",
+  "leadId": "ld-033",
+  "companyId": "co-003",
+  "type": "stage_change",
+  "title": "Pipeline stage advanced",
+  "body": "Moved forward after the last interaction.",
+  "actorId": "u-sneha",
+  "at": "2026-08-17T13:00:00"
+ },
+ {
+  "id": "ac-0094",
+  "leadId": "ld-034",
+  "companyId": "co-004",
+  "type": "lead_captured",
+  "title": "Lead captured at booth",
+  "body": "Captured on the stand and scored automatically.",
+  "actorId": "u-priya",
+  "at": "2026-08-14T11:00:00"
+ },
+ {
+  "id": "ac-0095",
+  "leadId": "ld-034",
+  "companyId": "co-004",
+  "type": "call",
+  "title": "Follow-up call",
+  "body": "Discussed the requirement and confirmed the next step.",
+  "actorId": "u-priya",
+  "at": "2026-08-16T12:00:00"
+ },
+ {
+  "id": "ac-0096",
+  "leadId": "ld-034",
+  "companyId": "co-004",
+  "type": "meeting",
+  "title": "Meeting held",
+  "body": "Reviewed the application in detail with their engineering team.",
+  "actorId": "u-priya",
+  "at": "2026-08-18T13:00:00"
+ },
+ {
+  "id": "ac-0097",
+  "leadId": "ld-034",
+  "companyId": "co-004",
+  "type": "technical",
+  "title": "Technical discussion",
+  "body": "Process window, fixturing and cycle time reviewed.",
+  "actorId": "u-priya",
+  "at": "2026-08-20T14:00:00"
+ },
+ {
+  "id": "ac-0098",
+  "leadId": "ld-034",
+  "companyId": "co-004",
+  "type": "stage_change",
+  "title": "Pipeline stage advanced",
+  "body": "Moved forward after the last interaction.",
+  "actorId": "u-priya",
+  "at": "2026-08-22T15:00:00"
+ },
+ {
+  "id": "ac-0099",
+  "leadId": "ld-035",
+  "companyId": "co-005",
+  "type": "lead_captured",
+  "title": "Lead captured at booth",
+  "body": "Captured on the stand and scored automatically.",
+  "actorId": "u-arun",
+  "at": "2026-01-27T11:00:00"
+ },
+ {
+  "id": "ac-0100",
+  "leadId": "ld-035",
+  "companyId": "co-005",
+  "type": "meeting",
+  "title": "Meeting held",
+  "body": "Reviewed the application in detail with their engineering team.",
+  "actorId": "u-arun",
+  "at": "2026-01-29T12:00:00"
+ },
+ {
+  "id": "ac-0101",
+  "leadId": "ld-035",
+  "companyId": "co-005",
+  "type": "demo",
+  "title": "Machine demo completed",
+  "body": "Sample parts run on the target platform; results shared.",
+  "actorId": "u-arun",
+  "at": "2026-01-31T13:00:00"
+ },
+ {
+  "id": "ac-0102",
+  "leadId": "ld-035",
+  "companyId": "co-005",
+  "type": "quotation",
+  "title": "Quotation issued",
+  "body": "Commercial proposal sent with delivery schedule.",
+  "actorId": "u-arun",
+  "at": "2026-02-02T14:00:00"
+ },
+ {
+  "id": "ac-0103",
+  "leadId": "ld-035",
+  "companyId": "co-005",
+  "type": "stage_change",
+  "title": "Pipeline stage advanced",
+  "body": "Moved forward after the last interaction.",
+  "actorId": "u-arun",
+  "at": "2026-02-04T15:00:00"
+ },
+ {
+  "id": "ac-0104",
+  "leadId": "ld-035",
+  "companyId": "co-005",
+  "type": "won",
+  "title": "Opportunity won",
+  "body": "Purchase order received; handed to project execution.",
+  "actorId": "u-arun",
+  "at": "2026-02-06T16:00:00"
+ },
+ {
+  "id": "ac-0105",
+  "leadId": "ld-036",
+  "companyId": "co-006",
+  "type": "lead_captured",
+  "title": "Lead captured at booth",
+  "body": "Captured on the stand and scored automatically.",
+  "actorId": "u-sneha",
+  "at": "2026-01-24T11:00:00"
+ },
+ {
+  "id": "ac-0106",
+  "leadId": "ld-036",
+  "companyId": "co-006",
+  "type": "call",
+  "title": "Follow-up call",
+  "body": "Discussed the requirement and confirmed the next step.",
+  "actorId": "u-sneha",
+  "at": "2026-01-26T12:00:00"
+ },
+ {
+  "id": "ac-0107",
+  "leadId": "ld-036",
+  "companyId": "co-006",
+  "type": "quotation",
+  "title": "Quotation issued",
+  "body": "Commercial proposal sent with delivery schedule.",
+  "actorId": "u-sneha",
+  "at": "2026-01-28T13:00:00"
+ },
+ {
+  "id": "ac-0108",
+  "leadId": "ld-036",
+  "companyId": "co-006",
+  "type": "lost",
+  "title": "Opportunity lost",
+  "body": "Customer proceeded with an alternative supplier.",
+  "actorId": "u-sneha",
+  "at": "2026-01-30T14:00:00"
+ },
+ {
+  "id": "ac-0109",
+  "leadId": "ld-037",
+  "companyId": "co-007",
+  "type": "lead_captured",
+  "title": "Lead captured at booth",
+  "body": "Captured on the stand and scored automatically.",
+  "actorId": "u-priya",
+  "at": "2026-01-26T11:00:00"
+ },
+ {
+  "id": "ac-0110",
+  "leadId": "ld-037",
+  "companyId": "co-007",
+  "type": "call",
+  "title": "Follow-up call",
+  "body": "Discussed the requirement and confirmed the next step.",
+  "actorId": "u-priya",
+  "at": "2026-01-28T12:00:00"
+ },
+ {
+  "id": "ac-0111",
+  "leadId": "ld-037",
+  "companyId": "co-007",
+  "type": "meeting",
+  "title": "Meeting held",
+  "body": "Reviewed the application in detail with their engineering team.",
+  "actorId": "u-priya",
+  "at": "2026-01-30T13:00:00"
+ },
+ {
+  "id": "ac-0112",
+  "leadId": "ld-037",
+  "companyId": "co-007",
+  "type": "technical",
+  "title": "Technical discussion",
+  "body": "Process window, fixturing and cycle time reviewed.",
+  "actorId": "u-priya",
+  "at": "2026-02-01T14:00:00"
+ },
+ {
+  "id": "ac-0113",
+  "leadId": "ld-037",
+  "companyId": "co-007",
+  "type": "stage_change",
+  "title": "Pipeline stage advanced",
+  "body": "Moved forward after the last interaction.",
+  "actorId": "u-priya",
+  "at": "2026-02-03T15:00:00"
+ },
+ {
+  "id": "ac-0114",
+  "leadId": "ld-038",
+  "companyId": "co-008",
+  "type": "lead_captured",
+  "title": "Lead captured at booth",
+  "body": "Captured on the stand and scored automatically.",
+  "actorId": "u-arun",
+  "at": "2026-01-27T11:00:00"
+ },
+ {
+  "id": "ac-0115",
+  "leadId": "ld-038",
+  "companyId": "co-008",
+  "type": "call",
+  "title": "Follow-up call",
+  "body": "Discussed the requirement and confirmed the next step.",
+  "actorId": "u-arun",
+  "at": "2026-01-29T12:00:00"
+ },
+ {
+  "id": "ac-0116",
+  "leadId": "ld-038",
+  "companyId": "co-008",
+  "type": "meeting",
+  "title": "Meeting held",
+  "body": "Reviewed the application in detail with their engineering team.",
+  "actorId": "u-arun",
+  "at": "2026-01-31T13:00:00"
+ },
+ {
+  "id": "ac-0117",
+  "leadId": "ld-038",
+  "companyId": "co-008",
+  "type": "demo",
+  "title": "Machine demo completed",
+  "body": "Sample parts run on the target platform; results shared.",
+  "actorId": "u-arun",
+  "at": "2026-02-02T14:00:00"
+ },
+ {
+  "id": "ac-0118",
+  "leadId": "ld-038",
+  "companyId": "co-008",
+  "type": "quotation",
+  "title": "Quotation issued",
+  "body": "Commercial proposal sent with delivery schedule.",
+  "actorId": "u-arun",
+  "at": "2026-02-04T15:00:00"
+ },
+ {
+  "id": "ac-0119",
+  "leadId": "ld-038",
+  "companyId": "co-008",
+  "type": "stage_change",
+  "title": "Pipeline stage advanced",
+  "body": "Moved forward after the last interaction.",
+  "actorId": "u-arun",
+  "at": "2026-02-06T16:00:00"
+ },
+ {
+  "id": "ac-0120",
+  "leadId": "ld-039",
+  "companyId": "co-009",
+  "type": "lead_captured",
+  "title": "Lead captured at booth",
+  "body": "Captured on the stand and scored automatically.",
+  "actorId": "u-sneha",
+  "at": "2026-01-24T11:00:00"
+ },
+ {
+  "id": "ac-0121",
+  "leadId": "ld-039",
+  "companyId": "co-009",
+  "type": "call",
+  "title": "Follow-up call",
+  "body": "Discussed the requirement and confirmed the next step.",
+  "actorId": "u-sneha",
+  "at": "2026-01-26T12:00:00"
+ },
+ {
+  "id": "ac-0122",
+  "leadId": "ld-039",
+  "companyId": "co-009",
+  "type": "quotation",
+  "title": "Quotation issued",
+  "body": "Commercial proposal sent with delivery schedule.",
+  "actorId": "u-sneha",
+  "at": "2026-01-28T13:00:00"
+ },
+ {
+  "id": "ac-0123",
+  "leadId": "ld-039",
+  "companyId": "co-009",
+  "type": "lost",
+  "title": "Opportunity lost",
+  "body": "Customer proceeded with an alternative supplier.",
+  "actorId": "u-sneha",
+  "at": "2026-01-30T14:00:00"
+ },
+ {
+  "id": "ac-0124",
+  "leadId": "ld-040",
+  "companyId": "co-010",
+  "type": "lead_captured",
+  "title": "Lead captured at booth",
+  "body": "Captured on the stand and scored automatically.",
+  "actorId": "u-priya",
+  "at": "2026-01-23T11:00:00"
+ },
+ {
+  "id": "ac-0125",
+  "leadId": "ld-040",
+  "companyId": "co-010",
+  "type": "call",
+  "title": "Follow-up call",
+  "body": "Discussed the requirement and confirmed the next step.",
+  "actorId": "u-priya",
+  "at": "2026-01-25T12:00:00"
+ },
+ {
+  "id": "ac-0126",
+  "leadId": "ld-040",
+  "companyId": "co-010",
+  "type": "stage_change",
+  "title": "Pipeline stage advanced",
+  "body": "Moved forward after the last interaction.",
+  "actorId": "u-priya",
+  "at": "2026-01-27T13:00:00"
+ },
+ {
+  "id": "ac-0127",
+  "leadId": "ld-041",
+  "companyId": "co-011",
+  "type": "lead_captured",
+  "title": "Lead captured at booth",
+  "body": "Captured on the stand and scored automatically.",
+  "actorId": "u-arun",
+  "at": "2026-01-24T11:00:00"
+ },
+ {
+  "id": "ac-0128",
+  "leadId": "ld-041",
+  "companyId": "co-011",
+  "type": "call",
+  "title": "Follow-up call",
+  "body": "Discussed the requirement and confirmed the next step.",
+  "actorId": "u-arun",
+  "at": "2026-01-26T12:00:00"
+ },
+ {
+  "id": "ac-0129",
+  "leadId": "ld-041",
+  "companyId": "co-011",
+  "type": "meeting",
+  "title": "Meeting held",
+  "body": "Reviewed the application in detail with their engineering team.",
+  "actorId": "u-arun",
+  "at": "2026-01-28T13:00:00"
+ },
+ {
+  "id": "ac-0130",
+  "leadId": "ld-041",
+  "companyId": "co-011",
+  "type": "technical",
+  "title": "Technical discussion",
+  "body": "Process window, fixturing and cycle time reviewed.",
+  "actorId": "u-arun",
+  "at": "2026-01-30T14:00:00"
+ },
+ {
+  "id": "ac-0131",
+  "leadId": "ld-041",
+  "companyId": "co-011",
+  "type": "demo",
+  "title": "Machine demo completed",
+  "body": "Sample parts run on the target platform; results shared.",
+  "actorId": "u-arun",
+  "at": "2026-02-01T15:00:00"
+ },
+ {
+  "id": "ac-0132",
+  "leadId": "ld-041",
+  "companyId": "co-011",
+  "type": "stage_change",
+  "title": "Pipeline stage advanced",
+  "body": "Moved forward after the last interaction.",
+  "actorId": "u-arun",
+  "at": "2026-02-03T16:00:00"
+ },
+ {
+  "id": "ac-0133",
+  "leadId": "ld-042",
+  "companyId": "co-012",
+  "type": "lead_captured",
+  "title": "Lead captured at booth",
+  "body": "Captured on the stand and scored automatically.",
+  "actorId": "u-sneha",
+  "at": "2026-01-26T11:00:00"
+ },
+ {
+  "id": "ac-0134",
+  "leadId": "ld-042",
+  "companyId": "co-012",
+  "type": "meeting",
+  "title": "Meeting held",
+  "body": "Reviewed the application in detail with their engineering team.",
+  "actorId": "u-sneha",
+  "at": "2026-01-28T12:00:00"
+ },
+ {
+  "id": "ac-0135",
+  "leadId": "ld-042",
+  "companyId": "co-012",
+  "type": "demo",
+  "title": "Machine demo completed",
+  "body": "Sample parts run on the target platform; results shared.",
+  "actorId": "u-sneha",
+  "at": "2026-01-30T13:00:00"
+ },
+ {
+  "id": "ac-0136",
+  "leadId": "ld-042",
+  "companyId": "co-012",
+  "type": "quotation",
+  "title": "Quotation issued",
+  "body": "Commercial proposal sent with delivery schedule.",
+  "actorId": "u-sneha",
+  "at": "2026-02-01T14:00:00"
+ },
+ {
+  "id": "ac-0137",
+  "leadId": "ld-042",
+  "companyId": "co-012",
+  "type": "call",
+  "title": "Follow-up call",
+  "body": "Discussed the requirement and confirmed the next step.",
+  "actorId": "u-sneha",
+  "at": "2026-02-03T15:00:00"
+ },
+ {
+  "id": "ac-0138",
+  "leadId": "ld-042",
+  "companyId": "co-012",
+  "type": "stage_change",
+  "title": "Pipeline stage advanced",
+  "body": "Moved forward after the last interaction.",
+  "actorId": "u-sneha",
+  "at": "2026-02-05T16:00:00"
+ },
+ {
+  "id": "ac-0139",
+  "leadId": "ld-043",
+  "companyId": "co-013",
+  "type": "lead_captured",
+  "title": "Lead captured at booth",
+  "body": "Captured on the stand and scored automatically.",
+  "actorId": "u-priya",
+  "at": "2026-01-22T11:00:00"
+ },
+ {
+  "id": "ac-0140",
+  "leadId": "ld-043",
+  "companyId": "co-013",
+  "type": "call",
+  "title": "Follow-up call",
+  "body": "Discussed the requirement and confirmed the next step.",
+  "actorId": "u-priya",
+  "at": "2026-01-24T12:00:00"
+ },
+ {
+  "id": "ac-0141",
+  "leadId": "ld-043",
+  "companyId": "co-013",
+  "type": "quotation",
+  "title": "Quotation issued",
+  "body": "Commercial proposal sent with delivery schedule.",
+  "actorId": "u-priya",
+  "at": "2026-01-26T13:00:00"
+ },
+ {
+  "id": "ac-0142",
+  "leadId": "ld-043",
+  "companyId": "co-013",
+  "type": "lost",
+  "title": "Opportunity lost",
+  "body": "Customer proceeded with an alternative supplier.",
+  "actorId": "u-priya",
+  "at": "2026-01-28T14:00:00"
+ },
+ {
+  "id": "ac-0143",
+  "leadId": "ld-044",
+  "companyId": "co-014",
+  "type": "lead_captured",
+  "title": "Lead captured at booth",
+  "body": "Captured on the stand and scored automatically.",
+  "actorId": "u-arun",
+  "at": "2026-01-26T11:00:00"
+ },
+ {
+  "id": "ac-0144",
+  "leadId": "ld-044",
+  "companyId": "co-014",
+  "type": "call",
+  "title": "Follow-up call",
+  "body": "Discussed the requirement and confirmed the next step.",
+  "actorId": "u-arun",
+  "at": "2026-01-28T12:00:00"
+ },
+ {
+  "id": "ac-0145",
+  "leadId": "ld-044",
+  "companyId": "co-014",
+  "type": "stage_change",
+  "title": "Pipeline stage advanced",
+  "body": "Moved forward after the last interaction.",
+  "actorId": "u-arun",
+  "at": "2026-01-30T13:00:00"
+ },
+ {
+  "id": "ac-0146",
+  "leadId": "ld-045",
+  "companyId": "co-015",
+  "type": "lead_captured",
+  "title": "Lead captured at booth",
+  "body": "Captured on the stand and scored automatically.",
+  "actorId": "u-sneha",
+  "at": "2026-01-22T11:00:00"
+ },
+ {
+  "id": "ac-0147",
+  "leadId": "ld-045",
+  "companyId": "co-015",
+  "type": "call",
+  "title": "Follow-up call",
+  "body": "Discussed the requirement and confirmed the next step.",
+  "actorId": "u-sneha",
+  "at": "2026-01-24T12:00:00"
+ },
+ {
+  "id": "ac-0148",
+  "leadId": "ld-045",
+  "companyId": "co-015",
+  "type": "meeting",
+  "title": "Meeting held",
+  "body": "Reviewed the application in detail with their engineering team.",
+  "actorId": "u-sneha",
+  "at": "2026-01-26T13:00:00"
+ },
+ {
+  "id": "ac-0149",
+  "leadId": "ld-045",
+  "companyId": "co-015",
+  "type": "technical",
+  "title": "Technical discussion",
+  "body": "Process window, fixturing and cycle time reviewed.",
+  "actorId": "u-sneha",
+  "at": "2026-01-28T14:00:00"
+ },
+ {
+  "id": "ac-0150",
+  "leadId": "ld-045",
+  "companyId": "co-015",
+  "type": "demo",
+  "title": "Machine demo completed",
+  "body": "Sample parts run on the target platform; results shared.",
+  "actorId": "u-sneha",
+  "at": "2026-01-30T15:00:00"
+ },
+ {
+  "id": "ac-0151",
+  "leadId": "ld-045",
+  "companyId": "co-015",
+  "type": "stage_change",
+  "title": "Pipeline stage advanced",
+  "body": "Moved forward after the last interaction.",
+  "actorId": "u-sneha",
+  "at": "2026-02-01T16:00:00"
+ },
+ {
+  "id": "ac-0152",
+  "leadId": "ld-046",
+  "companyId": "co-016",
+  "type": "lead_captured",
+  "title": "Lead captured at booth",
+  "body": "Captured on the stand and scored automatically.",
+  "actorId": "u-priya",
+  "at": "2026-01-22T11:00:00"
+ },
+ {
+  "id": "ac-0153",
+  "leadId": "ld-046",
+  "companyId": "co-016",
+  "type": "meeting",
+  "title": "Meeting held",
+  "body": "Reviewed the application in detail with their engineering team.",
+  "actorId": "u-priya",
+  "at": "2026-01-24T12:00:00"
+ },
+ {
+  "id": "ac-0154",
+  "leadId": "ld-046",
+  "companyId": "co-016",
+  "type": "demo",
+  "title": "Machine demo completed",
+  "body": "Sample parts run on the target platform; results shared.",
+  "actorId": "u-priya",
+  "at": "2026-01-26T13:00:00"
+ },
+ {
+  "id": "ac-0155",
+  "leadId": "ld-046",
+  "companyId": "co-016",
+  "type": "quotation",
+  "title": "Quotation issued",
+  "body": "Commercial proposal sent with delivery schedule.",
+  "actorId": "u-priya",
+  "at": "2026-01-28T14:00:00"
+ },
+ {
+  "id": "ac-0156",
+  "leadId": "ld-046",
+  "companyId": "co-016",
+  "type": "stage_change",
+  "title": "Pipeline stage advanced",
+  "body": "Moved forward after the last interaction.",
+  "actorId": "u-priya",
+  "at": "2026-01-30T15:00:00"
+ },
+ {
+  "id": "ac-0157",
+  "leadId": "ld-046",
+  "companyId": "co-016",
+  "type": "won",
+  "title": "Opportunity won",
+  "body": "Purchase order received; handed to project execution.",
+  "actorId": "u-priya",
+  "at": "2026-02-01T16:00:00"
+ },
+ {
+  "id": "ac-0158",
+  "leadId": "ld-047",
+  "companyId": "co-017",
+  "type": "lead_captured",
+  "title": "Lead captured at booth",
+  "body": "Captured on the stand and scored automatically.",
+  "actorId": "u-arun",
+  "at": "2026-01-25T11:00:00"
+ },
+ {
+  "id": "ac-0159",
+  "leadId": "ld-047",
+  "companyId": "co-017",
+  "type": "call",
+  "title": "Follow-up call",
+  "body": "Discussed the requirement and confirmed the next step.",
+  "actorId": "u-arun",
+  "at": "2026-01-27T12:00:00"
+ },
+ {
+  "id": "ac-0160",
+  "leadId": "ld-047",
+  "companyId": "co-017",
+  "type": "quotation",
+  "title": "Quotation issued",
+  "body": "Commercial proposal sent with delivery schedule.",
+  "actorId": "u-arun",
+  "at": "2026-01-29T13:00:00"
+ },
+ {
+  "id": "ac-0161",
+  "leadId": "ld-047",
+  "companyId": "co-017",
+  "type": "lost",
+  "title": "Opportunity lost",
+  "body": "Customer proceeded with an alternative supplier.",
+  "actorId": "u-arun",
+  "at": "2026-01-31T14:00:00"
+ },
+ {
+  "id": "ac-0162",
+  "leadId": "ld-048",
+  "companyId": "co-018",
+  "type": "lead_captured",
+  "title": "Lead captured at booth",
+  "body": "Captured on the stand and scored automatically.",
+  "actorId": "u-sneha",
+  "at": "2026-01-25T11:00:00"
+ },
+ {
+  "id": "ac-0163",
+  "leadId": "ld-048",
+  "companyId": "co-018",
+  "type": "call",
+  "title": "Follow-up call",
+  "body": "Discussed the requirement and confirmed the next step.",
+  "actorId": "u-sneha",
+  "at": "2026-01-27T12:00:00"
+ },
+ {
+  "id": "ac-0164",
+  "leadId": "ld-048",
+  "companyId": "co-018",
+  "type": "meeting",
+  "title": "Meeting held",
+  "body": "Reviewed the application in detail with their engineering team.",
+  "actorId": "u-sneha",
+  "at": "2026-01-29T13:00:00"
+ },
+ {
+  "id": "ac-0165",
+  "leadId": "ld-048",
+  "companyId": "co-018",
+  "type": "technical",
+  "title": "Technical discussion",
+  "body": "Process window, fixturing and cycle time reviewed.",
+  "actorId": "u-sneha",
+  "at": "2026-01-31T14:00:00"
+ },
+ {
+  "id": "ac-0166",
+  "leadId": "ld-048",
+  "companyId": "co-018",
+  "type": "stage_change",
+  "title": "Pipeline stage advanced",
+  "body": "Moved forward after the last interaction.",
+  "actorId": "u-sneha",
+  "at": "2026-02-02T15:00:00"
+ },
+ {
+  "id": "ac-0167",
+  "leadId": "ld-049",
+  "companyId": "co-019",
+  "type": "lead_captured",
+  "title": "Lead captured at booth",
+  "body": "Captured on the stand and scored automatically.",
+  "actorId": "u-priya",
+  "at": "2026-01-26T11:00:00"
+ },
+ {
+  "id": "ac-0168",
+  "leadId": "ld-049",
+  "companyId": "co-019",
+  "type": "call",
+  "title": "Follow-up call",
+  "body": "Discussed the requirement and confirmed the next step.",
+  "actorId": "u-priya",
+  "at": "2026-01-28T12:00:00"
+ },
+ {
+  "id": "ac-0169",
+  "leadId": "ld-049",
+  "companyId": "co-019",
+  "type": "meeting",
+  "title": "Meeting held",
+  "body": "Reviewed the application in detail with their engineering team.",
+  "actorId": "u-priya",
+  "at": "2026-01-30T13:00:00"
+ },
+ {
+  "id": "ac-0170",
+  "leadId": "ld-049",
+  "companyId": "co-019",
+  "type": "demo",
+  "title": "Machine demo completed",
+  "body": "Sample parts run on the target platform; results shared.",
+  "actorId": "u-priya",
+  "at": "2026-02-01T14:00:00"
+ },
+ {
+  "id": "ac-0171",
+  "leadId": "ld-049",
+  "companyId": "co-019",
+  "type": "quotation",
+  "title": "Quotation issued",
+  "body": "Commercial proposal sent with delivery schedule.",
+  "actorId": "u-priya",
+  "at": "2026-02-03T15:00:00"
+ },
+ {
+  "id": "ac-0172",
+  "leadId": "ld-049",
+  "companyId": "co-019",
+  "type": "stage_change",
+  "title": "Pipeline stage advanced",
+  "body": "Moved forward after the last interaction.",
+  "actorId": "u-priya",
+  "at": "2026-02-05T16:00:00"
+ },
+ {
+  "id": "ac-0173",
+  "leadId": "ld-050",
+  "companyId": "co-020",
+  "type": "lead_captured",
+  "title": "Lead captured at booth",
+  "body": "Captured on the stand and scored automatically.",
+  "actorId": "u-arun",
+  "at": "2026-01-26T11:00:00"
+ },
+ {
+  "id": "ac-0174",
+  "leadId": "ld-050",
+  "companyId": "co-020",
+  "type": "meeting",
+  "title": "Meeting held",
+  "body": "Reviewed the application in detail with their engineering team.",
+  "actorId": "u-arun",
+  "at": "2026-01-28T12:00:00"
+ },
+ {
+  "id": "ac-0175",
+  "leadId": "ld-050",
+  "companyId": "co-020",
+  "type": "demo",
+  "title": "Machine demo completed",
+  "body": "Sample parts run on the target platform; results shared.",
+  "actorId": "u-arun",
+  "at": "2026-01-30T13:00:00"
+ },
+ {
+  "id": "ac-0176",
+  "leadId": "ld-050",
+  "companyId": "co-020",
+  "type": "quotation",
+  "title": "Quotation issued",
+  "body": "Commercial proposal sent with delivery schedule.",
+  "actorId": "u-arun",
+  "at": "2026-02-01T14:00:00"
+ },
+ {
+  "id": "ac-0177",
+  "leadId": "ld-050",
+  "companyId": "co-020",
+  "type": "stage_change",
+  "title": "Pipeline stage advanced",
+  "body": "Moved forward after the last interaction.",
+  "actorId": "u-arun",
+  "at": "2026-02-03T15:00:00"
+ },
+ {
+  "id": "ac-0178",
+  "leadId": "ld-050",
+  "companyId": "co-020",
+  "type": "won",
+  "title": "Opportunity won",
+  "body": "Purchase order received; handed to project execution.",
+  "actorId": "u-arun",
+  "at": "2026-02-05T16:00:00"
+ },
+ {
+  "id": "ac-0179",
+  "leadId": "ld-051",
+  "companyId": "co-021",
+  "type": "lead_captured",
+  "title": "Lead captured at booth",
+  "body": "Captured on the stand and scored automatically.",
+  "actorId": "u-sneha",
+  "at": "2026-01-22T11:00:00"
+ },
+ {
+  "id": "ac-0180",
+  "leadId": "ld-051",
+  "companyId": "co-021",
+  "type": "call",
+  "title": "Follow-up call",
+  "body": "Discussed the requirement and confirmed the next step.",
+  "actorId": "u-sneha",
+  "at": "2026-01-24T12:00:00"
+ },
+ {
+  "id": "ac-0181",
+  "leadId": "ld-051",
+  "companyId": "co-021",
+  "type": "quotation",
+  "title": "Quotation issued",
+  "body": "Commercial proposal sent with delivery schedule.",
+  "actorId": "u-sneha",
+  "at": "2026-01-26T13:00:00"
+ },
+ {
+  "id": "ac-0182",
+  "leadId": "ld-051",
+  "companyId": "co-021",
+  "type": "lost",
+  "title": "Opportunity lost",
+  "body": "Customer proceeded with an alternative supplier.",
+  "actorId": "u-sneha",
+  "at": "2026-01-28T14:00:00"
+ },
+ {
+  "id": "ac-0183",
+  "leadId": "ld-052",
+  "companyId": "co-022",
+  "type": "lead_captured",
+  "title": "Lead captured at booth",
+  "body": "Captured on the stand and scored automatically.",
+  "actorId": "u-priya",
+  "at": "2026-01-26T11:00:00"
+ },
+ {
+  "id": "ac-0184",
+  "leadId": "ld-052",
+  "companyId": "co-022",
+  "type": "call",
+  "title": "Follow-up call",
+  "body": "Discussed the requirement and confirmed the next step.",
+  "actorId": "u-priya",
+  "at": "2026-01-28T12:00:00"
+ },
+ {
+  "id": "ac-0185",
+  "leadId": "ld-052",
+  "companyId": "co-022",
+  "type": "meeting",
+  "title": "Meeting held",
+  "body": "Reviewed the application in detail with their engineering team.",
+  "actorId": "u-priya",
+  "at": "2026-01-30T13:00:00"
+ },
+ {
+  "id": "ac-0186",
+  "leadId": "ld-052",
+  "companyId": "co-022",
+  "type": "technical",
+  "title": "Technical discussion",
+  "body": "Process window, fixturing and cycle time reviewed.",
+  "actorId": "u-priya",
+  "at": "2026-02-01T14:00:00"
+ },
+ {
+  "id": "ac-0187",
+  "leadId": "ld-052",
+  "companyId": "co-022",
+  "type": "stage_change",
+  "title": "Pipeline stage advanced",
+  "body": "Moved forward after the last interaction.",
+  "actorId": "u-priya",
+  "at": "2026-02-03T15:00:00"
+ },
+ {
+  "id": "ac-0188",
+  "leadId": "ld-053",
+  "companyId": "co-023",
+  "type": "lead_captured",
+  "title": "Lead captured at booth",
+  "body": "Captured on the stand and scored automatically.",
+  "actorId": "u-arun",
+  "at": "2025-11-06T11:00:00"
+ },
+ {
+  "id": "ac-0189",
+  "leadId": "ld-053",
+  "companyId": "co-023",
+  "type": "meeting",
+  "title": "Meeting held",
+  "body": "Reviewed the application in detail with their engineering team.",
+  "actorId": "u-arun",
+  "at": "2025-11-08T12:00:00"
+ },
+ {
+  "id": "ac-0190",
+  "leadId": "ld-053",
+  "companyId": "co-023",
+  "type": "demo",
+  "title": "Machine demo completed",
+  "body": "Sample parts run on the target platform; results shared.",
+  "actorId": "u-arun",
+  "at": "2025-11-10T13:00:00"
+ },
+ {
+  "id": "ac-0191",
+  "leadId": "ld-053",
+  "companyId": "co-023",
+  "type": "quotation",
+  "title": "Quotation issued",
+  "body": "Commercial proposal sent with delivery schedule.",
+  "actorId": "u-arun",
+  "at": "2025-11-12T14:00:00"
+ },
+ {
+  "id": "ac-0192",
+  "leadId": "ld-053",
+  "companyId": "co-023",
+  "type": "stage_change",
+  "title": "Pipeline stage advanced",
+  "body": "Moved forward after the last interaction.",
+  "actorId": "u-arun",
+  "at": "2025-11-14T15:00:00"
+ },
+ {
+  "id": "ac-0193",
+  "leadId": "ld-053",
+  "companyId": "co-023",
+  "type": "won",
+  "title": "Opportunity won",
+  "body": "Purchase order received; handed to project execution.",
+  "actorId": "u-arun",
+  "at": "2025-11-16T16:00:00"
+ },
+ {
+  "id": "ac-0194",
+  "leadId": "ld-054",
+  "companyId": "co-024",
+  "type": "lead_captured",
+  "title": "Lead captured at booth",
+  "body": "Captured on the stand and scored automatically.",
+  "actorId": "u-sneha",
+  "at": "2025-11-06T11:00:00"
+ },
+ {
+  "id": "ac-0195",
+  "leadId": "ld-054",
+  "companyId": "co-024",
+  "type": "call",
+  "title": "Follow-up call",
+  "body": "Discussed the requirement and confirmed the next step.",
+  "actorId": "u-sneha",
+  "at": "2025-11-08T12:00:00"
+ },
+ {
+  "id": "ac-0196",
+  "leadId": "ld-054",
+  "companyId": "co-024",
+  "type": "quotation",
+  "title": "Quotation issued",
+  "body": "Commercial proposal sent with delivery schedule.",
+  "actorId": "u-sneha",
+  "at": "2025-11-10T13:00:00"
+ },
+ {
+  "id": "ac-0197",
+  "leadId": "ld-054",
+  "companyId": "co-024",
+  "type": "lost",
+  "title": "Opportunity lost",
+  "body": "Customer proceeded with an alternative supplier.",
+  "actorId": "u-sneha",
+  "at": "2025-11-12T14:00:00"
+ },
+ {
+  "id": "ac-0198",
+  "leadId": "ld-055",
+  "companyId": "co-025",
+  "type": "lead_captured",
+  "title": "Lead captured at booth",
+  "body": "Captured on the stand and scored automatically.",
+  "actorId": "u-priya",
+  "at": "2025-11-05T11:00:00"
+ },
+ {
+  "id": "ac-0199",
+  "leadId": "ld-055",
+  "companyId": "co-025",
+  "type": "call",
+  "title": "Follow-up call",
+  "body": "Discussed the requirement and confirmed the next step.",
+  "actorId": "u-priya",
+  "at": "2025-11-07T12:00:00"
+ },
+ {
+  "id": "ac-0200",
+  "leadId": "ld-055",
+  "companyId": "co-025",
+  "type": "meeting",
+  "title": "Meeting held",
+  "body": "Reviewed the application in detail with their engineering team.",
+  "actorId": "u-priya",
+  "at": "2025-11-09T13:00:00"
+ },
+ {
+  "id": "ac-0201",
+  "leadId": "ld-055",
+  "companyId": "co-025",
+  "type": "technical",
+  "title": "Technical discussion",
+  "body": "Process window, fixturing and cycle time reviewed.",
+  "actorId": "u-priya",
+  "at": "2025-11-11T14:00:00"
+ },
+ {
+  "id": "ac-0202",
+  "leadId": "ld-055",
+  "companyId": "co-025",
+  "type": "stage_change",
+  "title": "Pipeline stage advanced",
+  "body": "Moved forward after the last interaction.",
+  "actorId": "u-priya",
+  "at": "2025-11-13T15:00:00"
+ },
+ {
+  "id": "ac-0203",
+  "leadId": "ld-056",
+  "companyId": "co-026",
+  "type": "lead_captured",
+  "title": "Lead captured at booth",
+  "body": "Captured on the stand and scored automatically.",
+  "actorId": "u-arun",
+  "at": "2025-11-06T11:00:00"
+ },
+ {
+  "id": "ac-0204",
+  "leadId": "ld-056",
+  "companyId": "co-026",
+  "type": "call",
+  "title": "Follow-up call",
+  "body": "Discussed the requirement and confirmed the next step.",
+  "actorId": "u-arun",
+  "at": "2025-11-08T12:00:00"
+ },
+ {
+  "id": "ac-0205",
+  "leadId": "ld-056",
+  "companyId": "co-026",
+  "type": "meeting",
+  "title": "Meeting held",
+  "body": "Reviewed the application in detail with their engineering team.",
+  "actorId": "u-arun",
+  "at": "2025-11-10T13:00:00"
+ },
+ {
+  "id": "ac-0206",
+  "leadId": "ld-056",
+  "companyId": "co-026",
+  "type": "demo",
+  "title": "Machine demo completed",
+  "body": "Sample parts run on the target platform; results shared.",
+  "actorId": "u-arun",
+  "at": "2025-11-12T14:00:00"
+ },
+ {
+  "id": "ac-0207",
+  "leadId": "ld-056",
+  "companyId": "co-026",
+  "type": "quotation",
+  "title": "Quotation issued",
+  "body": "Commercial proposal sent with delivery schedule.",
+  "actorId": "u-arun",
+  "at": "2025-11-14T15:00:00"
+ },
+ {
+  "id": "ac-0208",
+  "leadId": "ld-056",
+  "companyId": "co-026",
+  "type": "stage_change",
+  "title": "Pipeline stage advanced",
+  "body": "Moved forward after the last interaction.",
+  "actorId": "u-arun",
+  "at": "2025-11-16T16:00:00"
+ },
+ {
+  "id": "ac-0209",
+  "leadId": "ld-057",
+  "companyId": "co-027",
+  "type": "lead_captured",
+  "title": "Lead captured at booth",
+  "body": "Captured on the stand and scored automatically.",
+  "actorId": "u-sneha",
+  "at": "2025-11-06T11:00:00"
+ },
+ {
+  "id": "ac-0210",
+  "leadId": "ld-057",
+  "companyId": "co-027",
+  "type": "call",
+  "title": "Follow-up call",
+  "body": "Discussed the requirement and confirmed the next step.",
+  "actorId": "u-sneha",
+  "at": "2025-11-08T12:00:00"
+ },
+ {
+  "id": "ac-0211",
+  "leadId": "ld-057",
+  "companyId": "co-027",
+  "type": "quotation",
+  "title": "Quotation issued",
+  "body": "Commercial proposal sent with delivery schedule.",
+  "actorId": "u-sneha",
+  "at": "2025-11-10T13:00:00"
+ },
+ {
+  "id": "ac-0212",
+  "leadId": "ld-057",
+  "companyId": "co-027",
+  "type": "lost",
+  "title": "Opportunity lost",
+  "body": "Customer proceeded with an alternative supplier.",
+  "actorId": "u-sneha",
+  "at": "2025-11-12T14:00:00"
+ },
+ {
+  "id": "ac-0213",
+  "leadId": "ld-058",
+  "companyId": "co-028",
+  "type": "lead_captured",
+  "title": "Lead captured at booth",
+  "body": "Captured on the stand and scored automatically.",
+  "actorId": "u-priya",
+  "at": "2025-11-06T11:00:00"
+ },
+ {
+  "id": "ac-0214",
+  "leadId": "ld-058",
+  "companyId": "co-028",
+  "type": "call",
+  "title": "Follow-up call",
+  "body": "Discussed the requirement and confirmed the next step.",
+  "actorId": "u-priya",
+  "at": "2025-11-08T12:00:00"
+ },
+ {
+  "id": "ac-0215",
+  "leadId": "ld-058",
+  "companyId": "co-028",
+  "type": "stage_change",
+  "title": "Pipeline stage advanced",
+  "body": "Moved forward after the last interaction.",
+  "actorId": "u-priya",
+  "at": "2025-11-10T13:00:00"
+ },
+ {
+  "id": "ac-0216",
+  "leadId": "ld-059",
+  "companyId": "co-029",
+  "type": "lead_captured",
+  "title": "Lead captured at booth",
+  "body": "Captured on the stand and scored automatically.",
+  "actorId": "u-arun",
+  "at": "2025-11-06T11:00:00"
+ },
+ {
+  "id": "ac-0217",
+  "leadId": "ld-059",
+  "companyId": "co-029",
+  "type": "call",
+  "title": "Follow-up call",
+  "body": "Discussed the requirement and confirmed the next step.",
+  "actorId": "u-arun",
+  "at": "2025-11-08T12:00:00"
+ },
+ {
+  "id": "ac-0218",
+  "leadId": "ld-059",
+  "companyId": "co-029",
+  "type": "meeting",
+  "title": "Meeting held",
+  "body": "Reviewed the application in detail with their engineering team.",
+  "actorId": "u-arun",
+  "at": "2025-11-10T13:00:00"
+ },
+ {
+  "id": "ac-0219",
+  "leadId": "ld-059",
+  "companyId": "co-029",
+  "type": "technical",
+  "title": "Technical discussion",
+  "body": "Process window, fixturing and cycle time reviewed.",
+  "actorId": "u-arun",
+  "at": "2025-11-12T14:00:00"
+ },
+ {
+  "id": "ac-0220",
+  "leadId": "ld-059",
+  "companyId": "co-029",
+  "type": "demo",
+  "title": "Machine demo completed",
+  "body": "Sample parts run on the target platform; results shared.",
+  "actorId": "u-arun",
+  "at": "2025-11-14T15:00:00"
+ },
+ {
+  "id": "ac-0221",
+  "leadId": "ld-059",
+  "companyId": "co-029",
+  "type": "stage_change",
+  "title": "Pipeline stage advanced",
+  "body": "Moved forward after the last interaction.",
+  "actorId": "u-arun",
+  "at": "2025-11-16T16:00:00"
+ },
+ {
+  "id": "ac-0222",
+  "leadId": "ld-060",
+  "companyId": "co-030",
+  "type": "lead_captured",
+  "title": "Lead captured at booth",
+  "body": "Captured on the stand and scored automatically.",
+  "actorId": "u-sneha",
+  "at": "2025-11-05T11:00:00"
+ },
+ {
+  "id": "ac-0223",
+  "leadId": "ld-060",
+  "companyId": "co-030",
+  "type": "meeting",
+  "title": "Meeting held",
+  "body": "Reviewed the application in detail with their engineering team.",
+  "actorId": "u-sneha",
+  "at": "2025-11-07T12:00:00"
+ },
+ {
+  "id": "ac-0224",
+  "leadId": "ld-060",
+  "companyId": "co-030",
+  "type": "demo",
+  "title": "Machine demo completed",
+  "body": "Sample parts run on the target platform; results shared.",
+  "actorId": "u-sneha",
+  "at": "2025-11-09T13:00:00"
+ },
+ {
+  "id": "ac-0225",
+  "leadId": "ld-060",
+  "companyId": "co-030",
+  "type": "quotation",
+  "title": "Quotation issued",
+  "body": "Commercial proposal sent with delivery schedule.",
+  "actorId": "u-sneha",
+  "at": "2025-11-11T14:00:00"
+ },
+ {
+  "id": "ac-0226",
+  "leadId": "ld-060",
+  "companyId": "co-030",
+  "type": "call",
+  "title": "Follow-up call",
+  "body": "Discussed the requirement and confirmed the next step.",
+  "actorId": "u-sneha",
+  "at": "2025-11-13T15:00:00"
+ },
+ {
+  "id": "ac-0227",
+  "leadId": "ld-060",
+  "companyId": "co-030",
+  "type": "stage_change",
+  "title": "Pipeline stage advanced",
+  "body": "Moved forward after the last interaction.",
+  "actorId": "u-sneha",
+  "at": "2025-11-15T16:00:00"
+ },
+ {
+  "id": "ac-0228",
+  "leadId": "ld-061",
+  "companyId": "co-001",
+  "type": "lead_captured",
+  "title": "Lead captured at booth",
+  "body": "Captured on the stand and scored automatically.",
+  "actorId": "u-priya",
+  "at": "2025-11-06T11:00:00"
+ },
+ {
+  "id": "ac-0229",
+  "leadId": "ld-061",
+  "companyId": "co-001",
+  "type": "call",
+  "title": "Follow-up call",
+  "body": "Discussed the requirement and confirmed the next step.",
+  "actorId": "u-priya",
+  "at": "2025-11-08T12:00:00"
+ },
+ {
+  "id": "ac-0230",
+  "leadId": "ld-061",
+  "companyId": "co-001",
+  "type": "quotation",
+  "title": "Quotation issued",
+  "body": "Commercial proposal sent with delivery schedule.",
+  "actorId": "u-priya",
+  "at": "2025-11-10T13:00:00"
+ },
+ {
+  "id": "ac-0231",
+  "leadId": "ld-061",
+  "companyId": "co-001",
+  "type": "lost",
+  "title": "Opportunity lost",
+  "body": "Customer proceeded with an alternative supplier.",
+  "actorId": "u-priya",
+  "at": "2025-11-12T14:00:00"
+ },
+ {
+  "id": "ac-0232",
+  "leadId": "ld-062",
+  "companyId": "co-002",
+  "type": "lead_captured",
+  "title": "Lead captured at booth",
+  "body": "Captured on the stand and scored automatically.",
+  "actorId": "u-arun",
+  "at": "2025-11-05T11:00:00"
+ },
+ {
+  "id": "ac-0233",
+  "leadId": "ld-062",
+  "companyId": "co-002",
+  "type": "call",
+  "title": "Follow-up call",
+  "body": "Discussed the requirement and confirmed the next step.",
+  "actorId": "u-arun",
+  "at": "2025-11-07T12:00:00"
+ },
+ {
+  "id": "ac-0234",
+  "leadId": "ld-062",
+  "companyId": "co-002",
+  "type": "stage_change",
+  "title": "Pipeline stage advanced",
+  "body": "Moved forward after the last interaction.",
+  "actorId": "u-arun",
+  "at": "2025-11-09T13:00:00"
+ },
+ {
+  "id": "ac-0235",
+  "leadId": "ld-063",
+  "companyId": "co-003",
+  "type": "lead_captured",
+  "title": "Lead captured at booth",
+  "body": "Captured on the stand and scored automatically.",
+  "actorId": "u-sneha",
+  "at": "2025-11-07T11:00:00"
+ },
+ {
+  "id": "ac-0236",
+  "leadId": "ld-063",
+  "companyId": "co-003",
+  "type": "call",
+  "title": "Follow-up call",
+  "body": "Discussed the requirement and confirmed the next step.",
+  "actorId": "u-sneha",
+  "at": "2025-11-09T12:00:00"
+ },
+ {
+  "id": "ac-0237",
+  "leadId": "ld-063",
+  "companyId": "co-003",
+  "type": "meeting",
+  "title": "Meeting held",
+  "body": "Reviewed the application in detail with their engineering team.",
+  "actorId": "u-sneha",
+  "at": "2025-11-11T13:00:00"
+ },
+ {
+  "id": "ac-0238",
+  "leadId": "ld-063",
+  "companyId": "co-003",
+  "type": "technical",
+  "title": "Technical discussion",
+  "body": "Process window, fixturing and cycle time reviewed.",
+  "actorId": "u-sneha",
+  "at": "2025-11-13T14:00:00"
+ },
+ {
+  "id": "ac-0239",
+  "leadId": "ld-063",
+  "companyId": "co-003",
+  "type": "demo",
+  "title": "Machine demo completed",
+  "body": "Sample parts run on the target platform; results shared.",
+  "actorId": "u-sneha",
+  "at": "2025-11-15T15:00:00"
+ },
+ {
+  "id": "ac-0240",
+  "leadId": "ld-063",
+  "companyId": "co-003",
+  "type": "stage_change",
+  "title": "Pipeline stage advanced",
+  "body": "Moved forward after the last interaction.",
+  "actorId": "u-sneha",
+  "at": "2025-11-17T16:00:00"
+ },
+ {
+  "id": "ac-0241",
+  "leadId": "ld-064",
+  "companyId": "co-004",
+  "type": "lead_captured",
+  "title": "Lead captured at booth",
+  "body": "Captured on the stand and scored automatically.",
+  "actorId": "u-priya",
+  "at": "2025-11-06T11:00:00"
+ },
+ {
+  "id": "ac-0242",
+  "leadId": "ld-064",
+  "companyId": "co-004",
+  "type": "meeting",
+  "title": "Meeting held",
+  "body": "Reviewed the application in detail with their engineering team.",
+  "actorId": "u-priya",
+  "at": "2025-11-08T12:00:00"
+ },
+ {
+  "id": "ac-0243",
+  "leadId": "ld-064",
+  "companyId": "co-004",
+  "type": "demo",
+  "title": "Machine demo completed",
+  "body": "Sample parts run on the target platform; results shared.",
+  "actorId": "u-priya",
+  "at": "2025-11-10T13:00:00"
+ },
+ {
+  "id": "ac-0244",
+  "leadId": "ld-064",
+  "companyId": "co-004",
+  "type": "quotation",
+  "title": "Quotation issued",
+  "body": "Commercial proposal sent with delivery schedule.",
+  "actorId": "u-priya",
+  "at": "2025-11-12T14:00:00"
+ },
+ {
+  "id": "ac-0245",
+  "leadId": "ld-064",
+  "companyId": "co-004",
+  "type": "stage_change",
+  "title": "Pipeline stage advanced",
+  "body": "Moved forward after the last interaction.",
+  "actorId": "u-priya",
+  "at": "2025-11-14T15:00:00"
+ },
+ {
+  "id": "ac-0246",
+  "leadId": "ld-064",
+  "companyId": "co-004",
+  "type": "won",
+  "title": "Opportunity won",
+  "body": "Purchase order received; handed to project execution.",
+  "actorId": "u-priya",
+  "at": "2025-11-16T16:00:00"
+ }
+]

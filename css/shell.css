@@ -1,0 +1,228 @@
+/* ==========================================================================
+   Application shell — sidebar, topbar, main region, mobile tab bar.
+   ========================================================================== */
+
+.app {
+  display: grid;
+  grid-template-columns: var(--sidebar-w) 1fr;
+  min-height: 100dvh;
+  transition: grid-template-columns var(--dur) var(--ease);
+}
+.app[data-collapsed="true"] { grid-template-columns: var(--sidebar-w-collapsed) 1fr; }
+
+/* ---- sidebar ------------------------------------------------------------- */
+.sidebar {
+  position: sticky; top: 0; z-index: 40;
+  display: flex; flex-direction: column;
+  height: 100dvh;
+  background: var(--surface);
+  border-right: 1px solid var(--border);
+  padding-top: env(safe-area-inset-top);
+}
+
+.brand {
+  display: flex; align-items: center; gap: var(--sp-3);
+  padding: var(--sp-4) var(--sp-4) var(--sp-3);
+  border-bottom: 1px solid var(--border-subtle);
+  min-height: var(--topbar-h);
+}
+.brand-logo { flex-shrink: 0; display: block; width: 34px; height: 34px; }
+.brand-text { min-width: 0; }
+.brand-parent {
+  display: block; font-size: var(--fs-micro); font-weight: 700;
+  letter-spacing: var(--ls-caps); text-transform: uppercase;
+  color: var(--text-muted); line-height: 1.2;
+}
+.brand-product {
+  display: block; font-size: 0.9375rem; font-weight: 680;
+  letter-spacing: var(--ls-tight); color: var(--text-primary); line-height: 1.25;
+}
+.app[data-collapsed="true"] .brand-text { display: none; }
+
+.nav { flex: 1; overflow-y: auto; padding: var(--sp-3) var(--sp-2); }
+.nav-group + .nav-group { margin-top: var(--sp-4); }
+.nav-label {
+  padding: var(--sp-2) var(--sp-3) var(--sp-1);
+  font-size: var(--fs-micro); font-weight: 650;
+  letter-spacing: var(--ls-caps); text-transform: uppercase; color: var(--text-muted);
+}
+.app[data-collapsed="true"] .nav-label { text-align: center; padding-inline: 0; font-size: 0; }
+.app[data-collapsed="true"] .nav-label::after {
+  content: "···"; font-size: var(--fs-caption); letter-spacing: 0;
+}
+
+.nav-item {
+  position: relative;
+  display: flex; align-items: center; gap: var(--sp-3);
+  width: 100%; padding: var(--sp-2) var(--sp-3);
+  border-radius: var(--r-md);
+  color: var(--text-secondary); font-size: var(--fs-sm); font-weight: 500;
+  text-decoration: none;
+  transition: background var(--dur-fast) var(--ease), color var(--dur-fast) var(--ease);
+}
+.nav-item:hover { background: var(--surface-hover); color: var(--text-primary); text-decoration: none; }
+.nav-item .ico { flex-shrink: 0; width: 18px; height: 18px; }
+.nav-item[aria-current="page"] {
+  background: color-mix(in srgb, var(--brand-500) 12%, transparent);
+  color: var(--brand-600); font-weight: 600;
+}
+/* The active marker is a bar as well as a colour, so state never rides on
+   colour alone (§38). */
+.nav-item[aria-current="page"]::before {
+  content: ""; position: absolute; left: -8px; top: 50%; translate: 0 -50%;
+  width: 3px; height: 20px; border-radius: 0 3px 3px 0; background: var(--brand-500);
+}
+.nav-count {
+  margin-left: auto; padding: 1px 7px; border-radius: var(--r-pill);
+  background: var(--surface-sunken); color: var(--text-secondary);
+  font-size: var(--fs-micro); font-weight: 650; font-variant-numeric: tabular-nums;
+}
+.nav-count[data-tone="urgent"] { background: var(--danger-bg); color: var(--danger); }
+.app[data-collapsed="true"] .nav-item { justify-content: center; padding-inline: 0; }
+.app[data-collapsed="true"] .nav-item .lbl,
+.app[data-collapsed="true"] .nav-count { display: none; }
+
+.sidebar-foot { border-top: 1px solid var(--border-subtle); padding: var(--sp-3); }
+.userchip {
+  display: flex; align-items: center; gap: var(--sp-3); width: 100%;
+  padding: var(--sp-2); border-radius: var(--r-md); text-align: left;
+}
+.userchip:hover { background: var(--surface-hover); }
+.avatar {
+  flex-shrink: 0; display: grid; place-items: center;
+  width: 32px; height: 32px; border-radius: 50%;
+  background: color-mix(in srgb, var(--brand-500) 16%, transparent);
+  color: var(--brand-600); font-size: var(--fs-micro); font-weight: 700;
+}
+.app[data-collapsed="true"] .userchip-text { display: none; }
+
+.collapse-btn {
+  display: flex; align-items: center; justify-content: center; gap: var(--sp-2);
+  width: 100%; min-height: 34px; margin-top: var(--sp-2);
+  border-radius: var(--r-md); color: var(--text-muted); font-size: var(--fs-caption);
+}
+.collapse-btn:hover { background: var(--surface-hover); color: var(--text-primary); }
+
+/* ---- topbar -------------------------------------------------------------- */
+.topbar {
+  position: sticky; top: 0; z-index: 30;
+  display: flex; align-items: center; gap: var(--sp-3);
+  height: var(--topbar-h);
+  padding: 0 var(--sp-4);
+  padding-top: env(safe-area-inset-top);
+  background: color-mix(in srgb, var(--bg-primary) 88%, transparent);
+  backdrop-filter: blur(10px);
+  border-bottom: 1px solid var(--border);
+}
+
+.searchbtn {
+  display: flex; align-items: center; gap: var(--sp-2);
+  min-width: 0; max-width: 380px; flex: 1;
+  min-height: 36px; padding: 0 var(--sp-3);
+  border: 1px solid var(--border); border-radius: var(--r-md);
+  background: var(--surface); color: var(--text-muted); font-size: var(--fs-sm);
+}
+.searchbtn:hover { border-color: var(--border-strong); }
+.searchbtn kbd {
+  margin-left: auto; padding: 1px 6px; border-radius: var(--r-sm);
+  border: 1px solid var(--border); background: var(--surface-sunken);
+  font-family: var(--font-sans); font-size: var(--fs-micro); color: var(--text-muted);
+}
+
+.iconbtn {
+  position: relative;
+  display: grid; place-items: center;
+  width: 36px; height: 36px; flex-shrink: 0;
+  border: 1px solid var(--border); border-radius: var(--r-md);
+  background: var(--surface); color: var(--text-secondary);
+}
+.iconbtn:hover { background: var(--surface-hover); color: var(--text-primary); }
+.iconbtn .dot {
+  position: absolute; top: 5px; right: 5px;
+  width: 7px; height: 7px; border-radius: 50%;
+  background: var(--danger); border: 1.5px solid var(--surface);
+}
+
+.exsel {
+  display: flex; align-items: center; gap: var(--sp-2);
+  min-height: 36px; padding: 0 var(--sp-3);
+  border: 1px solid var(--border); border-radius: var(--r-md);
+  background: var(--surface); font-size: var(--fs-sm); font-weight: 550;
+  max-width: 260px;
+}
+.exsel:hover { background: var(--surface-hover); }
+.exsel .ico { color: var(--brand-500); flex-shrink: 0; }
+
+.menu-btn { display: none; }
+
+/* ---- main ---------------------------------------------------------------- */
+.main { min-width: 0; display: flex; flex-direction: column; }
+.view {
+  flex: 1;
+  width: 100%; max-width: 1440px;
+  padding: var(--sp-5) var(--sp-6) var(--sp-12);
+  margin-inline: auto;
+}
+
+.page-head {
+  display: flex; flex-wrap: wrap; align-items: flex-end;
+  justify-content: space-between; gap: var(--sp-3);
+  margin-bottom: var(--sp-5);
+}
+.page-head h1 { font-size: var(--fs-h1); font-weight: 650; letter-spacing: var(--ls-tight); }
+.page-head p { margin-top: 2px; font-size: var(--fs-sm); color: var(--text-secondary); max-width: 68ch; }
+.page-actions { display: flex; flex-wrap: wrap; gap: var(--sp-2); }
+
+/* ---- mobile -------------------------------------------------------------- */
+.tabbar { display: none; }
+.scrim { display: none; }
+
+@media (max-width: 1024px) {
+  .app, .app[data-collapsed="true"] { grid-template-columns: 1fr; }
+  .sidebar {
+    position: fixed; inset: 0 auto 0 0; width: 272px;
+    translate: -100% 0; transition: translate var(--dur) var(--ease);
+    box-shadow: var(--shadow-3);
+  }
+  body[data-drawer="open"] .sidebar { translate: 0 0; }
+  body[data-drawer="open"] .scrim {
+    display: block; position: fixed; inset: 0; z-index: 35;
+    background: rgba(4, 10, 18, .5);
+  }
+  .menu-btn { display: grid; }
+  .view { padding: var(--sp-4) var(--sp-4) 96px; }
+  .exsel { max-width: 150px; }
+}
+
+@media (max-width: 560px) {
+  /* At phone width the topbar keeps only what a booth user needs in reach:
+     menu, search, notifications and capture. Exhibition and connection
+     status move into the drawer and the Command Center respectively. */
+  .topbar { gap: var(--sp-2); padding-inline: var(--sp-3); }
+  .exsel, #netdot, #theme-btn { display: none; }
+  .searchbtn { flex: 1 1 auto; min-width: 0; }
+  .searchbtn span { display: none; }
+  #quickadd-btn { padding: 0 var(--sp-3); }
+  #quickadd-btn .lbl { display: none; }
+}
+
+@media (max-width: 720px) {
+  .tabbar {
+    position: fixed; inset: auto 0 0 0; z-index: 38;
+    display: grid; grid-template-columns: repeat(5, 1fr);
+    background: color-mix(in srgb, var(--surface) 96%, transparent);
+    backdrop-filter: blur(10px);
+    border-top: 1px solid var(--border);
+    padding-bottom: env(safe-area-inset-bottom);
+  }
+  .tabbar a {
+    display: flex; flex-direction: column; align-items: center; justify-content: center;
+    gap: 3px; min-height: 54px; padding: var(--sp-2) 2px;
+    font-size: var(--fs-micro); font-weight: 550; color: var(--text-muted);
+    text-decoration: none;
+  }
+  .tabbar a[aria-current="page"] { color: var(--brand-600); }
+  .tabbar a .ico { width: 20px; height: 20px; }
+  .searchbtn kbd { display: none; }
+  .exsel .lbl { display: none; }
+}

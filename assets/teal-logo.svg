@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 2000 950" role="img" aria-label="TEAL — A TATA Enterprise">
+  <title>TEAL — A TATA Enterprise</title>
+  <!--
+    Vector reconstruction of the TEAL lockup, drawn from the supplied brand
+    artwork: the angled "7"-form T and L in grey, E and A in brand cyan, with
+    the Tata endorsement line beneath.
+
+    Colours come from CSS custom properties so the mark can invert for dark
+    mode without a second file; the fallbacks are the brand pair.
+
+    To use the official artwork instead, replace this entire file — the app
+    only ever references assets/teal-logo.svg, never its internals.
+  -->
+  <g class="tl-word" fill-rule="evenodd">
+    <path fill="var(--logo-grey, #808285)"
+          d="M40 95 H600 L390 615 H240 L450 215 H40 Z"/>
+    <path fill="var(--logo-teal, #00A9B5)"
+          d="M640 95 H1120 V215 H617 L601 300 H980 V410 H580 L563 495 H1120 V615 H540 Z"/>
+    <path fill="var(--logo-teal, #00A9B5)"
+          d="M1190 95 H1560 V615 H1440 V490 H1215 L1160 615 H1035 Z
+             M1285 215 H1440 V405 H1212 Z"/>
+    <path fill="var(--logo-grey, #808285)"
+          d="M1745 95 H1855 L1758 495 H1985 V615 H1648 Z"/>
+  </g>
+  <g class="tl-tag" fill="var(--logo-teal, #00A9B5)"
+     font-family="Arial, Helvetica, sans-serif" font-size="168">
+    <text x="40" y="880">A</text>
+    <text x="185" y="880" font-weight="700" letter-spacing="6">TATA</text>
+    <text x="700" y="880">Enterprise</text>
+  </g>
+</svg>

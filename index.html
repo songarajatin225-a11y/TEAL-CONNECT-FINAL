@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>TEAL LeadConnect | Exhibition Lead Intelligence</title>
+<meta name="description" content="TEAL LeadConnect — Exhibition Lead Intelligence &amp; Sales Conversion OS. Capture, qualify and convert exhibition leads into a measurable sales pipeline.">
+<meta name="theme-color" content="#f4f6f9">
+<meta name="color-scheme" content="light dark">
+
+<meta property="og:type" content="website">
+<meta property="og:title" content="TEAL LeadConnect">
+<meta property="og:site_name" content="TEAL">
+<meta property="og:description" content="Exhibition Lead Intelligence &amp; Sales Conversion OS. Turn every exhibition lead into a sales opportunity.">
+<meta property="og:image" content="./assets/teal-mark.svg">
+<meta name="twitter:card" content="summary">
+
+<!-- Relative paths throughout: the app is served from /Lead-2/ on GitHub
+     Pages, so a leading slash would resolve to the domain root. -->
+<link rel="icon" href="./assets/teal-mark.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="./assets/teal-mark.svg">
+<link rel="manifest" href="./manifest.json">
+
+<link rel="stylesheet" href="./css/tokens.css">
+<link rel="stylesheet" href="./css/base.css">
+<link rel="stylesheet" href="./css/shell.css">
+<link rel="stylesheet" href="./css/components.css">
+
+<script>
+  /* Applied before first paint so a dark-mode user never sees a light flash. */
+  try {
+    var p = JSON.parse(localStorage.getItem('teal.leadconnect.prefs.v2') || '{}');
+    if (p.theme === 'light' || p.theme === 'dark') {
+      document.documentElement.setAttribute('data-theme', p.theme);
+    }
+  } catch (e) { /* first visit */ }
+</script>
+</head>
+<body data-drawer="closed">
+
+<a class="skip-link" href="#view">Skip to main content</a>
+
+<div class="app" id="app" data-collapsed="false">
+  <aside class="sidebar" id="sidebar" aria-label="Primary"></aside>
+  <div class="scrim" id="scrim" aria-hidden="true"></div>
+
+  <div class="main">
+    <header class="topbar" id="topbar"></header>
+    <main class="view" id="view" tabindex="-1">
+      <div class="stack gap-4">
+        <div class="skel skel-line" style="width:30%;height:24px"></div>
+        <div class="grid grid-4">
+          <div class="skel skel-kpi"></div><div class="skel skel-kpi"></div>
+          <div class="skel skel-kpi"></div><div class="skel skel-kpi"></div>
+        </div>
+      </div>
+    </main>
+  </div>
+</div>
+
+<nav class="tabbar" id="tabbar" aria-label="Primary mobile"></nav>
+
+<noscript>
+  <div style="padding:2rem;max-width:60ch;margin:0 auto">
+    <h1>TEAL LeadConnect</h1>
+    <p>This application needs JavaScript enabled. Please turn it on and reload.</p>
+  </div>
+</noscript>
+
+<script type="module" src="./js/app.js"></script>
+</body>
+</html>

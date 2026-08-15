@@ -1,0 +1,102 @@
+[
+ {
+  "id": "nt-001",
+  "severity": "high",
+  "type": "high_value",
+  "title": "High-value opportunity needs attention",
+  "body": "Amperex Energy Systems Industries Ltd — Vision Inspection at ₹0.24 Cr is sitting in Proposal.",
+  "leadId": "ld-005",
+  "at": "2026-08-15T09:15:00",
+  "read": false
+ },
+ {
+  "id": "nt-002",
+  "severity": "high",
+  "type": "high_value",
+  "title": "High-value opportunity needs attention",
+  "body": "Vidyut Mobility Limited — Laser Welding at ₹1.25 Cr is sitting in Proposal.",
+  "leadId": "ld-022",
+  "at": "2026-08-14T09:15:00",
+  "read": false
+ },
+ {
+  "id": "nt-003",
+  "severity": "high",
+  "type": "high_value",
+  "title": "High-value opportunity needs attention",
+  "body": "Rathore Autocomp India Pvt Ltd — UV Laser Marking at ₹0.36 Cr is sitting in Proposal.",
+  "leadId": "ld-038",
+  "at": "2026-08-13T09:15:00",
+  "read": false
+ },
+ {
+  "id": "nt-004",
+  "severity": "high",
+  "type": "high_value",
+  "title": "High-value opportunity needs attention",
+  "body": "Krishna Toolings Limited — Special Purpose Machines at ₹0.24 Cr is sitting in Negotiation.",
+  "leadId": "ld-042",
+  "at": "2026-08-12T09:15:00",
+  "read": false
+ },
+ {
+  "id": "nt-100",
+  "severity": "critical",
+  "type": "overdue",
+  "title": "Follow-up overdue",
+  "body": "Vertex Microsystems Pvt Ltd was due for qualify the requirement on 2026-08-13.",
+  "leadId": "ld-001",
+  "at": "2026-08-15T08:00:00",
+  "read": false
+ },
+ {
+  "id": "nt-101",
+  "severity": "critical",
+  "type": "overdue",
+  "title": "Follow-up overdue",
+  "body": "Kaveri Electronics Limited was due for qualify the requirement on 2026-08-12.",
+  "leadId": "ld-002",
+  "at": "2026-08-14T08:00:00",
+  "read": false
+ },
+ {
+  "id": "nt-102",
+  "severity": "critical",
+  "type": "overdue",
+  "title": "Follow-up overdue",
+  "body": "Sundaram Precision Works India Pvt Ltd was due for schedule technical discussion on 2026-08-14.",
+  "leadId": "ld-003",
+  "at": "2026-08-13T08:00:00",
+  "read": false
+ },
+ {
+  "id": "nt-103",
+  "severity": "critical",
+  "type": "overdue",
+  "title": "Follow-up overdue",
+  "body": "Deccan Circuits Pvt Ltd was due for qualify the requirement on 2026-08-14.",
+  "leadId": "ld-006",
+  "at": "2026-08-12T08:00:00",
+  "read": false
+ },
+ {
+  "id": "nt-104",
+  "severity": "critical",
+  "type": "overdue",
+  "title": "Follow-up overdue",
+  "body": "Rathore Autocomp India Pvt Ltd was due for schedule technical discussion on 2026-08-13.",
+  "leadId": "ld-008",
+  "at": "2026-08-11T08:00:00",
+  "read": false
+ },
+ {
+  "id": "nt-200",
+  "severity": "info",
+  "type": "digest",
+  "title": "Productronica India 2026 has closed",
+  "body": "34 leads captured over three days. The exhibition report is ready to review.",
+  "leadId": null,
+  "at": "2026-08-15T07:30:00",
+  "read": true
+ }
+]

@@ -1,0 +1,52 @@
+[
+ {
+  "id": "ex-prod26",
+  "code": "PROD26",
+  "name": "Productronica India 2026",
+  "city": "Bengaluru",
+  "venue": "BIEC, Bengaluru",
+  "start": "2026-08-12",
+  "end": "2026-08-14",
+  "active": true,
+  "visitors": 18400,
+  "boothCost": 4200000,
+  "focus": [
+   "Electronics",
+   "Semiconductor",
+   "EMS"
+  ]
+ },
+ {
+  "id": "ex-imtex26",
+  "code": "IMTEX26",
+  "name": "IMTEX 2026",
+  "city": "Bengaluru",
+  "venue": "BIEC, Bengaluru",
+  "start": "2026-01-22",
+  "end": "2026-01-27",
+  "active": false,
+  "visitors": 32000,
+  "boothCost": 5600000,
+  "focus": [
+   "Precision Engineering",
+   "Automotive",
+   "Aerospace"
+  ]
+ },
+ {
+  "id": "ex-batshow25",
+  "code": "BAT25",
+  "name": "Battery Show India 2025",
+  "city": "New Delhi",
+  "venue": "Yashobhoomi, Dwarka",
+  "start": "2025-11-05",
+  "end": "2025-11-07",
+  "active": false,
+  "visitors": 11200,
+  "boothCost": 2800000,
+  "focus": [
+   "Battery / EV",
+   "New Energy"
+  ]
+ }
+]

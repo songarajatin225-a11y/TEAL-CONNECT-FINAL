@@ -1,0 +1,315 @@
+/* ==========================================================================
+   TEAL LeadConnect — design tokens
+   --------------------------------------------------------------------------
+   One source of truth for colour, type, space, radius, elevation and motion.
+   Nothing downstream may hard-code a hex value.
+
+   Themes: light is the base; dark is a *selected* set of steps, not an
+   inversion. Both are declared under the media query (OS preference) and the
+   [data-theme] attribute (explicit user choice), so the toggle wins in both
+   directions.
+   ========================================================================== */
+
+:root {
+  color-scheme: light;
+
+  /* ---- brand -------------------------------------------------------------
+     Cyan and grey are taken from the TEAL corporate mark. The 500 step is the
+     mark's own cyan; the rest are steps around it for UI state. */
+  --teal-brand:        #00a9b5;
+  --teal-brand-dark:   #007e88;
+  --teal-brand-light:  #4fdfd2;
+  --teal-accent:       #00c2b8;
+  --teal-grey:         #808285;
+
+  --brand-50:  #e6f7f8;
+  --brand-100: #b8e9ec;
+  --brand-200: #7fd6dc;
+  --brand-300: #43c2ca;
+  --brand-400: #12b0ba;
+  --brand-500: #00a9b5;
+  --brand-600: #00909b;
+  --brand-700: #00737c;
+  --brand-800: #005a61;
+  --brand-900: #003f44;
+
+  /* ---- surfaces & ink ---------------------------------------------------- */
+  --bg-primary:      #f4f6f9;
+  --bg-secondary:    #eaeef4;
+  --surface:         #ffffff;
+  --surface-elevated:#ffffff;
+  --surface-sunken:  #f0f3f7;
+  --surface-hover:   #f3f6fa;
+
+  --border:          #d9e0ea;
+  --border-strong:   #b9c4d3;
+  --border-subtle:   #e8edf3;
+
+  --text-primary:    #101a26;
+  --text-secondary:  #47566b;
+  --text-muted:      #6c7d94;
+  --text-inverse:    #ffffff;
+  --text-on-brand:   #ffffff;
+
+  /* ---- semantic ----------------------------------------------------------
+     Reserved for state. Never reused as a chart series colour. */
+  --success:     #0f8a4d;
+  --success-bg:  #e3f5eb;
+  --warning:     #a86800;
+  --warning-bg:  #fdf1dd;
+  --danger:      #c62828;
+  --danger-bg:   #fdeaea;
+  --info:        #1d5fbf;
+  --info-bg:     #e7effb;
+
+  /* ---- lead temperature --------------------------------------------------
+     A state scale, not an identity scale: always paired with a text label. */
+  --temp-strategic: #6a1b9a;
+  --temp-hot:       #c62828;
+  --temp-warm:      #a86800;
+  --temp-cold:      #1d5fbf;
+
+  /* ---- chart palette -----------------------------------------------------
+     Six categorical slots, assigned in fixed order and never cycled. Anchored
+     on the TEAL brand hue. Validated for the light surface: lightness band,
+     chroma floor, adjacent-pair CVD separation, normal-vision separation and
+     contrast all pass. Slots 4 and 5 fall under 3:1 against white, so any
+     chart using them ships direct labels or the table view. */
+  --chart-1: #00949e;
+  --chart-2: #eb6834;
+  --chart-3: #4a3aa7;
+  --chart-4: #eda100;
+  --chart-5: #e87ba4;
+  --chart-6: #2a78d6;
+  --chart-other: #8a99ad;
+
+  /* Sequential ramp — one hue, light to dark, for magnitude. */
+  --seq-1: #d7f0f2;
+  --seq-2: #a6dfe4;
+  --seq-3: #6bc9d1;
+  --seq-4: #2fadb8;
+  --seq-5: #00909b;
+  --seq-6: #00707a;
+
+  /* Diverging — two poles, neutral grey midpoint. */
+  --div-neg-2: #b3491f;
+  --div-neg-1: #e9a184;
+  --div-mid:   #e3e6ea;
+  --div-pos-1: #7cc9cf;
+  --div-pos-2: #00808a;
+
+  --chart-grid:  #e6ebf2;
+  --chart-axis:  #c3cddb;
+  --chart-track: #eef1f6;
+
+  /* ---- typography -------------------------------------------------------- */
+  --font-sans: "Inter", ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto,
+               "Helvetica Neue", Arial, sans-serif;
+  --font-mono: ui-monospace, "SF Mono", Menlo, Consolas, "Roboto Mono", monospace;
+
+  --fs-display: 2.125rem;
+  --fs-h1:      1.5rem;
+  --fs-h2:      1.1875rem;
+  --fs-h3:      0.9375rem;
+  --fs-body:    0.875rem;
+  --fs-sm:      0.8125rem;
+  --fs-caption: 0.75rem;
+  --fs-micro:   0.6875rem;
+  --fs-kpi:     2rem;
+
+  --lh-tight: 1.15;
+  --lh-snug:  1.35;
+  --lh-body:  1.55;
+
+  --ls-caps: 0.08em;
+  --ls-tight: -0.011em;
+
+  /* ---- space, radius, elevation, motion ---------------------------------- */
+  --sp-1: 4px;  --sp-2: 8px;  --sp-3: 12px; --sp-4: 16px;
+  --sp-5: 20px; --sp-6: 24px; --sp-8: 32px; --sp-10: 40px; --sp-12: 48px;
+
+  --r-sm: 6px; --r-md: 9px; --r-lg: 12px; --r-xl: 16px; --r-pill: 999px;
+
+  --shadow-1: 0 1px 2px rgba(16, 26, 38, .06), 0 1px 3px rgba(16, 26, 38, .04);
+  --shadow-2: 0 2px 4px rgba(16, 26, 38, .06), 0 4px 12px rgba(16, 26, 38, .07);
+  --shadow-3: 0 8px 24px rgba(16, 26, 38, .12), 0 2px 6px rgba(16, 26, 38, .07);
+
+  --ease: cubic-bezier(.2, .7, .3, 1);
+  --dur-fast: 110ms;
+  --dur:      170ms;
+
+  --sidebar-w: 244px;
+  --sidebar-w-collapsed: 68px;
+  --topbar-h: 58px;
+
+  /* ---- logo -------------------------------------------------------------- */
+  --logo-teal: #00a9b5;
+  --logo-grey: #808285;
+}
+
+/* ---- dark theme ----------------------------------------------------------
+   The same values are declared twice on purpose: once under the media query
+   so "System" follows the OS, and once under [data-theme="dark"] so an
+   explicit choice wins. The :not([data-theme="light"]) guard lets an explicit
+   light choice beat OS-dark. Keep the two blocks in sync. */
+@media (prefers-color-scheme: dark) {
+  :root:where(:not([data-theme="light"])) {
+    color-scheme: dark;
+
+    --bg-primary:      #070b12;
+    --bg-secondary:    #0b1220;
+    --surface:         #0f1724;
+    --surface-elevated:#141f30;
+    --surface-sunken:  #0a1018;
+    --surface-hover:   #172234;
+
+    --border:          #1f2c3f;
+    --border-strong:   #33455e;
+    --border-subtle:   #17212f;
+
+    --text-primary:    #e8eef6;
+    --text-secondary:  #a4b4c8;
+    --text-muted:      #7789a0;
+    --text-inverse:    #070b12;
+    --text-on-brand:   #04222a;
+
+    --brand-500: #16b3bd;
+    --brand-600: #00a9b5;
+    --teal-brand-light: #4fdfd2;
+
+    --success:     #35c07a;
+    --success-bg:  #10281d;
+    --warning:     #e0a13a;
+    --warning-bg:  #2b2011;
+    --danger:      #ef6a6a;
+    --danger-bg:   #2d1618;
+    --info:        #5c9df5;
+    --info-bg:     #101f34;
+
+    --temp-strategic: #b07de0;
+    --temp-hot:       #ef6a6a;
+    --temp-warm:      #e0a13a;
+    --temp-cold:      #5c9df5;
+
+    --chart-1: #0fa6ae;
+    --chart-2: #d95926;
+    --chart-3: #9085e9;
+    --chart-4: #c98500;
+    --chart-5: #d55181;
+    --chart-6: #3987e5;
+    --chart-other: #64748b;
+
+    --seq-1: #0d3339;
+    --seq-2: #114a52;
+    --seq-3: #14646e;
+    --seq-4: #13818c;
+    --seq-5: #10a0ab;
+    --seq-6: #3ec6cd;
+
+    --div-neg-2: #d95926;
+    --div-neg-1: #8a4326;
+    --div-mid:   #2a3648;
+    --div-pos-1: #12707a;
+    --div-pos-2: #0fa6ae;
+
+    --chart-grid:  #1a2536;
+    --chart-axis:  #2c3c53;
+    --chart-track: #16202f;
+
+    --shadow-1: 0 1px 2px rgba(0, 0, 0, .4);
+    --shadow-2: 0 2px 6px rgba(0, 0, 0, .45);
+    --shadow-3: 0 12px 32px rgba(0, 0, 0, .55);
+
+    --logo-teal: #2ec9d0;
+    --logo-grey: #9aa3ad;
+  }
+}
+
+:root[data-theme="dark"] {
+  color-scheme: dark;
+
+  --bg-primary:      #070b12;
+  --bg-secondary:    #0b1220;
+  --surface:         #0f1724;
+  --surface-elevated:#141f30;
+  --surface-sunken:  #0a1018;
+  --surface-hover:   #172234;
+
+  --border:          #1f2c3f;
+  --border-strong:   #33455e;
+  --border-subtle:   #17212f;
+
+  --text-primary:    #e8eef6;
+  --text-secondary:  #a4b4c8;
+  --text-muted:      #7789a0;
+  --text-inverse:    #070b12;
+  --text-on-brand:   #04222a;
+
+  --brand-500: #16b3bd;
+  --brand-600: #00a9b5;
+  --teal-brand-light: #4fdfd2;
+
+  --success:     #35c07a;
+  --success-bg:  #10281d;
+  --warning:     #e0a13a;
+  --warning-bg:  #2b2011;
+  --danger:      #ef6a6a;
+  --danger-bg:   #2d1618;
+  --info:        #5c9df5;
+  --info-bg:     #101f34;
+
+  --temp-strategic: #b07de0;
+  --temp-hot:       #ef6a6a;
+  --temp-warm:      #e0a13a;
+  --temp-cold:      #5c9df5;
+
+  --chart-1: #0fa6ae;
+  --chart-2: #d95926;
+  --chart-3: #9085e9;
+  --chart-4: #c98500;
+  --chart-5: #d55181;
+  --chart-6: #3987e5;
+  --chart-other: #64748b;
+
+  --seq-1: #0d3339;
+  --seq-2: #114a52;
+  --seq-3: #14646e;
+  --seq-4: #13818c;
+  --seq-5: #10a0ab;
+  --seq-6: #3ec6cd;
+
+  --div-neg-2: #d95926;
+  --div-neg-1: #8a4326;
+  --div-mid:   #2a3648;
+  --div-pos-1: #12707a;
+  --div-pos-2: #0fa6ae;
+
+  --chart-grid:  #1a2536;
+  --chart-axis:  #2c3c53;
+  --chart-track: #16202f;
+
+  --shadow-1: 0 1px 2px rgba(0, 0, 0, .4);
+  --shadow-2: 0 2px 6px rgba(0, 0, 0, .45);
+  --shadow-3: 0 12px 32px rgba(0, 0, 0, .55);
+
+  --logo-teal: #2ec9d0;
+  --logo-grey: #9aa3ad;
+}
+
+/* Respect a stated preference for less motion (§38). */
+@media (prefers-reduced-motion: reduce) {
+  :root { --dur-fast: 0ms; --dur: 0ms; }
+  *, *::before, *::after {
+    animation-duration: .001ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: .001ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+/* Forced-colors / high-contrast: let the OS palette through and keep the
+   structural borders that carry meaning. */
+@media (forced-colors: active) {
+  .kpi, .card, .btn, .chip, .pill { border: 1px solid CanvasText; }
+  .chart svg { forced-color-adjust: none; }
+}

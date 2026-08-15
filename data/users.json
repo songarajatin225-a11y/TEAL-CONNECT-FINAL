@@ -1,0 +1,47 @@
+[
+ {
+  "id": "u-admin",
+  "name": "Jatin Songara",
+  "email": "jatin.songara@teal.example",
+  "role": "admin",
+  "title": "Platform Administrator",
+  "region": "All India",
+  "active": true
+ },
+ {
+  "id": "u-priya",
+  "name": "Priya Raman",
+  "email": "priya.raman@teal.example",
+  "role": "sales",
+  "title": "Regional Sales Manager — South",
+  "region": "South",
+  "active": true
+ },
+ {
+  "id": "u-arun",
+  "name": "Arun Menon",
+  "email": "arun.menon@teal.example",
+  "role": "sales",
+  "title": "Sales Manager — West",
+  "region": "West",
+  "active": true
+ },
+ {
+  "id": "u-sneha",
+  "name": "Sneha Kulkarni",
+  "email": "sneha.kulkarni@teal.example",
+  "role": "sales",
+  "title": "Application Engineer — Laser",
+  "region": "North",
+  "active": true
+ },
+ {
+  "id": "u-kavita",
+  "name": "Kavita Deshpande",
+  "email": "kavita.deshpande@teal.example",
+  "role": "management",
+  "title": "Head of Sales",
+  "region": "All India",
+  "active": true
+ }
+]

@@ -1,0 +1,2630 @@
+[
+ {
+  "id": "ld-001",
+  "code": "TEAL-PROD26-00001",
+  "contactId": "ct-001",
+  "companyId": "co-001",
+  "exhibitionId": "ex-prod26",
+  "ownerId": "u-priya",
+  "stage": "NEW",
+  "products": [],
+  "productIds": [],
+  "application": "",
+  "problem": "",
+  "quantity": "",
+  "budget": "Not Defined",
+  "timeline": "> 12 Months",
+  "authority": "Gatekeeper",
+  "currentSolution": "",
+  "competitor": "None identified",
+  "value": 0,
+  "source": "Booth Conversation",
+  "engagement": {
+   "booth": true,
+   "meeting": false,
+   "technical": false,
+   "demo": false,
+   "commercial": false
+  },
+  "capturedAt": "2026-08-12T14:15:00",
+  "nextFollowUp": "2026-08-13",
+  "nextBestAction": "Qualify the requirement",
+  "nextBestActionWhy": "Confirm application, volume and timeline before the trail goes cold.",
+  "consent": true,
+  "tags": [],
+  "notes": ""
+ },
+ {
+  "id": "ld-002",
+  "code": "TEAL-PROD26-00002",
+  "contactId": "ct-002",
+  "companyId": "co-002",
+  "exhibitionId": "ex-prod26",
+  "ownerId": "u-arun",
+  "stage": "NEW",
+  "products": [
+   "Battery Laser Applications"
+  ],
+  "productIds": [
+   "P-BT-09"
+  ],
+  "application": "Automated optical inspection on SMT line",
+  "problem": "",
+  "quantity": "",
+  "budget": "Not Defined",
+  "timeline": "Not Defined",
+  "authority": "Influencer",
+  "currentSolution": "",
+  "competitor": "None identified",
+  "value": 0,
+  "source": "Demo Station",
+  "engagement": {
+   "booth": true,
+   "meeting": false,
+   "technical": false,
+   "demo": false,
+   "commercial": false
+  },
+  "capturedAt": "2026-08-13T15:30:00",
+  "nextFollowUp": "2026-08-12",
+  "nextBestAction": "Qualify the requirement",
+  "nextBestActionWhy": "Confirm application, volume and timeline before the trail goes cold.",
+  "consent": true,
+  "tags": [],
+  "notes": "Site visit to their plant offered — they are keen."
+ },
+ {
+  "id": "ld-003",
+  "code": "TEAL-PROD26-00003",
+  "contactId": "ct-003",
+  "companyId": "co-003",
+  "exhibitionId": "ex-prod26",
+  "ownerId": "u-sneha",
+  "stage": "QUALIFIED",
+  "products": [],
+  "productIds": [],
+  "application": "",
+  "problem": "Cannot mark the new substrate material with the existing laser.",
+  "quantity": "",
+  "budget": "Not Defined",
+  "timeline": "Not Defined",
+  "authority": "Influencer",
+  "currentSolution": "",
+  "competitor": "None identified",
+  "value": 0,
+  "source": "Referral",
+  "engagement": {
+   "booth": true,
+   "meeting": false,
+   "technical": false,
+   "demo": false,
+   "commercial": false
+  },
+  "capturedAt": "2026-08-14T10:45:00",
+  "nextFollowUp": "2026-08-14",
+  "nextBestAction": "Schedule technical discussion",
+  "nextBestActionWhy": "Bring an application engineer to scope the process window.",
+  "consent": true,
+  "tags": [],
+  "notes": "Already evaluating alternatives; wants a sample part run before deciding."
+ },
+ {
+  "id": "ld-004",
+  "code": "TEAL-PROD26-00004",
+  "contactId": "ct-004",
+  "companyId": "co-004",
+  "exhibitionId": "ex-prod26",
+  "ownerId": "u-priya",
+  "stage": "ENGAGED",
+  "products": [
+   "Laser Marking"
+  ],
+  "productIds": [
+   "P-LM-01"
+  ],
+  "application": "",
+  "problem": "Thermal damage on adjacent components with the incumbent process.",
+  "quantity": "",
+  "budget": "Not Defined",
+  "timeline": "Not Defined",
+  "authority": "Unknown",
+  "currentSolution": "",
+  "competitor": "None identified",
+  "value": 0,
+  "source": "Referral",
+  "engagement": {
+   "booth": true,
+   "meeting": true,
+   "technical": false,
+   "demo": false,
+   "commercial": false
+  },
+  "capturedAt": "2026-08-14T17:00:00",
+  "nextFollowUp": "2026-08-19",
+  "nextBestAction": "Arrange machine demo",
+  "nextBestActionWhy": "Run their sample part on the target platform.",
+  "consent": true,
+  "tags": [],
+  "notes": "Walked the booth with two colleagues from process engineering."
+ },
+ {
+  "id": "ld-005",
+  "code": "TEAL-PROD26-00005",
+  "contactId": "ct-005",
+  "companyId": "co-005",
+  "exhibitionId": "ex-prod26",
+  "ownerId": "u-arun",
+  "stage": "PROPOSAL",
+  "products": [
+   "Vision Inspection",
+   "Laser Welding"
+  ],
+  "productIds": [
+   "P-VI-12",
+   "P-LW-02"
+  ],
+  "application": "Cell tab welding, prismatic format",
+  "problem": "Traceability gap flagged in the last automotive customer audit.",
+  "quantity": "3 stations",
+  "budget": "₹25 L – ₹75 L",
+  "timeline": "Immediate",
+  "authority": "Decision Maker",
+  "currentSolution": "Competitor machine",
+  "competitor": "Bystronic",
+  "value": 2400000,
+  "source": "Referral",
+  "engagement": {
+   "booth": true,
+   "meeting": true,
+   "technical": true,
+   "demo": true,
+   "commercial": true
+  },
+  "capturedAt": "2026-08-13T14:00:00",
+  "nextFollowUp": "2026-08-21",
+  "nextBestAction": "Follow up on proposal",
+  "nextBestActionWhy": "Confirm receipt, walk the commercials, agree next step.",
+  "consent": true,
+  "tags": [
+   "Competitor displacement",
+   "Technical deep-dive"
+  ],
+  "notes": "Walked the booth with two colleagues from process engineering."
+ },
+ {
+  "id": "ld-006",
+  "code": "TEAL-PROD26-00006",
+  "contactId": "ct-006",
+  "companyId": "co-006",
+  "exhibitionId": "ex-prod26",
+  "ownerId": "u-sneha",
+  "stage": "NEW",
+  "products": [
+   "UV Laser Marking"
+  ],
+  "productIds": [
+   "P-UV-06"
+  ],
+  "application": "End-of-line functional test automation",
+  "problem": "",
+  "quantity": "Pilot + 4 production",
+  "budget": "₹25 L – ₹75 L",
+  "timeline": "3-6 Months",
+  "authority": "Influencer",
+  "currentSolution": "Manual process",
+  "competitor": "None identified",
+  "value": 0,
+  "source": "Referral",
+  "engagement": {
+   "booth": true,
+   "meeting": false,
+   "technical": false,
+   "demo": false,
+   "commercial": false
+  },
+  "capturedAt": "2026-08-13T12:45:00",
+  "nextFollowUp": "2026-08-14",
+  "nextBestAction": "Qualify the requirement",
+  "nextBestActionWhy": "Confirm application, volume and timeline before the trail goes cold.",
+  "consent": true,
+  "tags": [
+   "RFQ expected"
+  ],
+  "notes": "Asked specifically about cycle time and consumable cost per part."
+ },
+ {
+  "id": "ld-007",
+  "code": "TEAL-PROD26-00007",
+  "contactId": "ct-007",
+  "companyId": "co-007",
+  "exhibitionId": "ex-prod26",
+  "ownerId": "u-priya",
+  "stage": "QUALIFIED",
+  "products": [
+   "Testing Automation"
+  ],
+  "productIds": [
+   "P-TE-17"
+  ],
+  "application": "Automated optical inspection on SMT line",
+  "problem": "Existing dot-peen marking fails legibility audit at customer end.",
+  "quantity": "Pilot + 4 production",
+  "budget": "< ₹25 L",
+  "timeline": "3-6 Months",
+  "authority": "Influencer",
+  "currentSolution": "Greenfield — none",
+  "competitor": "None identified",
+  "value": 24000000,
+  "source": "Booth Conversation",
+  "engagement": {
+   "booth": true,
+   "meeting": false,
+   "technical": false,
+   "demo": false,
+   "commercial": false
+  },
+  "capturedAt": "2026-08-13T15:45:00",
+  "nextFollowUp": "2026-08-17",
+  "nextBestAction": "Schedule technical discussion",
+  "nextBestActionWhy": "Bring an application engineer to scope the process window.",
+  "consent": true,
+  "tags": [],
+  "notes": "Walked the booth with two colleagues from process engineering."
+ },
+ {
+  "id": "ld-008",
+  "code": "TEAL-PROD26-00008",
+  "contactId": "ct-008",
+  "companyId": "co-008",
+  "exhibitionId": "ex-prod26",
+  "ownerId": "u-arun",
+  "stage": "QUALIFIED",
+  "products": [
+   "Fiber Laser Marking"
+  ],
+  "productIds": [
+   "P-FL-07"
+  ],
+  "application": "End-of-line functional test automation",
+  "problem": "Manual welding yields inconsistent penetration; scrap running at 4%.",
+  "quantity": "2 machines",
+  "budget": "₹25 L – ₹75 L",
+  "timeline": "Not Defined",
+  "authority": "End User",
+  "currentSolution": "Outsourced to job shop",
+  "competitor": "None identified",
+  "value": 24000000,
+  "source": "Badge Scan",
+  "engagement": {
+   "booth": true,
+   "meeting": false,
+   "technical": false,
+   "demo": false,
+   "commercial": false
+  },
+  "capturedAt": "2026-08-13T15:30:00",
+  "nextFollowUp": "2026-08-13",
+  "nextBestAction": "Schedule technical discussion",
+  "nextBestActionWhy": "Bring an application engineer to scope the process window.",
+  "consent": true,
+  "tags": [],
+  "notes": "Asked specifically about cycle time and consumable cost per part."
+ },
+ {
+  "id": "ld-009",
+  "code": "TEAL-PROD26-00009",
+  "contactId": "ct-009",
+  "companyId": "co-009",
+  "exhibitionId": "ex-prod26",
+  "ownerId": "u-sneha",
+  "stage": "DEMO",
+  "products": [
+   "3D Laser Marking",
+   "Semiconductor Laser Applications"
+  ],
+  "productIds": [
+   "P-3D-08",
+   "P-SC-10"
+  ],
+  "application": "Medical implant marking, UDI compliance",
+  "problem": "Current supplier lead time is 26 weeks and blocking a line expansion.",
+  "quantity": "Pilot + 4 production",
+  "budget": "₹25 L – ₹75 L",
+  "timeline": "3-6 Months",
+  "authority": "Influencer",
+  "currentSolution": "Competitor machine",
+  "competitor": "IPG Photonics",
+  "value": 2400000,
+  "source": "Business Card",
+  "engagement": {
+   "booth": true,
+   "meeting": true,
+   "technical": true,
+   "demo": true,
+   "commercial": false
+  },
+  "capturedAt": "2026-08-12T13:30:00",
+  "nextFollowUp": "2026-08-16",
+  "nextBestAction": "Send capability deck and sample report",
+  "nextBestActionWhy": "Convert the demo result into a written case.",
+  "consent": true,
+  "tags": [
+   "Repeat customer"
+  ],
+  "notes": "Site visit to their plant offered — they are keen."
+ },
+ {
+  "id": "ld-010",
+  "code": "TEAL-PROD26-00010",
+  "contactId": "ct-010",
+  "companyId": "co-010",
+  "exhibitionId": "ex-prod26",
+  "ownerId": "u-priya",
+  "stage": "NEW",
+  "products": [
+   "UV Laser Marking"
+  ],
+  "productIds": [
+   "P-UV-06"
+  ],
+  "application": "Sensor housing hermetic seal welding",
+  "problem": "",
+  "quantity": "1 line",
+  "budget": "< ₹25 L",
+  "timeline": "3-6 Months",
+  "authority": "Gatekeeper",
+  "currentSolution": "Manual process",
+  "competitor": "None identified",
+  "value": 0,
+  "source": "Badge Scan",
+  "engagement": {
+   "booth": true,
+   "meeting": false,
+   "technical": false,
+   "demo": false,
+   "commercial": false
+  },
+  "capturedAt": "2026-08-13T10:15:00",
+  "nextFollowUp": "2026-08-14",
+  "nextBestAction": "Qualify the requirement",
+  "nextBestActionWhy": "Confirm application, volume and timeline before the trail goes cold.",
+  "consent": true,
+  "tags": [],
+  "notes": "Budget sits with the parent group; approval cycle is roughly a quarter."
+ },
+ {
+  "id": "ld-011",
+  "code": "TEAL-PROD26-00011",
+  "contactId": "ct-011",
+  "companyId": "co-011",
+  "exhibitionId": "ex-prod26",
+  "ownerId": "u-arun",
+  "stage": "NEW",
+  "products": [
+   "CO₂ Laser PCB Marking"
+  ],
+  "productIds": [
+   "P-CO-05"
+  ],
+  "application": "Robotic pick-and-place for connector assembly",
+  "problem": "Existing dot-peen marking fails legibility audit at customer end.",
+  "quantity": "2 machines",
+  "budget": "Not Defined",
+  "timeline": "3-6 Months",
+  "authority": "Decision Maker",
+  "currentSolution": "Outsourced to job shop",
+  "competitor": "None identified",
+  "value": 0,
+  "source": "Booth Conversation",
+  "engagement": {
+   "booth": true,
+   "meeting": false,
+   "technical": false,
+   "demo": false,
+   "commercial": false
+  },
+  "capturedAt": "2026-08-14T17:15:00",
+  "nextFollowUp": "2026-08-12",
+  "nextBestAction": "Qualify the requirement",
+  "nextBestActionWhy": "Confirm application, volume and timeline before the trail goes cold.",
+  "consent": true,
+  "tags": [
+   "Technical deep-dive"
+  ],
+  "notes": "Site visit to their plant offered — they are keen."
+ },
+ {
+  "id": "ld-012",
+  "code": "TEAL-PROD26-00012",
+  "contactId": "ct-012",
+  "companyId": "co-012",
+  "exhibitionId": "ex-prod26",
+  "ownerId": "u-sneha",
+  "stage": "QUALIFIED",
+  "products": [
+   "Precision Automation",
+   "Battery Laser Applications"
+  ],
+  "productIds": [
+   "P-PR-14",
+   "P-BT-09"
+  ],
+  "application": "Permanent traceability marking on power modules",
+  "problem": "Current supplier lead time is 26 weeks and blocking a line expansion.",
+  "quantity": "1 line",
+  "budget": "Not Defined",
+  "timeline": "< 3 Months",
+  "authority": "Influencer",
+  "currentSolution": "Outsourced to job shop",
+  "competitor": "Bystronic",
+  "value": 1800000,
+  "source": "Visitor QR",
+  "engagement": {
+   "booth": true,
+   "meeting": true,
+   "technical": true,
+   "demo": false,
+   "commercial": false
+  },
+  "capturedAt": "2026-08-13T17:45:00",
+  "nextFollowUp": "2026-08-14",
+  "nextBestAction": "Schedule technical discussion",
+  "nextBestActionWhy": "Bring an application engineer to scope the process window.",
+  "consent": true,
+  "tags": [
+   "Demo requested"
+  ],
+  "notes": "Asked specifically about cycle time and consumable cost per part."
+ },
+ {
+  "id": "ld-013",
+  "code": "TEAL-PROD26-00013",
+  "contactId": "ct-013",
+  "companyId": "co-013",
+  "exhibitionId": "ex-prod26",
+  "ownerId": "u-priya",
+  "stage": "ENGAGED",
+  "products": [
+   "3D Laser Marking",
+   "Custom Automation"
+  ],
+  "productIds": [
+   "P-3D-08",
+   "P-CA-18"
+  ],
+  "application": "Busbar welding for EV battery packs",
+  "problem": "Line changeover takes 45 minutes against a 15-minute target.",
+  "quantity": "1 line",
+  "budget": "> ₹5 Cr",
+  "timeline": "< 3 Months",
+  "authority": "Influencer",
+  "currentSolution": "Greenfield — none",
+  "competitor": "Han's Laser",
+  "value": 12500000,
+  "source": "Booth Conversation",
+  "engagement": {
+   "booth": true,
+   "meeting": true,
+   "technical": true,
+   "demo": true,
+   "commercial": false
+  },
+  "capturedAt": "2026-08-14T16:45:00",
+  "nextFollowUp": "2026-08-16",
+  "nextBestAction": "Arrange machine demo",
+  "nextBestActionWhy": "Run their sample part on the target platform.",
+  "consent": true,
+  "tags": [
+   "Technical deep-dive",
+   "Competitor displacement"
+  ],
+  "notes": "Follow-up should route through their purchase team."
+ },
+ {
+  "id": "ld-014",
+  "code": "TEAL-PROD26-00014",
+  "contactId": "ct-014",
+  "companyId": "co-014",
+  "exhibitionId": "ex-prod26",
+  "ownerId": "u-arun",
+  "stage": "NEW",
+  "products": [
+   "Fiber Laser Marking"
+  ],
+  "productIds": [
+   "P-FL-07"
+  ],
+  "application": "PCB serialisation with 2D data matrix",
+  "problem": "Current supplier lead time is 26 weeks and blocking a line expansion.",
+  "quantity": "",
+  "budget": "Not Defined",
+  "timeline": "Not Defined",
+  "authority": "Unknown",
+  "currentSolution": "",
+  "competitor": "None identified",
+  "value": 0,
+  "source": "Booth Conversation",
+  "engagement": {
+   "booth": true,
+   "meeting": false,
+   "technical": false,
+   "demo": false,
+   "commercial": false
+  },
+  "capturedAt": "2026-08-13T11:45:00",
+  "nextFollowUp": "2026-08-12",
+  "nextBestAction": "Qualify the requirement",
+  "nextBestActionWhy": "Confirm application, volume and timeline before the trail goes cold.",
+  "consent": true,
+  "tags": [],
+  "notes": ""
+ },
+ {
+  "id": "ld-015",
+  "code": "TEAL-PROD26-00015",
+  "contactId": "ct-015",
+  "companyId": "co-015",
+  "exhibitionId": "ex-prod26",
+  "ownerId": "u-sneha",
+  "stage": "NEW",
+  "products": [
+   "Robotic Automation"
+  ],
+  "productIds": [
+   "P-RO-13"
+  ],
+  "application": "Motor stator hairpin welding",
+  "problem": "",
+  "quantity": "",
+  "budget": "Not Defined",
+  "timeline": "Not Defined",
+  "authority": "Influencer",
+  "currentSolution": "",
+  "competitor": "None identified",
+  "value": 0,
+  "source": "Business Card",
+  "engagement": {
+   "booth": true,
+   "meeting": false,
+   "technical": false,
+   "demo": false,
+   "commercial": false
+  },
+  "capturedAt": "2026-08-13T11:45:00",
+  "nextFollowUp": "2026-08-12",
+  "nextBestAction": "Qualify the requirement",
+  "nextBestActionWhy": "Confirm application, volume and timeline before the trail goes cold.",
+  "consent": true,
+  "tags": [],
+  "notes": ""
+ },
+ {
+  "id": "ld-016",
+  "code": "TEAL-PROD26-00016",
+  "contactId": "ct-016",
+  "companyId": "co-016",
+  "exhibitionId": "ex-prod26",
+  "ownerId": "u-priya",
+  "stage": "QUALIFIED",
+  "products": [
+   "Robotic Automation"
+  ],
+  "productIds": [
+   "P-RO-13"
+  ],
+  "application": "Wafer ID marking, backside",
+  "problem": "",
+  "quantity": "",
+  "budget": "Not Defined",
+  "timeline": "Not Defined",
+  "authority": "Unknown",
+  "currentSolution": "",
+  "competitor": "None identified",
+  "value": 0,
+  "source": "Business Card",
+  "engagement": {
+   "booth": true,
+   "meeting": false,
+   "technical": false,
+   "demo": false,
+   "commercial": false
+  },
+  "capturedAt": "2026-08-14T12:15:00",
+  "nextFollowUp": "2026-08-17",
+  "nextBestAction": "Schedule technical discussion",
+  "nextBestActionWhy": "Bring an application engineer to scope the process window.",
+  "consent": true,
+  "tags": [],
+  "notes": ""
+ },
+ {
+  "id": "ld-017",
+  "code": "TEAL-PROD26-00017",
+  "contactId": "ct-017",
+  "companyId": "co-017",
+  "exhibitionId": "ex-prod26",
+  "ownerId": "u-arun",
+  "stage": "ENGAGED",
+  "products": [
+   "Assembly Automation"
+  ],
+  "productIds": [
+   "P-AS-16"
+  ],
+  "application": "Robotic pick-and-place for connector assembly",
+  "problem": "",
+  "quantity": "",
+  "budget": "Not Defined",
+  "timeline": "> 12 Months",
+  "authority": "End User",
+  "currentSolution": "",
+  "competitor": "None identified",
+  "value": 0,
+  "source": "Demo Station",
+  "engagement": {
+   "booth": true,
+   "meeting": true,
+   "technical": false,
+   "demo": false,
+   "commercial": false
+  },
+  "capturedAt": "2026-08-13T10:15:00",
+  "nextFollowUp": "2026-08-17",
+  "nextBestAction": "Arrange machine demo",
+  "nextBestActionWhy": "Run their sample part on the target platform.",
+  "consent": true,
+  "tags": [],
+  "notes": ""
+ },
+ {
+  "id": "ld-018",
+  "code": "TEAL-PROD26-00018",
+  "contactId": "ct-018",
+  "companyId": "co-018",
+  "exhibitionId": "ex-prod26",
+  "ownerId": "u-sneha",
+  "stage": "NEW",
+  "products": [
+   "Fiber Laser Marking",
+   "Custom Automation"
+  ],
+  "productIds": [
+   "P-FL-07",
+   "P-CA-18"
+  ],
+  "application": "Motor stator hairpin welding",
+  "problem": "",
+  "quantity": "3 stations",
+  "budget": "₹25 L – ₹75 L",
+  "timeline": "3-6 Months",
+  "authority": "Influencer",
+  "currentSolution": "Outsourced to job shop",
+  "competitor": "None identified",
+  "value": 0,
+  "source": "Visitor QR",
+  "engagement": {
+   "booth": true,
+   "meeting": false,
+   "technical": false,
+   "demo": false,
+   "commercial": false
+  },
+  "capturedAt": "2026-08-13T13:45:00",
+  "nextFollowUp": "2026-08-14",
+  "nextBestAction": "Qualify the requirement",
+  "nextBestActionWhy": "Confirm application, volume and timeline before the trail goes cold.",
+  "consent": true,
+  "tags": [
+   "Urgent"
+  ],
+  "notes": "Site visit to their plant offered — they are keen."
+ },
+ {
+  "id": "ld-019",
+  "code": "TEAL-PROD26-00019",
+  "contactId": "ct-019",
+  "companyId": "co-019",
+  "exhibitionId": "ex-prod26",
+  "ownerId": "u-priya",
+  "stage": "NEW",
+  "products": [
+   "Testing Automation",
+   "UV Laser Marking"
+  ],
+  "productIds": [
+   "P-TE-17",
+   "P-UV-06"
+  ],
+  "application": "Robotic pick-and-place for connector assembly",
+  "problem": "Manual welding yields inconsistent penetration; scrap running at 4%.",
+  "quantity": "1 machine",
+  "budget": "< ₹25 L",
+  "timeline": "3-6 Months",
+  "authority": "Gatekeeper",
+  "currentSolution": "Competitor machine",
+  "competitor": "None identified",
+  "value": 0,
+  "source": "Demo Station",
+  "engagement": {
+   "booth": true,
+   "meeting": false,
+   "technical": false,
+   "demo": false,
+   "commercial": false
+  },
+  "capturedAt": "2026-08-14T15:15:00",
+  "nextFollowUp": "2026-08-15",
+  "nextBestAction": "Qualify the requirement",
+  "nextBestActionWhy": "Confirm application, volume and timeline before the trail goes cold.",
+  "consent": true,
+  "tags": [],
+  "notes": "Follow-up should route through their purchase team."
+ },
+ {
+  "id": "ld-020",
+  "code": "TEAL-PROD26-00020",
+  "contactId": "ct-020",
+  "companyId": "co-020",
+  "exhibitionId": "ex-prod26",
+  "ownerId": "u-arun",
+  "stage": "QUALIFIED",
+  "products": [
+   "Vision Inspection"
+  ],
+  "productIds": [
+   "P-VI-12"
+  ],
+  "application": "PCB serialisation with 2D data matrix",
+  "problem": "",
+  "quantity": "1 machine",
+  "budget": "Not Defined",
+  "timeline": "3-6 Months",
+  "authority": "Decision Maker",
+  "currentSolution": "Competitor machine",
+  "competitor": "None identified",
+  "value": 2400000,
+  "source": "Booth Conversation",
+  "engagement": {
+   "booth": true,
+   "meeting": false,
+   "technical": false,
+   "demo": false,
+   "commercial": false
+  },
+  "capturedAt": "2026-08-12T14:45:00",
+  "nextFollowUp": "2026-08-16",
+  "nextBestAction": "Schedule technical discussion",
+  "nextBestActionWhy": "Bring an application engineer to scope the process window.",
+  "consent": true,
+  "tags": [],
+  "notes": "Asked specifically about cycle time and consumable cost per part."
+ },
+ {
+  "id": "ld-021",
+  "code": "TEAL-PROD26-00021",
+  "contactId": "ct-021",
+  "companyId": "co-021",
+  "exhibitionId": "ex-prod26",
+  "ownerId": "u-sneha",
+  "stage": "ENGAGED",
+  "products": [
+   "PCB Laser Marking"
+  ],
+  "productIds": [
+   "P-PL-04"
+  ],
+  "application": "Automated optical inspection on SMT line",
+  "problem": "",
+  "quantity": "1 line",
+  "budget": "Not Defined",
+  "timeline": "3-6 Months",
+  "authority": "Influencer",
+  "currentSolution": "Greenfield — none",
+  "competitor": "None identified",
+  "value": 1800000,
+  "source": "Demo Station",
+  "engagement": {
+   "booth": true,
+   "meeting": true,
+   "technical": false,
+   "demo": false,
+   "commercial": false
+  },
+  "capturedAt": "2026-08-13T15:30:00",
+  "nextFollowUp": "2026-08-15",
+  "nextBestAction": "Arrange machine demo",
+  "nextBestActionWhy": "Run their sample part on the target platform.",
+  "consent": true,
+  "tags": [
+   "Demo requested"
+  ],
+  "notes": "Already evaluating alternatives; wants a sample part run before deciding."
+ },
+ {
+  "id": "ld-022",
+  "code": "TEAL-PROD26-00022",
+  "contactId": "ct-022",
+  "companyId": "co-022",
+  "exhibitionId": "ex-prod26",
+  "ownerId": "u-priya",
+  "stage": "PROPOSAL",
+  "products": [
+   "Laser Welding",
+   "Testing Automation"
+  ],
+  "productIds": [
+   "P-LW-02",
+   "P-TE-17"
+  ],
+  "application": "Cell tab welding, prismatic format",
+  "problem": "Current supplier lead time is 26 weeks and blocking a line expansion.",
+  "quantity": "3 stations",
+  "budget": "Not Defined",
+  "timeline": "< 3 Months",
+  "authority": "Influencer",
+  "currentSolution": "In-house build",
+  "competitor": "Trumpf",
+  "value": 12500000,
+  "source": "Referral",
+  "engagement": {
+   "booth": true,
+   "meeting": true,
+   "technical": true,
+   "demo": true,
+   "commercial": true
+  },
+  "capturedAt": "2026-08-12T13:30:00",
+  "nextFollowUp": "2026-08-14",
+  "nextBestAction": "Follow up on proposal",
+  "nextBestActionWhy": "Confirm receipt, walk the commercials, agree next step.",
+  "consent": true,
+  "tags": [
+   "Urgent"
+  ],
+  "notes": "Follow-up should route through their purchase team."
+ },
+ {
+  "id": "ld-023",
+  "code": "TEAL-PROD26-00023",
+  "contactId": "ct-023",
+  "companyId": "co-023",
+  "exhibitionId": "ex-prod26",
+  "ownerId": "u-arun",
+  "stage": "NEW",
+  "products": [
+   "PCB Laser Marking",
+   "UV Laser Marking"
+  ],
+  "productIds": [
+   "P-PL-04",
+   "P-UV-06"
+  ],
+  "application": "Permanent traceability marking on power modules",
+  "problem": "Operator-dependent quality variation across three shifts.",
+  "quantity": "Under evaluation",
+  "budget": "₹25 L – ₹75 L",
+  "timeline": "3-6 Months",
+  "authority": "Decision Maker",
+  "currentSolution": "Manual process",
+  "competitor": "None identified",
+  "value": 0,
+  "source": "Demo Station",
+  "engagement": {
+   "booth": true,
+   "meeting": false,
+   "technical": false,
+   "demo": false,
+   "commercial": false
+  },
+  "capturedAt": "2026-08-13T13:00:00",
+  "nextFollowUp": "2026-08-15",
+  "nextBestAction": "Qualify the requirement",
+  "nextBestActionWhy": "Confirm application, volume and timeline before the trail goes cold.",
+  "consent": true,
+  "tags": [],
+  "notes": "Asked specifically about cycle time and consumable cost per part."
+ },
+ {
+  "id": "ld-024",
+  "code": "TEAL-PROD26-00024",
+  "contactId": "ct-024",
+  "companyId": "co-024",
+  "exhibitionId": "ex-prod26",
+  "ownerId": "u-sneha",
+  "stage": "QUALIFIED",
+  "products": [
+   "UV Laser Marking",
+   "Special Purpose Machines"
+  ],
+  "productIds": [
+   "P-UV-06",
+   "P-SP-15"
+  ],
+  "application": "PCB serialisation with 2D data matrix",
+  "problem": "Existing dot-peen marking fails legibility audit at customer end.",
+  "quantity": "3 stations",
+  "budget": "₹25 L – ₹75 L",
+  "timeline": "< 3 Months",
+  "authority": "Influencer",
+  "currentSolution": "In-house build",
+  "competitor": "None identified",
+  "value": 18000000,
+  "source": "Referral",
+  "engagement": {
+   "booth": true,
+   "meeting": true,
+   "technical": true,
+   "demo": false,
+   "commercial": false
+  },
+  "capturedAt": "2026-08-14T12:45:00",
+  "nextFollowUp": "2026-08-15",
+  "nextBestAction": "Schedule technical discussion",
+  "nextBestActionWhy": "Bring an application engineer to scope the process window.",
+  "consent": true,
+  "tags": [
+   "Technical deep-dive"
+  ],
+  "notes": "Budget sits with the parent group; approval cycle is roughly a quarter."
+ },
+ {
+  "id": "ld-025",
+  "code": "TEAL-PROD26-00025",
+  "contactId": "ct-025",
+  "companyId": "co-025",
+  "exhibitionId": "ex-prod26",
+  "ownerId": "u-priya",
+  "stage": "QUALIFIED",
+  "products": [
+   "PCB Laser Marking",
+   "Laser Welding",
+   "Custom Laser Application"
+  ],
+  "productIds": [
+   "P-PL-04",
+   "P-LW-02",
+   "P-CU-11"
+  ],
+  "application": "Deburring and surface texturing of press parts",
+  "problem": "Thermal damage on adjacent components with the incumbent process.",
+  "quantity": "2 machines",
+  "budget": "> ₹5 Cr",
+  "timeline": "Immediate",
+  "authority": "Decision Maker",
+  "currentSolution": "Manual process",
+  "competitor": "Keyence",
+  "value": 9800000,
+  "source": "Referral",
+  "engagement": {
+   "booth": true,
+   "meeting": true,
+   "technical": true,
+   "demo": true,
+   "commercial": false
+  },
+  "capturedAt": "2026-08-13T10:00:00",
+  "nextFollowUp": "2026-08-13",
+  "nextBestAction": "Schedule technical discussion",
+  "nextBestActionWhy": "Bring an application engineer to scope the process window.",
+  "consent": true,
+  "tags": [
+   "Urgent",
+   "Competitor displacement",
+   "Repeat customer"
+  ],
+  "notes": "Walked the booth with two colleagues from process engineering."
+ },
+ {
+  "id": "ld-026",
+  "code": "TEAL-PROD26-00026",
+  "contactId": "ct-026",
+  "companyId": "co-026",
+  "exhibitionId": "ex-prod26",
+  "ownerId": "u-arun",
+  "stage": "DEMO",
+  "products": [
+   "PCB Laser Marking"
+  ],
+  "productIds": [
+   "P-PL-04"
+  ],
+  "application": "Precision fixture assembly for aerospace brackets",
+  "problem": "Existing dot-peen marking fails legibility audit at customer end.",
+  "quantity": "",
+  "budget": "Not Defined",
+  "timeline": "Not Defined",
+  "authority": "Unknown",
+  "currentSolution": "",
+  "competitor": "None identified",
+  "value": 0,
+  "source": "Visitor QR",
+  "engagement": {
+   "booth": true,
+   "meeting": true,
+   "technical": false,
+   "demo": true,
+   "commercial": false
+  },
+  "capturedAt": "2026-08-12T16:15:00",
+  "nextFollowUp": "2026-08-18",
+  "nextBestAction": "Send capability deck and sample report",
+  "nextBestActionWhy": "Convert the demo result into a written case.",
+  "consent": true,
+  "tags": [],
+  "notes": "Walked the booth with two colleagues from process engineering."
+ },
+ {
+  "id": "ld-027",
+  "code": "TEAL-PROD26-00027",
+  "contactId": "ct-027",
+  "companyId": "co-027",
+  "exhibitionId": "ex-prod26",
+  "ownerId": "u-sneha",
+  "stage": "NEW",
+  "products": [
+   "Laser Welding"
+  ],
+  "productIds": [
+   "P-LW-02"
+  ],
+  "application": "",
+  "problem": "",
+  "quantity": "",
+  "budget": "Not Defined",
+  "timeline": "Not Defined",
+  "authority": "Unknown",
+  "currentSolution": "",
+  "competitor": "None identified",
+  "value": 0,
+  "source": "Booth Conversation",
+  "engagement": {
+   "booth": true,
+   "meeting": false,
+   "technical": false,
+   "demo": false,
+   "commercial": false
+  },
+  "capturedAt": "2026-08-14T14:45:00",
+  "nextFollowUp": "2026-08-14",
+  "nextBestAction": "Qualify the requirement",
+  "nextBestActionWhy": "Confirm application, volume and timeline before the trail goes cold.",
+  "consent": true,
+  "tags": [],
+  "notes": ""
+ },
+ {
+  "id": "ld-028",
+  "code": "TEAL-PROD26-00028",
+  "contactId": "ct-028",
+  "companyId": "co-028",
+  "exhibitionId": "ex-prod26",
+  "ownerId": "u-priya",
+  "stage": "NEW",
+  "products": [
+   "Vision Inspection"
+  ],
+  "productIds": [
+   "P-VI-12"
+  ],
+  "application": "",
+  "problem": "Throughput capped at 380 parts/hour against a 600 requirement.",
+  "quantity": "",
+  "budget": "Not Defined",
+  "timeline": "6-12 Months",
+  "authority": "Gatekeeper",
+  "currentSolution": "",
+  "competitor": "None identified",
+  "value": 0,
+  "source": "Booth Conversation",
+  "engagement": {
+   "booth": true,
+   "meeting": false,
+   "technical": false,
+   "demo": false,
+   "commercial": false
+  },
+  "capturedAt": "2026-08-13T14:30:00",
+  "nextFollowUp": "2026-08-12",
+  "nextBestAction": "Qualify the requirement",
+  "nextBestActionWhy": "Confirm application, volume and timeline before the trail goes cold.",
+  "consent": true,
+  "tags": [],
+  "notes": "Budget sits with the parent group; approval cycle is roughly a quarter."
+ },
+ {
+  "id": "ld-029",
+  "code": "TEAL-PROD26-00029",
+  "contactId": "ct-029",
+  "companyId": "co-029",
+  "exhibitionId": "ex-prod26",
+  "ownerId": "u-arun",
+  "stage": "QUALIFIED",
+  "products": [],
+  "productIds": [],
+  "application": "",
+  "problem": "",
+  "quantity": "",
+  "budget": "Not Defined",
+  "timeline": "Not Defined",
+  "authority": "End User",
+  "currentSolution": "",
+  "competitor": "None identified",
+  "value": 0,
+  "source": "Visitor QR",
+  "engagement": {
+   "booth": true,
+   "meeting": false,
+   "technical": false,
+   "demo": false,
+   "commercial": false
+  },
+  "capturedAt": "2026-08-12T11:30:00",
+  "nextFollowUp": "2026-08-15",
+  "nextBestAction": "Schedule technical discussion",
+  "nextBestActionWhy": "Bring an application engineer to scope the process window.",
+  "consent": true,
+  "tags": [],
+  "notes": "Site visit to their plant offered — they are keen."
+ },
+ {
+  "id": "ld-030",
+  "code": "TEAL-PROD26-00030",
+  "contactId": "ct-030",
+  "companyId": "co-030",
+  "exhibitionId": "ex-prod26",
+  "ownerId": "u-sneha",
+  "stage": "ENGAGED",
+  "products": [
+   "Precision Automation"
+  ],
+  "productIds": [
+   "P-PR-14"
+  ],
+  "application": "",
+  "problem": "Current supplier lead time is 26 weeks and blocking a line expansion.",
+  "quantity": "",
+  "budget": "Not Defined",
+  "timeline": "Not Defined",
+  "authority": "Unknown",
+  "currentSolution": "",
+  "competitor": "None identified",
+  "value": 0,
+  "source": "Visitor QR",
+  "engagement": {
+   "booth": true,
+   "meeting": true,
+   "technical": false,
+   "demo": false,
+   "commercial": false
+  },
+  "capturedAt": "2026-08-14T11:15:00",
+  "nextFollowUp": "2026-08-19",
+  "nextBestAction": "Arrange machine demo",
+  "nextBestActionWhy": "Run their sample part on the target platform.",
+  "consent": true,
+  "tags": [],
+  "notes": "Walked the booth with two colleagues from process engineering."
+ },
+ {
+  "id": "ld-031",
+  "code": "TEAL-PROD26-00031",
+  "contactId": "ct-031",
+  "companyId": "co-001",
+  "exhibitionId": "ex-prod26",
+  "ownerId": "u-priya",
+  "stage": "NEW",
+  "products": [
+   "UV Laser Marking"
+  ],
+  "productIds": [
+   "P-UV-06"
+  ],
+  "application": "Permanent traceability marking on power modules",
+  "problem": "",
+  "quantity": "1 line",
+  "budget": "₹25 L – ₹75 L",
+  "timeline": "Not Defined",
+  "authority": "Influencer",
+  "currentSolution": "Manual process",
+  "competitor": "None identified",
+  "value": 0,
+  "source": "Visitor QR",
+  "engagement": {
+   "booth": true,
+   "meeting": false,
+   "technical": false,
+   "demo": false,
+   "commercial": false
+  },
+  "capturedAt": "2026-08-12T11:00:00",
+  "nextFollowUp": "2026-08-15",
+  "nextBestAction": "Qualify the requirement",
+  "nextBestActionWhy": "Confirm application, volume and timeline before the trail goes cold.",
+  "consent": true,
+  "tags": [],
+  "notes": "Asked specifically about cycle time and consumable cost per part."
+ },
+ {
+  "id": "ld-032",
+  "code": "TEAL-PROD26-00032",
+  "contactId": "ct-032",
+  "companyId": "co-002",
+  "exhibitionId": "ex-prod26",
+  "ownerId": "u-arun",
+  "stage": "NEW",
+  "products": [
+   "Robotic Automation"
+  ],
+  "productIds": [
+   "P-RO-13"
+  ],
+  "application": "Robotic pick-and-place for connector assembly",
+  "problem": "",
+  "quantity": "3 stations",
+  "budget": "₹25 L – ₹75 L",
+  "timeline": "3-6 Months",
+  "authority": "Decision Maker",
+  "currentSolution": "Manual process",
+  "competitor": "None identified",
+  "value": 0,
+  "source": "Demo Station",
+  "engagement": {
+   "booth": true,
+   "meeting": false,
+   "technical": false,
+   "demo": false,
+   "commercial": false
+  },
+  "capturedAt": "2026-08-12T13:15:00",
+  "nextFollowUp": "2026-08-15",
+  "nextBestAction": "Qualify the requirement",
+  "nextBestActionWhy": "Confirm application, volume and timeline before the trail goes cold.",
+  "consent": true,
+  "tags": [
+   "Urgent"
+  ],
+  "notes": "Follow-up should route through their purchase team."
+ },
+ {
+  "id": "ld-033",
+  "code": "TEAL-PROD26-00033",
+  "contactId": "ct-033",
+  "companyId": "co-003",
+  "exhibitionId": "ex-prod26",
+  "ownerId": "u-sneha",
+  "stage": "QUALIFIED",
+  "products": [
+   "Vision Inspection",
+   "Custom Automation"
+  ],
+  "productIds": [
+   "P-VI-12",
+   "P-CA-18"
+  ],
+  "application": "Precision fixture assembly for aerospace brackets",
+  "problem": "",
+  "quantity": "Under evaluation",
+  "budget": "₹25 L – ₹75 L",
+  "timeline": "Not Defined",
+  "authority": "Influencer",
+  "currentSolution": "In-house build",
+  "competitor": "None identified",
+  "value": 7500000,
+  "source": "Referral",
+  "engagement": {
+   "booth": true,
+   "meeting": false,
+   "technical": false,
+   "demo": false,
+   "commercial": false
+  },
+  "capturedAt": "2026-08-13T17:15:00",
+  "nextFollowUp": "2026-08-15",
+  "nextBestAction": "Schedule technical discussion",
+  "nextBestActionWhy": "Bring an application engineer to scope the process window.",
+  "consent": true,
+  "tags": [],
+  "notes": "Walked the booth with two colleagues from process engineering."
+ },
+ {
+  "id": "ld-034",
+  "code": "TEAL-PROD26-00034",
+  "contactId": "ct-034",
+  "companyId": "co-004",
+  "exhibitionId": "ex-prod26",
+  "ownerId": "u-priya",
+  "stage": "ENGAGED",
+  "products": [
+   "3D Laser Marking"
+  ],
+  "productIds": [
+   "P-3D-08"
+  ],
+  "application": "Permanent traceability marking on power modules",
+  "problem": "Line changeover takes 45 minutes against a 15-minute target.",
+  "quantity": "1 line",
+  "budget": "₹25 L – ₹75 L",
+  "timeline": "< 3 Months",
+  "authority": "Decision Maker",
+  "currentSolution": "Competitor machine",
+  "competitor": "Incumbent in-house build",
+  "value": 18000000,
+  "source": "Demo Station",
+  "engagement": {
+   "booth": true,
+   "meeting": true,
+   "technical": true,
+   "demo": false,
+   "commercial": false
+  },
+  "capturedAt": "2026-08-14T16:00:00",
+  "nextFollowUp": "2026-08-18",
+  "nextBestAction": "Arrange machine demo",
+  "nextBestActionWhy": "Run their sample part on the target platform.",
+  "consent": true,
+  "tags": [
+   "Urgent"
+  ],
+  "notes": "Already evaluating alternatives; wants a sample part run before deciding."
+ },
+ {
+  "id": "ld-035",
+  "code": "TEAL-IMTEX26-00035",
+  "contactId": "ct-035",
+  "companyId": "co-005",
+  "exhibitionId": "ex-imtex26",
+  "ownerId": "u-arun",
+  "stage": "WON",
+  "products": [
+   "3D Laser Marking",
+   "Custom Laser Application"
+  ],
+  "productIds": [
+   "P-3D-08",
+   "P-CU-11"
+  ],
+  "application": "Busbar welding for EV battery packs",
+  "problem": "Current supplier lead time is 26 weeks and blocking a line expansion.",
+  "quantity": "1 machine",
+  "budget": "Not Defined",
+  "timeline": "< 3 Months",
+  "authority": "Influencer",
+  "currentSolution": "Outsourced to job shop",
+  "competitor": "Han's Laser",
+  "value": 3600000,
+  "source": "Demo Station",
+  "engagement": {
+   "booth": true,
+   "meeting": true,
+   "technical": true,
+   "demo": true,
+   "commercial": true
+  },
+  "capturedAt": "2026-01-27T17:45:00",
+  "nextFollowUp": "",
+  "nextBestAction": "Hand over to project execution",
+  "nextBestActionWhy": "Brief the delivery team and confirm the kickoff date.",
+  "consent": true,
+  "tags": [
+   "Pricing discussed"
+  ],
+  "notes": "Budget sits with the parent group; approval cycle is roughly a quarter."
+ },
+ {
+  "id": "ld-036",
+  "code": "TEAL-IMTEX26-00036",
+  "contactId": "ct-036",
+  "companyId": "co-006",
+  "exhibitionId": "ex-imtex26",
+  "ownerId": "u-sneha",
+  "stage": "LOST",
+  "products": [
+   "Laser Cutting"
+  ],
+  "productIds": [
+   "P-LC-03"
+  ],
+  "application": "PCB serialisation with 2D data matrix",
+  "problem": "Thermal damage on adjacent components with the incumbent process.",
+  "quantity": "1 machine",
+  "budget": "Not Defined",
+  "timeline": "3-6 Months",
+  "authority": "Influencer",
+  "currentSolution": "Competitor machine",
+  "competitor": "None identified",
+  "value": 2400000,
+  "source": "Business Card",
+  "engagement": {
+   "booth": true,
+   "meeting": false,
+   "technical": false,
+   "demo": false,
+   "commercial": false
+  },
+  "capturedAt": "2026-01-24T17:30:00",
+  "nextFollowUp": "",
+  "nextBestAction": "Log the loss reason",
+  "nextBestActionWhy": "Capture why, and set a re-engagement date.",
+  "consent": true,
+  "tags": [
+   "Repeat customer"
+  ],
+  "notes": "Already evaluating alternatives; wants a sample part run before deciding."
+ },
+ {
+  "id": "ld-037",
+  "code": "TEAL-IMTEX26-00037",
+  "contactId": "ct-037",
+  "companyId": "co-007",
+  "exhibitionId": "ex-imtex26",
+  "ownerId": "u-priya",
+  "stage": "ENGAGED",
+  "products": [
+   "Special Purpose Machines"
+  ],
+  "productIds": [
+   "P-SP-15"
+  ],
+  "application": "Solar cell stringing and interconnect",
+  "problem": "",
+  "quantity": "2 machines",
+  "budget": "Not Defined",
+  "timeline": "3-6 Months",
+  "authority": "Decision Maker",
+  "currentSolution": "Greenfield — none",
+  "competitor": "None identified",
+  "value": 18000000,
+  "source": "Badge Scan",
+  "engagement": {
+   "booth": true,
+   "meeting": true,
+   "technical": false,
+   "demo": false,
+   "commercial": false
+  },
+  "capturedAt": "2026-01-26T16:00:00",
+  "nextFollowUp": "2026-09-06",
+  "nextBestAction": "Arrange machine demo",
+  "nextBestActionWhy": "Run their sample part on the target platform.",
+  "consent": true,
+  "tags": [],
+  "notes": "Walked the booth with two colleagues from process engineering."
+ },
+ {
+  "id": "ld-038",
+  "code": "TEAL-IMTEX26-00038",
+  "contactId": "ct-038",
+  "companyId": "co-008",
+  "exhibitionId": "ex-imtex26",
+  "ownerId": "u-arun",
+  "stage": "PROPOSAL",
+  "products": [
+   "UV Laser Marking",
+   "Laser Marking"
+  ],
+  "productIds": [
+   "P-UV-06",
+   "P-LM-01"
+  ],
+  "application": "Deburring and surface texturing of press parts",
+  "problem": "Line changeover takes 45 minutes against a 15-minute target.",
+  "quantity": "Under evaluation",
+  "budget": "₹25 L – ₹75 L",
+  "timeline": "< 3 Months",
+  "authority": "Decision Maker",
+  "currentSolution": "Greenfield — none",
+  "competitor": "Incumbent in-house build",
+  "value": 3600000,
+  "source": "Demo Station",
+  "engagement": {
+   "booth": true,
+   "meeting": true,
+   "technical": true,
+   "demo": true,
+   "commercial": true
+  },
+  "capturedAt": "2026-01-27T13:30:00",
+  "nextFollowUp": "2026-09-29",
+  "nextBestAction": "Follow up on proposal",
+  "nextBestActionWhy": "Confirm receipt, walk the commercials, agree next step.",
+  "consent": true,
+  "tags": [
+   "Demo requested"
+  ],
+  "notes": "Budget sits with the parent group; approval cycle is roughly a quarter."
+ },
+ {
+  "id": "ld-039",
+  "code": "TEAL-IMTEX26-00039",
+  "contactId": "ct-039",
+  "companyId": "co-009",
+  "exhibitionId": "ex-imtex26",
+  "ownerId": "u-sneha",
+  "stage": "LOST",
+  "products": [
+   "Laser Welding",
+   "Vision Inspection"
+  ],
+  "productIds": [
+   "P-LW-02",
+   "P-VI-12"
+  ],
+  "application": "Sensor housing hermetic seal welding",
+  "problem": "Throughput capped at 380 parts/hour against a 600 requirement.",
+  "quantity": "1 machine",
+  "budget": "₹75 L – ₹2 Cr",
+  "timeline": "3-6 Months",
+  "authority": "Decision Maker",
+  "currentSolution": "In-house build",
+  "competitor": "Bystronic",
+  "value": 5200000,
+  "source": "Referral",
+  "engagement": {
+   "booth": true,
+   "meeting": true,
+   "technical": true,
+   "demo": false,
+   "commercial": false
+  },
+  "capturedAt": "2026-01-24T15:30:00",
+  "nextFollowUp": "",
+  "nextBestAction": "Log the loss reason",
+  "nextBestActionWhy": "Capture why, and set a re-engagement date.",
+  "consent": true,
+  "tags": [
+   "Competitor displacement",
+   "Technical deep-dive"
+  ],
+  "notes": "Walked the booth with two colleagues from process engineering."
+ },
+ {
+  "id": "ld-040",
+  "code": "TEAL-IMTEX26-00040",
+  "contactId": "ct-040",
+  "companyId": "co-010",
+  "exhibitionId": "ex-imtex26",
+  "ownerId": "u-priya",
+  "stage": "QUALIFIED",
+  "products": [
+   "UV Laser Marking",
+   "Laser Marking"
+  ],
+  "productIds": [
+   "P-UV-06",
+   "P-LM-01"
+  ],
+  "application": "Precision fixture assembly for aerospace brackets",
+  "problem": "Line changeover takes 45 minutes against a 15-minute target.",
+  "quantity": "Pilot + 4 production",
+  "budget": "₹25 L – ₹75 L",
+  "timeline": "3-6 Months",
+  "authority": "Influencer",
+  "currentSolution": "Competitor machine",
+  "competitor": "Incumbent in-house build",
+  "value": 12500000,
+  "source": "Visitor QR",
+  "engagement": {
+   "booth": true,
+   "meeting": true,
+   "technical": true,
+   "demo": false,
+   "commercial": false
+  },
+  "capturedAt": "2026-01-23T10:15:00",
+  "nextFollowUp": "2026-09-21",
+  "nextBestAction": "Schedule technical discussion",
+  "nextBestActionWhy": "Bring an application engineer to scope the process window.",
+  "consent": true,
+  "tags": [
+   "RFQ expected"
+  ],
+  "notes": "Walked the booth with two colleagues from process engineering."
+ },
+ {
+  "id": "ld-041",
+  "code": "TEAL-IMTEX26-00041",
+  "contactId": "ct-041",
+  "companyId": "co-011",
+  "exhibitionId": "ex-imtex26",
+  "ownerId": "u-arun",
+  "stage": "DEMO",
+  "products": [
+   "Custom Laser Application"
+  ],
+  "productIds": [
+   "P-CU-11"
+  ],
+  "application": "PCB serialisation with 2D data matrix",
+  "problem": "Vision system misses solder bridging below 0.2 mm.",
+  "quantity": "Under evaluation",
+  "budget": "₹25 L – ₹75 L",
+  "timeline": "< 3 Months",
+  "authority": "Decision Maker",
+  "currentSolution": "Manual process",
+  "competitor": "IPG Photonics",
+  "value": 3600000,
+  "source": "Booth Conversation",
+  "engagement": {
+   "booth": true,
+   "meeting": true,
+   "technical": true,
+   "demo": true,
+   "commercial": false
+  },
+  "capturedAt": "2026-01-24T16:30:00",
+  "nextFollowUp": "2026-08-29",
+  "nextBestAction": "Send capability deck and sample report",
+  "nextBestActionWhy": "Convert the demo result into a written case.",
+  "consent": true,
+  "tags": [
+   "Technical deep-dive"
+  ],
+  "notes": "Follow-up should route through their purchase team."
+ },
+ {
+  "id": "ld-042",
+  "code": "TEAL-IMTEX26-00042",
+  "contactId": "ct-042",
+  "companyId": "co-012",
+  "exhibitionId": "ex-imtex26",
+  "ownerId": "u-sneha",
+  "stage": "NEGOTIATION",
+  "products": [
+   "Special Purpose Machines",
+   "Laser Welding",
+   "Semiconductor Laser Applications"
+  ],
+  "productIds": [
+   "P-SP-15",
+   "P-LW-02",
+   "P-SC-10"
+  ],
+  "application": "Precision fixture assembly for aerospace brackets",
+  "problem": "Existing dot-peen marking fails legibility audit at customer end.",
+  "quantity": "3 stations",
+  "budget": "₹75 L – ₹2 Cr",
+  "timeline": "Immediate",
+  "authority": "Influencer",
+  "currentSolution": "Manual process",
+  "competitor": "IPG Photonics",
+  "value": 2400000,
+  "source": "Visitor QR",
+  "engagement": {
+   "booth": true,
+   "meeting": true,
+   "technical": true,
+   "demo": true,
+   "commercial": true
+  },
+  "capturedAt": "2026-01-26T11:45:00",
+  "nextFollowUp": "2026-09-14",
+  "nextBestAction": "Close commercial terms",
+  "nextBestActionWhy": "Align on price, delivery and payment milestones.",
+  "consent": true,
+  "tags": [
+   "RFQ expected",
+   "Demo requested",
+   "Competitor displacement"
+  ],
+  "notes": "Budget sits with the parent group; approval cycle is roughly a quarter."
+ },
+ {
+  "id": "ld-043",
+  "code": "TEAL-IMTEX26-00043",
+  "contactId": "ct-043",
+  "companyId": "co-013",
+  "exhibitionId": "ex-imtex26",
+  "ownerId": "u-priya",
+  "stage": "LOST",
+  "products": [
+   "Semiconductor Laser Applications"
+  ],
+  "productIds": [
+   "P-SC-10"
+  ],
+  "application": "",
+  "problem": "Existing dot-peen marking fails legibility audit at customer end.",
+  "quantity": "",
+  "budget": "Not Defined",
+  "timeline": "Not Defined",
+  "authority": "Unknown",
+  "currentSolution": "",
+  "competitor": "None identified",
+  "value": 0,
+  "source": "Booth Conversation",
+  "engagement": {
+   "booth": true,
+   "meeting": false,
+   "technical": false,
+   "demo": false,
+   "commercial": false
+  },
+  "capturedAt": "2026-01-22T11:00:00",
+  "nextFollowUp": "",
+  "nextBestAction": "Log the loss reason",
+  "nextBestActionWhy": "Capture why, and set a re-engagement date.",
+  "consent": true,
+  "tags": [],
+  "notes": ""
+ },
+ {
+  "id": "ld-044",
+  "code": "TEAL-IMTEX26-00044",
+  "contactId": "ct-044",
+  "companyId": "co-014",
+  "exhibitionId": "ex-imtex26",
+  "ownerId": "u-arun",
+  "stage": "QUALIFIED",
+  "products": [
+   "Fiber Laser Marking"
+  ],
+  "productIds": [
+   "P-FL-07"
+  ],
+  "application": "",
+  "problem": "Current supplier lead time is 26 weeks and blocking a line expansion.",
+  "quantity": "",
+  "budget": "Not Defined",
+  "timeline": "> 12 Months",
+  "authority": "End User",
+  "currentSolution": "",
+  "competitor": "None identified",
+  "value": 0,
+  "source": "Referral",
+  "engagement": {
+   "booth": true,
+   "meeting": false,
+   "technical": false,
+   "demo": false,
+   "commercial": false
+  },
+  "capturedAt": "2026-01-26T10:15:00",
+  "nextFollowUp": "2026-08-30",
+  "nextBestAction": "Schedule technical discussion",
+  "nextBestActionWhy": "Bring an application engineer to scope the process window.",
+  "consent": true,
+  "tags": [],
+  "notes": "Walked the booth with two colleagues from process engineering."
+ },
+ {
+  "id": "ld-045",
+  "code": "TEAL-IMTEX26-00045",
+  "contactId": "ct-045",
+  "companyId": "co-015",
+  "exhibitionId": "ex-imtex26",
+  "ownerId": "u-sneha",
+  "stage": "DEMO",
+  "products": [
+   "Laser Marking"
+  ],
+  "productIds": [
+   "P-LM-01"
+  ],
+  "application": "",
+  "problem": "",
+  "quantity": "",
+  "budget": "Not Defined",
+  "timeline": "6-12 Months",
+  "authority": "Unknown",
+  "currentSolution": "",
+  "competitor": "None identified",
+  "value": 0,
+  "source": "Demo Station",
+  "engagement": {
+   "booth": true,
+   "meeting": true,
+   "technical": false,
+   "demo": true,
+   "commercial": false
+  },
+  "capturedAt": "2026-01-22T12:00:00",
+  "nextFollowUp": "2026-08-27",
+  "nextBestAction": "Send capability deck and sample report",
+  "nextBestActionWhy": "Convert the demo result into a written case.",
+  "consent": true,
+  "tags": [],
+  "notes": "Already evaluating alternatives; wants a sample part run before deciding."
+ },
+ {
+  "id": "ld-046",
+  "code": "TEAL-IMTEX26-00046",
+  "contactId": "ct-046",
+  "companyId": "co-016",
+  "exhibitionId": "ex-imtex26",
+  "ownerId": "u-priya",
+  "stage": "WON",
+  "products": [
+   "Battery Laser Applications",
+   "Vision Inspection"
+  ],
+  "productIds": [
+   "P-BT-09",
+   "P-VI-12"
+  ],
+  "application": "Lead frame cutting for IC packaging",
+  "problem": "Operator-dependent quality variation across three shifts.",
+  "quantity": "Under evaluation",
+  "budget": "₹75 L – ₹2 Cr",
+  "timeline": "< 3 Months",
+  "authority": "Decision Maker",
+  "currentSolution": "Competitor machine",
+  "competitor": "Trumpf",
+  "value": 5200000,
+  "source": "Booth Conversation",
+  "engagement": {
+   "booth": true,
+   "meeting": true,
+   "technical": true,
+   "demo": true,
+   "commercial": true
+  },
+  "capturedAt": "2026-01-22T17:30:00",
+  "nextFollowUp": "",
+  "nextBestAction": "Hand over to project execution",
+  "nextBestActionWhy": "Brief the delivery team and confirm the kickoff date.",
+  "consent": true,
+  "tags": [
+   "Pricing discussed",
+   "Demo requested"
+  ],
+  "notes": "Follow-up should route through their purchase team."
+ },
+ {
+  "id": "ld-047",
+  "code": "TEAL-IMTEX26-00047",
+  "contactId": "ct-047",
+  "companyId": "co-017",
+  "exhibitionId": "ex-imtex26",
+  "ownerId": "u-arun",
+  "stage": "LOST",
+  "products": [
+   "Assembly Automation",
+   "Precision Automation"
+  ],
+  "productIds": [
+   "P-AS-16",
+   "P-PR-14"
+  ],
+  "application": "Automated optical inspection on SMT line",
+  "problem": "Vision system misses solder bridging below 0.2 mm.",
+  "quantity": "3 stations",
+  "budget": "Not Defined",
+  "timeline": "6-12 Months",
+  "authority": "Decision Maker",
+  "currentSolution": "Greenfield — none",
+  "competitor": "None identified",
+  "value": 9800000,
+  "source": "Visitor QR",
+  "engagement": {
+   "booth": true,
+   "meeting": false,
+   "technical": false,
+   "demo": false,
+   "commercial": false
+  },
+  "capturedAt": "2026-01-25T14:00:00",
+  "nextFollowUp": "",
+  "nextBestAction": "Log the loss reason",
+  "nextBestActionWhy": "Capture why, and set a re-engagement date.",
+  "consent": true,
+  "tags": [
+   "Pricing discussed"
+  ],
+  "notes": "Budget sits with the parent group; approval cycle is roughly a quarter."
+ },
+ {
+  "id": "ld-048",
+  "code": "TEAL-IMTEX26-00048",
+  "contactId": "ct-048",
+  "companyId": "co-018",
+  "exhibitionId": "ex-imtex26",
+  "ownerId": "u-sneha",
+  "stage": "ENGAGED",
+  "products": [
+   "Semiconductor Laser Applications"
+  ],
+  "productIds": [
+   "P-SC-10"
+  ],
+  "application": "Cell tab welding, prismatic format",
+  "problem": "",
+  "quantity": "3 stations",
+  "budget": "Not Defined",
+  "timeline": "Not Defined",
+  "authority": "Decision Maker",
+  "currentSolution": "Manual process",
+  "competitor": "None identified",
+  "value": 24000000,
+  "source": "Visitor QR",
+  "engagement": {
+   "booth": true,
+   "meeting": true,
+   "technical": false,
+   "demo": false,
+   "commercial": false
+  },
+  "capturedAt": "2026-01-25T17:30:00",
+  "nextFollowUp": "2026-08-21",
+  "nextBestAction": "Arrange machine demo",
+  "nextBestActionWhy": "Run their sample part on the target platform.",
+  "consent": true,
+  "tags": [
+   "Demo requested"
+  ],
+  "notes": "Budget sits with the parent group; approval cycle is roughly a quarter."
+ },
+ {
+  "id": "ld-049",
+  "code": "TEAL-IMTEX26-00049",
+  "contactId": "ct-049",
+  "companyId": "co-019",
+  "exhibitionId": "ex-imtex26",
+  "ownerId": "u-priya",
+  "stage": "PROPOSAL",
+  "products": [
+   "Assembly Automation",
+   "Custom Automation"
+  ],
+  "productIds": [
+   "P-AS-16",
+   "P-CA-18"
+  ],
+  "application": "Deburring and surface texturing of press parts",
+  "problem": "Vision system misses solder bridging below 0.2 mm.",
+  "quantity": "1 machine",
+  "budget": "Not Defined",
+  "timeline": "< 3 Months",
+  "authority": "Influencer",
+  "currentSolution": "Greenfield — none",
+  "competitor": "IPG Photonics",
+  "value": 1800000,
+  "source": "Referral",
+  "engagement": {
+   "booth": true,
+   "meeting": true,
+   "technical": true,
+   "demo": true,
+   "commercial": true
+  },
+  "capturedAt": "2026-01-26T16:45:00",
+  "nextFollowUp": "2026-08-28",
+  "nextBestAction": "Follow up on proposal",
+  "nextBestActionWhy": "Confirm receipt, walk the commercials, agree next step.",
+  "consent": true,
+  "tags": [
+   "Repeat customer",
+   "Pricing discussed"
+  ],
+  "notes": "Budget sits with the parent group; approval cycle is roughly a quarter."
+ },
+ {
+  "id": "ld-050",
+  "code": "TEAL-IMTEX26-00050",
+  "contactId": "ct-050",
+  "companyId": "co-020",
+  "exhibitionId": "ex-imtex26",
+  "ownerId": "u-arun",
+  "stage": "WON",
+  "products": [
+   "Vision Inspection"
+  ],
+  "productIds": [
+   "P-VI-12"
+  ],
+  "application": "Sensor housing hermetic seal welding",
+  "problem": "Thermal damage on adjacent components with the incumbent process.",
+  "quantity": "1 line",
+  "budget": "Not Defined",
+  "timeline": "< 3 Months",
+  "authority": "Influencer",
+  "currentSolution": "Manual process",
+  "competitor": "IPG Photonics",
+  "value": 5200000,
+  "source": "Booth Conversation",
+  "engagement": {
+   "booth": true,
+   "meeting": true,
+   "technical": true,
+   "demo": true,
+   "commercial": true
+  },
+  "capturedAt": "2026-01-26T10:45:00",
+  "nextFollowUp": "",
+  "nextBestAction": "Hand over to project execution",
+  "nextBestActionWhy": "Brief the delivery team and confirm the kickoff date.",
+  "consent": true,
+  "tags": [
+   "RFQ expected",
+   "Repeat customer"
+  ],
+  "notes": "Asked specifically about cycle time and consumable cost per part."
+ },
+ {
+  "id": "ld-051",
+  "code": "TEAL-IMTEX26-00051",
+  "contactId": "ct-051",
+  "companyId": "co-021",
+  "exhibitionId": "ex-imtex26",
+  "ownerId": "u-sneha",
+  "stage": "LOST",
+  "products": [
+   "3D Laser Marking",
+   "CO₂ Laser PCB Marking"
+  ],
+  "productIds": [
+   "P-3D-08",
+   "P-CO-05"
+  ],
+  "application": "Solar cell stringing and interconnect",
+  "problem": "Thermal damage on adjacent components with the incumbent process.",
+  "quantity": "2 machines",
+  "budget": "₹75 L – ₹2 Cr",
+  "timeline": "3-6 Months",
+  "authority": "Decision Maker",
+  "currentSolution": "Manual process",
+  "competitor": "Keyence",
+  "value": 2400000,
+  "source": "Referral",
+  "engagement": {
+   "booth": true,
+   "meeting": true,
+   "technical": true,
+   "demo": false,
+   "commercial": false
+  },
+  "capturedAt": "2026-01-22T13:30:00",
+  "nextFollowUp": "",
+  "nextBestAction": "Log the loss reason",
+  "nextBestActionWhy": "Capture why, and set a re-engagement date.",
+  "consent": true,
+  "tags": [
+   "Urgent"
+  ],
+  "notes": "Asked specifically about cycle time and consumable cost per part."
+ },
+ {
+  "id": "ld-052",
+  "code": "TEAL-IMTEX26-00052",
+  "contactId": "ct-052",
+  "companyId": "co-022",
+  "exhibitionId": "ex-imtex26",
+  "ownerId": "u-priya",
+  "stage": "ENGAGED",
+  "products": [
+   "Custom Laser Application"
+  ],
+  "productIds": [
+   "P-CU-11"
+  ],
+  "application": "Motor stator hairpin welding",
+  "problem": "Existing dot-peen marking fails legibility audit at customer end.",
+  "quantity": "3 stations",
+  "budget": "₹75 L – ₹2 Cr",
+  "timeline": "Immediate",
+  "authority": "Influencer",
+  "currentSolution": "Greenfield — none",
+  "competitor": "Incumbent in-house build",
+  "value": 5200000,
+  "source": "Demo Station",
+  "engagement": {
+   "booth": true,
+   "meeting": true,
+   "technical": true,
+   "demo": false,
+   "commercial": false
+  },
+  "capturedAt": "2026-01-26T17:15:00",
+  "nextFollowUp": "2026-09-23",
+  "nextBestAction": "Arrange machine demo",
+  "nextBestActionWhy": "Run their sample part on the target platform.",
+  "consent": true,
+  "tags": [
+   "Demo requested",
+   "Pricing discussed"
+  ],
+  "notes": "Budget sits with the parent group; approval cycle is roughly a quarter."
+ },
+ {
+  "id": "ld-053",
+  "code": "TEAL-BAT25-00053",
+  "contactId": "ct-053",
+  "companyId": "co-023",
+  "exhibitionId": "ex-batshow25",
+  "ownerId": "u-arun",
+  "stage": "WON",
+  "products": [
+   "CO₂ Laser PCB Marking",
+   "Testing Automation"
+  ],
+  "productIds": [
+   "P-CO-05",
+   "P-TE-17"
+  ],
+  "application": "Permanent traceability marking on power modules",
+  "problem": "Throughput capped at 380 parts/hour against a 600 requirement.",
+  "quantity": "1 line",
+  "budget": "₹75 L – ₹2 Cr",
+  "timeline": "Immediate",
+  "authority": "Influencer",
+  "currentSolution": "Competitor machine",
+  "competitor": "Trumpf",
+  "value": 24000000,
+  "source": "Business Card",
+  "engagement": {
+   "booth": true,
+   "meeting": true,
+   "technical": true,
+   "demo": true,
+   "commercial": true
+  },
+  "capturedAt": "2025-11-06T11:15:00",
+  "nextFollowUp": "",
+  "nextBestAction": "Hand over to project execution",
+  "nextBestActionWhy": "Brief the delivery team and confirm the kickoff date.",
+  "consent": true,
+  "tags": [
+   "Competitor displacement"
+  ],
+  "notes": "Walked the booth with two colleagues from process engineering."
+ },
+ {
+  "id": "ld-054",
+  "code": "TEAL-BAT25-00054",
+  "contactId": "ct-054",
+  "companyId": "co-024",
+  "exhibitionId": "ex-batshow25",
+  "ownerId": "u-sneha",
+  "stage": "LOST",
+  "products": [
+   "Robotic Automation",
+   "CO₂ Laser PCB Marking"
+  ],
+  "productIds": [
+   "P-RO-13",
+   "P-CO-05"
+  ],
+  "application": "Automated optical inspection on SMT line",
+  "problem": "Thermal damage on adjacent components with the incumbent process.",
+  "quantity": "2 machines",
+  "budget": "Not Defined",
+  "timeline": "Immediate",
+  "authority": "Influencer",
+  "currentSolution": "Outsourced to job shop",
+  "competitor": "Keyence",
+  "value": 24000000,
+  "source": "Business Card",
+  "engagement": {
+   "booth": true,
+   "meeting": true,
+   "technical": true,
+   "demo": false,
+   "commercial": false
+  },
+  "capturedAt": "2025-11-06T12:30:00",
+  "nextFollowUp": "",
+  "nextBestAction": "Log the loss reason",
+  "nextBestActionWhy": "Capture why, and set a re-engagement date.",
+  "consent": true,
+  "tags": [
+   "Technical deep-dive"
+  ],
+  "notes": "Walked the booth with two colleagues from process engineering."
+ },
+ {
+  "id": "ld-055",
+  "code": "TEAL-BAT25-00055",
+  "contactId": "ct-055",
+  "companyId": "co-025",
+  "exhibitionId": "ex-batshow25",
+  "ownerId": "u-priya",
+  "stage": "ENGAGED",
+  "products": [
+   "CO₂ Laser PCB Marking"
+  ],
+  "productIds": [
+   "P-CO-05"
+  ],
+  "application": "Deburring and surface texturing of press parts",
+  "problem": "Manual welding yields inconsistent penetration; scrap running at 4%.",
+  "quantity": "1 line",
+  "budget": "Not Defined",
+  "timeline": "< 3 Months",
+  "authority": "Decision Maker",
+  "currentSolution": "Competitor machine",
+  "competitor": "Coherent",
+  "value": 5200000,
+  "source": "Booth Conversation",
+  "engagement": {
+   "booth": true,
+   "meeting": true,
+   "technical": true,
+   "demo": false,
+   "commercial": false
+  },
+  "capturedAt": "2025-11-05T14:30:00",
+  "nextFollowUp": "2026-09-24",
+  "nextBestAction": "Arrange machine demo",
+  "nextBestActionWhy": "Run their sample part on the target platform.",
+  "consent": true,
+  "tags": [
+   "Urgent",
+   "Technical deep-dive"
+  ],
+  "notes": "Follow-up should route through their purchase team."
+ },
+ {
+  "id": "ld-056",
+  "code": "TEAL-BAT25-00056",
+  "contactId": "ct-056",
+  "companyId": "co-026",
+  "exhibitionId": "ex-batshow25",
+  "ownerId": "u-arun",
+  "stage": "PROPOSAL",
+  "products": [
+   "CO₂ Laser PCB Marking"
+  ],
+  "productIds": [
+   "P-CO-05"
+  ],
+  "application": "Sensor housing hermetic seal welding",
+  "problem": "Existing dot-peen marking fails legibility audit at customer end.",
+  "quantity": "Under evaluation",
+  "budget": "₹25 L – ₹75 L",
+  "timeline": "Immediate",
+  "authority": "Decision Maker",
+  "currentSolution": "In-house build",
+  "competitor": "Incumbent in-house build",
+  "value": 24000000,
+  "source": "Visitor QR",
+  "engagement": {
+   "booth": true,
+   "meeting": true,
+   "technical": true,
+   "demo": true,
+   "commercial": true
+  },
+  "capturedAt": "2025-11-06T15:30:00",
+  "nextFollowUp": "2026-09-16",
+  "nextBestAction": "Follow up on proposal",
+  "nextBestActionWhy": "Confirm receipt, walk the commercials, agree next step.",
+  "consent": true,
+  "tags": [
+   "Urgent",
+   "Pricing discussed"
+  ],
+  "notes": "Already evaluating alternatives; wants a sample part run before deciding."
+ },
+ {
+  "id": "ld-057",
+  "code": "TEAL-BAT25-00057",
+  "contactId": "ct-057",
+  "companyId": "co-027",
+  "exhibitionId": "ex-batshow25",
+  "ownerId": "u-sneha",
+  "stage": "LOST",
+  "products": [
+   "CO₂ Laser PCB Marking",
+   "Laser Marking",
+   "Assembly Automation"
+  ],
+  "productIds": [
+   "P-CO-05",
+   "P-LM-01",
+   "P-AS-16"
+  ],
+  "application": "Deburring and surface texturing of press parts",
+  "problem": "Line changeover takes 45 minutes against a 15-minute target.",
+  "quantity": "Under evaluation",
+  "budget": "₹2 Cr – ₹5 Cr",
+  "timeline": "< 3 Months",
+  "authority": "Influencer",
+  "currentSolution": "Manual process",
+  "competitor": "Trumpf",
+  "value": 3600000,
+  "source": "Booth Conversation",
+  "engagement": {
+   "booth": true,
+   "meeting": true,
+   "technical": true,
+   "demo": true,
+   "commercial": false
+  },
+  "capturedAt": "2025-11-06T11:00:00",
+  "nextFollowUp": "",
+  "nextBestAction": "Log the loss reason",
+  "nextBestActionWhy": "Capture why, and set a re-engagement date.",
+  "consent": true,
+  "tags": [
+   "RFQ expected",
+   "Repeat customer"
+  ],
+  "notes": "Site visit to their plant offered — they are keen."
+ },
+ {
+  "id": "ld-058",
+  "code": "TEAL-BAT25-00058",
+  "contactId": "ct-058",
+  "companyId": "co-028",
+  "exhibitionId": "ex-batshow25",
+  "ownerId": "u-priya",
+  "stage": "QUALIFIED",
+  "products": [
+   "Fiber Laser Marking"
+  ],
+  "productIds": [
+   "P-FL-07"
+  ],
+  "application": "",
+  "problem": "Traceability gap flagged in the last automotive customer audit.",
+  "quantity": "",
+  "budget": "Not Defined",
+  "timeline": "Not Defined",
+  "authority": "Unknown",
+  "currentSolution": "",
+  "competitor": "None identified",
+  "value": 0,
+  "source": "Visitor QR",
+  "engagement": {
+   "booth": true,
+   "meeting": false,
+   "technical": false,
+   "demo": false,
+   "commercial": false
+  },
+  "capturedAt": "2025-11-06T13:45:00",
+  "nextFollowUp": "2026-09-10",
+  "nextBestAction": "Schedule technical discussion",
+  "nextBestActionWhy": "Bring an application engineer to scope the process window.",
+  "consent": true,
+  "tags": [],
+  "notes": ""
+ },
+ {
+  "id": "ld-059",
+  "code": "TEAL-BAT25-00059",
+  "contactId": "ct-059",
+  "companyId": "co-029",
+  "exhibitionId": "ex-batshow25",
+  "ownerId": "u-arun",
+  "stage": "DEMO",
+  "products": [
+   "Laser Marking"
+  ],
+  "productIds": [
+   "P-LM-01"
+  ],
+  "application": "",
+  "problem": "Existing dot-peen marking fails legibility audit at customer end.",
+  "quantity": "",
+  "budget": "Not Defined",
+  "timeline": "Not Defined",
+  "authority": "Unknown",
+  "currentSolution": "",
+  "competitor": "None identified",
+  "value": 0,
+  "source": "Visitor QR",
+  "engagement": {
+   "booth": true,
+   "meeting": true,
+   "technical": false,
+   "demo": true,
+   "commercial": false
+  },
+  "capturedAt": "2025-11-06T12:00:00",
+  "nextFollowUp": "2026-09-22",
+  "nextBestAction": "Send capability deck and sample report",
+  "nextBestActionWhy": "Convert the demo result into a written case.",
+  "consent": true,
+  "tags": [],
+  "notes": ""
+ },
+ {
+  "id": "ld-060",
+  "code": "TEAL-BAT25-00060",
+  "contactId": "ct-060",
+  "companyId": "co-030",
+  "exhibitionId": "ex-batshow25",
+  "ownerId": "u-sneha",
+  "stage": "NEGOTIATION",
+  "products": [
+   "UV Laser Marking",
+   "Battery Laser Applications"
+  ],
+  "productIds": [
+   "P-UV-06",
+   "P-BT-09"
+  ],
+  "application": "Automated optical inspection on SMT line",
+  "problem": "Manual welding yields inconsistent penetration; scrap running at 4%.",
+  "quantity": "1 line",
+  "budget": "₹25 L – ₹75 L",
+  "timeline": "3-6 Months",
+  "authority": "Influencer",
+  "currentSolution": "Competitor machine",
+  "competitor": "IPG Photonics",
+  "value": 7500000,
+  "source": "Visitor QR",
+  "engagement": {
+   "booth": true,
+   "meeting": true,
+   "technical": true,
+   "demo": true,
+   "commercial": true
+  },
+  "capturedAt": "2025-11-05T14:45:00",
+  "nextFollowUp": "2026-08-30",
+  "nextBestAction": "Close commercial terms",
+  "nextBestActionWhy": "Align on price, delivery and payment milestones.",
+  "consent": true,
+  "tags": [
+   "Urgent",
+   "Repeat customer"
+  ],
+  "notes": "Walked the booth with two colleagues from process engineering."
+ },
+ {
+  "id": "ld-061",
+  "code": "TEAL-BAT25-00061",
+  "contactId": "ct-061",
+  "companyId": "co-001",
+  "exhibitionId": "ex-batshow25",
+  "ownerId": "u-priya",
+  "stage": "LOST",
+  "products": [
+   "UV Laser Marking"
+  ],
+  "productIds": [
+   "P-UV-06"
+  ],
+  "application": "",
+  "problem": "Thermal damage on adjacent components with the incumbent process.",
+  "quantity": "",
+  "budget": "Not Defined",
+  "timeline": "Not Defined",
+  "authority": "Unknown",
+  "currentSolution": "",
+  "competitor": "None identified",
+  "value": 0,
+  "source": "Visitor QR",
+  "engagement": {
+   "booth": true,
+   "meeting": false,
+   "technical": false,
+   "demo": false,
+   "commercial": false
+  },
+  "capturedAt": "2025-11-06T13:00:00",
+  "nextFollowUp": "",
+  "nextBestAction": "Log the loss reason",
+  "nextBestActionWhy": "Capture why, and set a re-engagement date.",
+  "consent": true,
+  "tags": [],
+  "notes": "Walked the booth with two colleagues from process engineering."
+ },
+ {
+  "id": "ld-062",
+  "code": "TEAL-BAT25-00062",
+  "contactId": "ct-062",
+  "companyId": "co-002",
+  "exhibitionId": "ex-batshow25",
+  "ownerId": "u-arun",
+  "stage": "QUALIFIED",
+  "products": [
+   "3D Laser Marking"
+  ],
+  "productIds": [
+   "P-3D-08"
+  ],
+  "application": "Robotic pick-and-place for connector assembly",
+  "problem": "Vision system misses solder bridging below 0.2 mm.",
+  "quantity": "1 line",
+  "budget": "< ₹25 L",
+  "timeline": "Not Defined",
+  "authority": "Gatekeeper",
+  "currentSolution": "Greenfield — none",
+  "competitor": "None identified",
+  "value": 24000000,
+  "source": "Referral",
+  "engagement": {
+   "booth": true,
+   "meeting": false,
+   "technical": false,
+   "demo": false,
+   "commercial": false
+  },
+  "capturedAt": "2025-11-05T17:00:00",
+  "nextFollowUp": "2026-09-09",
+  "nextBestAction": "Schedule technical discussion",
+  "nextBestActionWhy": "Bring an application engineer to scope the process window.",
+  "consent": true,
+  "tags": [
+   "Pricing discussed"
+  ],
+  "notes": "Budget sits with the parent group; approval cycle is roughly a quarter."
+ },
+ {
+  "id": "ld-063",
+  "code": "TEAL-BAT25-00063",
+  "contactId": "ct-063",
+  "companyId": "co-003",
+  "exhibitionId": "ex-batshow25",
+  "ownerId": "u-sneha",
+  "stage": "DEMO",
+  "products": [
+   "3D Laser Marking"
+  ],
+  "productIds": [
+   "P-3D-08"
+  ],
+  "application": "Deburring and surface texturing of press parts",
+  "problem": "",
+  "quantity": "Pilot + 4 production",
+  "budget": "₹25 L – ₹75 L",
+  "timeline": "6-12 Months",
+  "authority": "Gatekeeper",
+  "currentSolution": "Competitor machine",
+  "competitor": "None identified",
+  "value": 12500000,
+  "source": "Booth Conversation",
+  "engagement": {
+   "booth": true,
+   "meeting": true,
+   "technical": false,
+   "demo": true,
+   "commercial": false
+  },
+  "capturedAt": "2025-11-07T10:00:00",
+  "nextFollowUp": "2026-09-13",
+  "nextBestAction": "Send capability deck and sample report",
+  "nextBestActionWhy": "Convert the demo result into a written case.",
+  "consent": true,
+  "tags": [
+   "Repeat customer"
+  ],
+  "notes": "Asked specifically about cycle time and consumable cost per part."
+ },
+ {
+  "id": "ld-064",
+  "code": "TEAL-BAT25-00064",
+  "contactId": "ct-064",
+  "companyId": "co-004",
+  "exhibitionId": "ex-batshow25",
+  "ownerId": "u-priya",
+  "stage": "WON",
+  "products": [
+   "CO₂ Laser PCB Marking",
+   "Special Purpose Machines"
+  ],
+  "productIds": [
+   "P-CO-05",
+   "P-SP-15"
+  ],
+  "application": "Wafer ID marking, backside",
+  "problem": "Operator-dependent quality variation across three shifts.",
+  "quantity": "2 machines",
+  "budget": "Not Defined",
+  "timeline": "3-6 Months",
+  "authority": "Influencer",
+  "currentSolution": "Competitor machine",
+  "competitor": "Han's Laser",
+  "value": 3600000,
+  "source": "Visitor QR",
+  "engagement": {
+   "booth": true,
+   "meeting": true,
+   "technical": true,
+   "demo": true,
+   "commercial": true
+  },
+  "capturedAt": "2025-11-06T12:15:00",
+  "nextFollowUp": "",
+  "nextBestAction": "Hand over to project execution",
+  "nextBestActionWhy": "Brief the delivery team and confirm the kickoff date.",
+  "consent": true,
+  "tags": [
+   "Demo requested",
+   "Competitor displacement"
+  ],
+  "notes": "Budget sits with the parent group; approval cycle is roughly a quarter."
+ }
+]

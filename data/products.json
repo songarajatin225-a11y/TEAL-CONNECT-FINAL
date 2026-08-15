@@ -1,0 +1,110 @@
+[
+ {
+  "id": "P-LM-01",
+  "name": "Laser Marking",
+  "category": "LASER",
+  "family": "Marking & Traceability"
+ },
+ {
+  "id": "P-LW-02",
+  "name": "Laser Welding",
+  "category": "LASER",
+  "family": "Joining"
+ },
+ {
+  "id": "P-LC-03",
+  "name": "Laser Cutting",
+  "category": "LASER",
+  "family": "Cutting"
+ },
+ {
+  "id": "P-PL-04",
+  "name": "PCB Laser Marking",
+  "category": "LASER",
+  "family": "Electronics"
+ },
+ {
+  "id": "P-CO-05",
+  "name": "CO₂ Laser PCB Marking",
+  "category": "LASER",
+  "family": "Electronics"
+ },
+ {
+  "id": "P-UV-06",
+  "name": "UV Laser Marking",
+  "category": "LASER",
+  "family": "Electronics"
+ },
+ {
+  "id": "P-FL-07",
+  "name": "Fiber Laser Marking",
+  "category": "LASER",
+  "family": "Marking & Traceability"
+ },
+ {
+  "id": "P-3D-08",
+  "name": "3D Laser Marking",
+  "category": "LASER",
+  "family": "Marking & Traceability"
+ },
+ {
+  "id": "P-BT-09",
+  "name": "Battery Laser Applications",
+  "category": "LASER",
+  "family": "New Energy"
+ },
+ {
+  "id": "P-SC-10",
+  "name": "Semiconductor Laser Applications",
+  "category": "LASER",
+  "family": "Semiconductor"
+ },
+ {
+  "id": "P-CU-11",
+  "name": "Custom Laser Application",
+  "category": "LASER",
+  "family": "Engineered"
+ },
+ {
+  "id": "P-VI-12",
+  "name": "Vision Inspection",
+  "category": "AUTOMATION",
+  "family": "Inspection"
+ },
+ {
+  "id": "P-RO-13",
+  "name": "Robotic Automation",
+  "category": "AUTOMATION",
+  "family": "Handling"
+ },
+ {
+  "id": "P-PR-14",
+  "name": "Precision Automation",
+  "category": "AUTOMATION",
+  "family": "Assembly"
+ },
+ {
+  "id": "P-SP-15",
+  "name": "Special Purpose Machines",
+  "category": "AUTOMATION",
+  "family": "Engineered"
+ },
+ {
+  "id": "P-AS-16",
+  "name": "Assembly Automation",
+  "category": "AUTOMATION",
+  "family": "Assembly"
+ },
+ {
+  "id": "P-TE-17",
+  "name": "Testing Automation",
+  "category": "AUTOMATION",
+  "family": "Test"
+ },
+ {
+  "id": "P-CA-18",
+  "name": "Custom Automation",
+  "category": "AUTOMATION",
+  "family": "Engineered"
+ }
+]

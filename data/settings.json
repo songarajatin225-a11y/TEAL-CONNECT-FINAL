@@ -1,0 +1,152 @@
+{
+ "product": {
+  "parentBrand": "TEAL",
+  "productName": "LeadConnect",
+  "descriptor": "Exhibition Lead Intelligence & Sales Conversion OS",
+  "promise": "Turn Every Exhibition Lead Into a Sales Opportunity."
+ },
+ "scoring": {
+  "weights": [
+   {
+    "key": "companyFit",
+    "label": "Company Fit",
+    "max": 20,
+    "why": "Industry, size and account type against TEAL's served segments."
+   },
+   {
+    "key": "applicationFit",
+    "label": "Application Fit",
+    "max": 20,
+    "why": "Whether the stated application maps to a proven TEAL process."
+   },
+   {
+    "key": "productInterest",
+    "label": "Product Interest",
+    "max": 15,
+    "why": "Named products the visitor asked about."
+   },
+   {
+    "key": "timeline",
+    "label": "Purchase Timeline",
+    "max": 15,
+    "why": "How soon the requirement lands."
+   },
+   {
+    "key": "budget",
+    "label": "Budget",
+    "max": 10,
+    "why": "Whether a budget band has been stated."
+   },
+   {
+    "key": "authority",
+    "label": "Decision Authority",
+    "max": 10,
+    "why": "Seniority of the contact against the buying decision."
+   },
+   {
+    "key": "engagement",
+    "label": "Engagement",
+    "max": 10,
+    "why": "Demo, meeting and technical depth reached at the stand."
+   }
+  ],
+  "bands": [
+   {
+    "key": "COLD",
+    "label": "Cold",
+    "min": 0,
+    "max": 39
+   },
+   {
+    "key": "WARM",
+    "label": "Warm",
+    "min": 40,
+    "max": 69
+   },
+   {
+    "key": "HOT",
+    "label": "Hot",
+    "min": 70,
+    "max": 84
+   },
+   {
+    "key": "STRATEGIC",
+    "label": "Strategic",
+    "min": 85,
+    "max": 100
+   }
+  ]
+ },
+ "reference": {
+  "industries": [
+   "Semiconductor",
+   "EMS",
+   "Electronics",
+   "Automotive",
+   "Battery / EV",
+   "Solar",
+   "Industrial Automation",
+   "Precision Engineering",
+   "Aerospace",
+   "Medical Devices"
+  ],
+  "stages": [
+   "NEW",
+   "QUALIFIED",
+   "ENGAGED",
+   "DEMO",
+   "PROPOSAL",
+   "NEGOTIATION",
+   "WON",
+   "LOST"
+  ],
+  "timelines": [
+   "Immediate",
+   "< 3 Months",
+   "3-6 Months",
+   "6-12 Months",
+   "> 12 Months",
+   "Not Defined"
+  ],
+  "budgets": [
+   "Not Defined",
+   "< ₹25 L",
+   "₹25 L – ₹75 L",
+   "₹75 L – ₹2 Cr",
+   "₹2 Cr – ₹5 Cr",
+   "> ₹5 Cr"
+  ],
+  "sources": [
+   "Booth Conversation",
+   "Badge Scan",
+   "Business Card",
+   "Visitor QR",
+   "Referral",
+   "Demo Station"
+  ],
+  "cities": [
+   "Bengaluru",
+   "Chennai",
+   "Pune",
+   "Hyderabad",
+   "Noida",
+   "Gurugram",
+   "Ahmedabad",
+   "Coimbatore",
+   "Hosur",
+   "Sanand",
+   "Manesar",
+   "Nashik",
+   "Sriperumbudur",
+   "Chakan",
+   "Mysuru"
+  ],
+  "authorities": [
+   "Decision Maker",
+   "Influencer",
+   "End User",
+   "Gatekeeper",
+   "Unknown"
+  ]
+ }
+}
