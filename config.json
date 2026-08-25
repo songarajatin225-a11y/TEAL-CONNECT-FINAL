@@ -1,0 +1,20 @@
+{
+  "_comment": [
+    "Runtime configuration, read once at boot. Committed with empty values so a",
+    "fresh checkout runs in demo mode with no setup and no 404 on first load.",
+    "",
+    "To point this at a Supabase project, fill in the two values below — see",
+    "config.example.json for what they are and BACKEND.md for where to find",
+    "them. On a server you do not edit this by hand: deploy/docker-entrypoint.sh",
+    "rewrites it from SUPABASE_URL and SUPABASE_ANON_KEY at container start.",
+    "",
+    "The anon key is a public credential and is meant to reach browsers. It",
+    "grants nothing on its own — every table has row-level security and an",
+    "unauthenticated caller gets zero rows. Never put the service_role key here."
+  ],
+
+  "supabaseUrl": "",
+  "supabaseAnonKey": "",
+  "mode": "auto",
+  "environmentLabel": ""
+}

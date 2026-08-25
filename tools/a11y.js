@@ -48,7 +48,7 @@ const ok = (n, c, extra) => { if (c) pass++; else { fail++; fails.push(n + (extr
       await page.goto(base, { waitUntil: 'networkidle' });
       await page.evaluate(async (th) => {
         const s = await import('./js/store.js');
-        s.signIn('u-admin'); s.setPref('theme', th);
+        s.signInAsUser('u-admin'); s.setPref('theme', th);
         const sh = await import('./js/shell.js'); sh.applyTheme(th);
       }, theme);
 
@@ -141,7 +141,7 @@ const ok = (n, c, extra) => { if (c) pass++; else { fail++; fails.push(n + (extr
   page.on('pageerror', (e) => consoleErrors.push(`kbd ${e.message}`));
   await page.goto(base, { waitUntil: 'networkidle' });
   await page.evaluate(async () => {
-    const s = await import('./js/store.js'); s.signIn('u-admin'); location.hash = '#/dashboard';
+    const s = await import('./js/store.js'); s.signInAsUser('u-admin'); location.hash = '#/dashboard';
   });
   await page.waitForTimeout(300);
 

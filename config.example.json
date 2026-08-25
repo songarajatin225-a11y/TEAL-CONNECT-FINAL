@@ -1,0 +1,25 @@
+{
+  "_comment": [
+    "Copy to config.json and fill in. config.json is git-ignored: it is the",
+    "one file that differs between your laptop, staging and production, and",
+    "it is read at runtime so the same built files run in all three.",
+    "",
+    "On the VPS you do not edit this by hand — deploy/docker-entrypoint.sh",
+    "writes config.json from SUPABASE_URL and SUPABASE_ANON_KEY at container",
+    "start. See DEPLOY.md.",
+    "",
+    "The anon key is a public credential and is meant to ship to browsers.",
+    "It grants nothing on its own: every table has row-level security, and",
+    "an unauthenticated caller gets zero rows. The service_role key is the",
+    "one that must never appear here or anywhere else the browser can read."
+  ],
+
+  "supabaseUrl": "https://YOUR-PROJECT.supabase.co",
+  "supabaseAnonKey": "YOUR-ANON-KEY",
+
+  "_mode": "server | demo | auto. auto (the default) uses Supabase when a URL and key are present and falls back to demo otherwise.",
+  "mode": "auto",
+
+  "_environmentLabel": "Shown in the topbar so nobody demos against production by accident. Empty hides the badge.",
+  "environmentLabel": ""
+}

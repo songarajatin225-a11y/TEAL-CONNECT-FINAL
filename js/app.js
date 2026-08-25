@@ -77,9 +77,19 @@ async function boot() {
     await store.init();
   } catch (err) {
     console.error('[boot]', err);
-    outlet.innerHTML = errorState(
-      'The reference data could not be loaded. If you opened this file directly from disk, '
-      + 'serve the folder over HTTP instead — browsers block local file reads.');
+    // Three quite different failures land here and they need different
+    // instructions: a misconfigured deployment, an unreachable database, and
+    // the old file:// mistake. Telling someone to serve the folder over HTTP
+    // when their Supabase project is down wastes their afternoon.
+    const message = /config\.json|SUPABASE_/i.test(err.message)
+      ? err.message
+      : /Failed to fetch|NetworkError|ERR_/i.test(err.message)
+        ? 'The server could not be reached. Check your connection — if you have signed in on '
+          + 'this device before, reload once you are back online and your saved work will still be here.'
+        : 'The reference data could not be loaded. If you opened this file directly from disk, '
+          + 'serve the folder over HTTP instead — browsers block local file reads.';
+
+    outlet.innerHTML = errorState(message);
     document.getElementById('retry')?.addEventListener('click', () => location.reload());
     return;
   }

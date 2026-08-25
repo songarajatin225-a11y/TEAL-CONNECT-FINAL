@@ -10,8 +10,20 @@ import { funnel, hbars, donut } from '../charts.js';
 import { go } from '../router.js';
 import { analyse } from './dashboard.js';
 
-/* ---- sign in ------------------------------------------------------------- */
-export function signinView() {
+/* ---- sign in -------------------------------------------------------------
+   Two shapes behind one route.
+
+   With a Supabase project configured this is a real credential form: the
+   password is checked by the auth server, the session is a JWT, and the roles
+   below it are enforced by row-level security rather than by this screen.
+
+   Without one — the public demo, or a checkout with no config.json — it stays
+   the account picker it always was, and says plainly that there is no password
+   because there is no authentication server. Showing a login box that accepts
+   anything would be worse than showing none.
+   -------------------------------------------------------------------------- */
+
+function signinChrome(body) {
   const p = store.db.settings.product;
   return `<div style="display:grid;place-items:center;min-height:80dvh;padding:var(--sp-4)">
     <div style="width:min(460px,100%)">
@@ -22,36 +34,145 @@ export function signinView() {
         <p class="t-sm dim mt-2">${esc(p.descriptor)}</p>
         <p class="t-cap mt-2" style="color:var(--brand-600);font-weight:600">${esc(p.promise)}</p>
       </div>
-
-      <div class="card">
-        <p class="t-eyebrow">Choose an account</p>
-        <div class="stack gap-2 mt-3">
-          ${store.db.users.filter((u) => u.active).map((u) => `
-            <button class="chip row gap-3" style="width:100%" data-user="${attr(u.id)}">
-              <span class="avatar" aria-hidden="true">${esc(initials(u.name))}</span>
-              <span class="grow" style="min-width:0;text-align:left">
-                <b style="display:block">${esc(u.name)}</b>
-                <span class="t-cap">${esc(u.title)}</span>
-              </span>
-              <span class="pill" data-tone="${
-                u.role === 'admin' ? 'info' : u.role === 'management' ? 'neutral' : 'success'}">
-                ${esc(u.role)}</span>
-            </button>`).join('')}
-        </div>
-        <p class="t-cap mt-4">There is no password because this build has no authentication
-          server. Roles still govern what each account can see and do.</p>
-      </div>
+      ${body}
     </div>
   </div>`;
 }
 
+export function signinView() {
+  return store.isServerMode() ? signinChrome(credentialForm()) : signinChrome(accountPicker());
+}
+
+function credentialForm() {
+  return `<form class="card" id="signin-form" novalidate>
+    <p class="t-eyebrow">Sign in</p>
+
+    <!-- Empty but present from first render: an alert region inserted only
+         when an error occurs is not announced by every screen reader. -->
+    <div id="signin-error" class="alert" role="alert" hidden
+         style="margin-top:var(--sp-3)"></div>
+
+    <label class="field mt-3"><span>Work email</span>
+      <input class="input" id="signin-email" type="email" name="email"
+        autocomplete="username" inputmode="email" enterkeyhint="next"
+        autocapitalize="off" spellcheck="false" required
+        aria-describedby="signin-error" placeholder="name@teal.example"></label>
+
+    <label class="field mt-3"><span>Password</span>
+      <input class="input" id="signin-password" type="password" name="password"
+        autocomplete="current-password" enterkeyhint="go" required
+        aria-describedby="signin-error"></label>
+
+    <button class="btn mt-4" id="signin-submit" style="width:100%" type="submit">
+      Sign in</button>
+
+    <p class="t-cap mt-4">
+      <button type="button" class="linkbtn" id="signin-reset">Forgotten your password?</button>
+    </p>
+  </form>`;
+}
+
+function accountPicker() {
+  return `<div class="card">
+    <p class="t-eyebrow">Choose an account</p>
+    <div class="stack gap-2 mt-3">
+      ${store.db.users.filter((u) => u.active).map((u) => `
+        <button class="chip row gap-3" style="width:100%" data-user="${attr(u.id)}">
+          <span class="avatar" aria-hidden="true">${esc(initials(u.name))}</span>
+          <span class="grow" style="min-width:0;text-align:left">
+            <b style="display:block">${esc(u.name)}</b>
+            <span class="t-cap">${esc(u.title)}</span>
+          </span>
+          <span class="pill" data-tone="${
+            u.role === 'admin' ? 'info' : u.role === 'management' ? 'neutral' : 'success'}">
+            ${esc(u.role)}</span>
+        </button>`).join('')}
+    </div>
+    <p class="t-cap mt-4">There is no password because this build has no authentication
+      server. Roles still govern what each account can see and do.</p>
+  </div>`;
+}
+
 export function signinMount({ outlet }) {
+  return store.isServerMode()
+    ? mountCredentialForm(outlet)
+    : mountAccountPicker(outlet);
+}
+
+function mountAccountPicker(outlet) {
   outlet.querySelectorAll('[data-user]').forEach((btn) => btn.addEventListener('click', () => {
-    store.signIn(btn.dataset.user);
+    store.signInAsUser(btn.dataset.user);
     import('../shell.js').then((s) => s.renderAll());
     go('/dashboard');
     toast(`Signed in as ${store.me().name}`);
   }));
+}
+
+function mountCredentialForm(outlet) {
+  const form = outlet.querySelector('#signin-form');
+  const email = outlet.querySelector('#signin-email');
+  const password = outlet.querySelector('#signin-password');
+  const submit = outlet.querySelector('#signin-submit');
+  const errorBox = outlet.querySelector('#signin-error');
+
+  email?.focus();
+
+  const showError = (message) => {
+    errorBox.textContent = message;
+    errorBox.hidden = false;
+    // Move focus to the field most likely at fault so a keyboard user is not
+    // left at the bottom of the form hunting for what changed.
+    (/password/i.test(message) ? password : email)?.focus();
+  };
+  const clearError = () => { errorBox.hidden = true; errorBox.textContent = ''; };
+
+  const busy = (on) => {
+    submit.disabled = on;
+    submit.setAttribute('aria-busy', String(on));
+    submit.textContent = on ? 'Signing in…' : 'Sign in';
+  };
+
+  form?.addEventListener('submit', async (event) => {
+    event.preventDefault();
+    clearError();
+
+    const address = email.value.trim();
+    if (!address || !password.value) {
+      showError('Enter your email address and password.');
+      return;
+    }
+
+    busy(true);
+    // The whole working set is fetched before this resolves, so on a slow
+    // connection this button sits disabled for a moment rather than dropping
+    // the user into an empty dashboard that fills in underneath them.
+    const result = await store.signIn(address, password.value);
+    busy(false);
+
+    if (!result.ok) { showError(result.message); return; }
+
+    password.value = '';
+    const shell = await import('../shell.js');
+    shell.renderAll();
+    go('/dashboard');
+    toast(`Signed in as ${store.me().name}`);
+  });
+
+  outlet.querySelector('#signin-reset')?.addEventListener('click', async () => {
+    const address = email.value.trim();
+    if (!address) { showError('Enter your email address first, then choose this again.'); return; }
+
+    try {
+      await store.sendPasswordReset(address);
+      clearError();
+      // Deliberately the same message whether or not the address exists:
+      // saying "no such account" tells anyone who asks which addresses are
+      // real ones.
+      toast('If that address has an account, a reset link is on its way.');
+    } catch (err) {
+      showError(err.message);
+    }
+  });
 }
 
 /* ---- settings ------------------------------------------------------------ */
@@ -103,25 +224,60 @@ export function settingsView({ params }) {
     data: () => {
       const q = store.queue();
       const works = store.storageWorks();
-      return `
-      ${card('Where this data lives', `
-        <p class="t-sm dim">Seed records load from <code>data/*.json</code>. Anything you
-          capture or edit is written to this browser's local storage on this device.</p>
+      const sync = store.syncState();
+      const server = store.isServerMode();
+
+      const counts = `
         <dl class="kv mt-3">
-          <dt>Storage</dt><dd>${works
-            ? '<span class="statusdot" data-state="online">Working</span>'
-            : '<span class="statusdot" data-state="offline">Blocked by this browser</span>'}</dd>
+          <dt>Browser storage</dt><dd>${works
+            ? '<span class="statusdot" data-state="synced">Working</span>'
+            : '<span class="statusdot" data-state="error">Blocked by this browser</span>'}</dd>
           <dt>Leads</dt><dd class="t-num">${store.db.leads.length}</dd>
           <dt>Companies</dt><dd class="t-num">${store.db.companies.length}</dd>
           <dt>Contacts</dt><dd class="t-num">${store.db.contacts.length}</dd>
           <dt>Activities</dt><dd class="t-num">${store.db.activities.length}</dd>
-          <dt>Pending sync operations</dt><dd class="t-num">${q.length}</dd>
-        </dl>
-        <p class="t-cap mt-3">There is no server in this build, so nothing is uploaded and
-          nothing is shared between devices. The queue records what a hosted backend would
-          receive — it is shown so the status is honest rather than a green "Synced" badge
-          that means nothing.</p>`)}
-      ${card('Backup and restore', `
+          <dt>Waiting to sync</dt><dd class="t-num">${q.length}</dd>
+        </dl>`;
+
+      return `
+      ${server ? card('Where this data lives', `
+        <p class="t-sm dim">Records live in a PostgreSQL database behind Supabase. What you
+          see here is a working copy held in this browser so the app keeps responding — and
+          keeps accepting leads — when the connection at a venue does not.</p>
+        ${counts}
+        <p class="t-cap mt-3">Anything captured while offline is queued on this device and
+          sent when the connection returns. The count above is the honest number: it is what
+          has <em>not</em> reached the server yet.
+          ${sync.error ? `<br><br><b>Last error:</b> ${esc(sync.error)}` : ''}</p>
+        <div class="row gap-2 mt-3" style="flex-wrap:wrap">
+          <button class="btn btn-sec btn-sm" id="sync-now">${icon('refresh')} Sync now</button>
+          <span class="statusdot" data-state="${attr(sync.state)}" id="settings-sync"></span>
+        </div>`)
+      : card('Where this data lives', `
+        <p class="t-sm dim">Seed records load from <code>data/*.json</code>. Anything you
+          capture or edit is written to this browser's local storage on this device.</p>
+        ${counts}
+        <p class="t-cap mt-3">This build is running without a backend, so nothing is uploaded
+          and nothing is shared between devices. The queue records what a hosted backend
+          would receive — it is shown so the status is honest rather than a green "Synced"
+          badge that means nothing. To connect one, see <code>DEPLOY.md</code>.</p>`)}
+      ${server ? card('Backup', `
+        <div class="row gap-2" style="flex-wrap:wrap">
+          <button class="btn btn-sec btn-sm" id="dl-json">${icon('download')} Download JSON backup</button>
+          <button class="btn btn-sec btn-sm" id="clear-local"
+            style="color:var(--danger);border-color:var(--danger)">Clear local copy</button>
+        </div>
+        <p class="t-cap mt-3">The database is the record of truth and is backed up by your
+          Supabase project, so a download here is a point-in-time export for your own records
+          rather than the only copy.</p>
+        <p class="t-cap mt-2">Restoring a file over the top is deliberately not offered: it
+          would only rewrite this browser's copy, which the next sync would discard. To roll
+          the database back, use point-in-time recovery in the Supabase dashboard.</p>
+        <p class="t-cap mt-2"><b>Clear local copy</b> discards the cached working set and
+          anything still queued on this device, then reloads from the server. Use it on a
+          shared tablet, or if this browser's copy looks wrong. Anything not yet synced is
+          lost — check the count above first.</p>`)
+      : card('Backup and restore', `
         <div class="row gap-2" style="flex-wrap:wrap">
           <button class="btn btn-sec btn-sm" id="dl-json">${icon('download')} Download JSON backup</button>
           <label class="btn btn-sec btn-sm" style="cursor:pointer">
@@ -159,6 +315,25 @@ export function settingsView({ params }) {
 }
 
 export function settingsMount({ outlet }) {
+  const syncBtn = outlet.querySelector('#sync-now');
+  syncBtn?.addEventListener('click', async () => {
+    syncBtn.disabled = true;
+    syncBtn.setAttribute('aria-busy', 'true');
+    const original = syncBtn.innerHTML;
+    syncBtn.textContent = 'Syncing…';
+    try {
+      await store.refresh();
+      toast('Up to date');
+      import('../router.js').then((r) => r.render());
+    } catch (err) {
+      toast(err.message, 'danger');
+    } finally {
+      syncBtn.disabled = false;
+      syncBtn.removeAttribute('aria-busy');
+      syncBtn.innerHTML = original;
+    }
+  });
+
   outlet.querySelector('#dl-json')?.addEventListener('click', () => {
     const payload = {
       exportedAt: new Date().toISOString(),
@@ -212,6 +387,26 @@ export function settingsMount({ outlet }) {
       });
     };
     reader.readAsText(file);
+  });
+
+  outlet.querySelector('#clear-local')?.addEventListener('click', () => {
+    const waiting = store.queue().length;
+    confirmAction({
+      title: 'Clear this device\u2019s copy?',
+      body: waiting
+        ? `${waiting} change${waiting === 1 ? '' : 's'} on this device ${waiting === 1 ? 'has' : 'have'}
+           not reached the server yet and will be lost. Everything already synced is safe in the
+           database and will load again.`
+        : `Everything on this device is already synced, so nothing will be lost. The working set
+           is discarded and reloaded from the server.`,
+      confirmLabel: 'Clear and reload',
+      onConfirm() {
+        localStorage.removeItem('teal.leadconnect.v2');
+        localStorage.removeItem('teal.leadconnect.queue.v2');
+        localStorage.removeItem('teal.leadconnect.draft.v2');
+        location.reload();
+      },
+    });
   });
 
   outlet.querySelector('#reset-demo')?.addEventListener('click', () => {

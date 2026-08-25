@@ -1,0 +1,58 @@
+# ---------------------------------------------------------------------------
+# TEAL LeadConnect on a VPS.
+#
+#   cp .env.example .env      # fill in the two Supabase values
+#   docker compose up -d --build
+#
+# This brings up the application on 127.0.0.1:8080. It is bound to loopback on
+# purpose: the reverse proxy on the host holds the certificate and is the only
+# thing that should be reachable from the internet. See DEPLOY.md.
+#
+# There is no database service here. The database is your Supabase project,
+# which is where the data and the backups live.
+# ---------------------------------------------------------------------------
+services:
+  app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: teal-leadconnect:latest
+    container_name: teal-leadconnect
+    restart: unless-stopped
+
+    environment:
+      # Both are read at container start and written into config.json, which
+      # browsers download. The anon key is designed for that; the service_role
+      # key must never appear here.
+      SUPABASE_URL: ${SUPABASE_URL:?set SUPABASE_URL in .env}
+      SUPABASE_ANON_KEY: ${SUPABASE_ANON_KEY:?set SUPABASE_ANON_KEY in .env}
+      APP_MODE: ${APP_MODE:-server}
+      # Shown in the topbar. Set it on staging so nobody demos against
+      # production by accident; leave it empty in production.
+      ENVIRONMENT_LABEL: ${ENVIRONMENT_LABEL:-}
+
+    ports:
+      - "127.0.0.1:${APP_PORT:-8080}:80"
+
+    # The image is immutable. The only things written at run time are
+    # config.json and the CSP include, both generated into /run/leadconnect,
+    # which is a tmpfs — so they are rebuilt from the environment on every
+    # start and never persist stale.
+    read_only: true
+    tmpfs:
+      - /run
+      - /var/cache/nginx
+      - /tmp
+    security_opt:
+      - no-new-privileges:true
+
+    logging:
+      driver: json-file
+      options: { max-size: "10m", max-file: "3" }
+
+    healthcheck:
+      test: ["CMD", "wget", "-qO-", "http://127.0.0.1/healthz"]
+      interval: 30s
+      timeout: 3s
+      retries: 3
+      start_period: 5s
