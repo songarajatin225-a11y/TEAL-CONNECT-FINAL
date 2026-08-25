@@ -156,7 +156,7 @@ function serve() {
   errors.length = 0;
   await page.evaluate(async () => {
     const s = await import('./js/store.js');
-    s.signIn(s.db.users.find((u) => u.role === 'management').id);
+    s.signInAsUser(s.db.users.find((u) => u.role === 'management').id);
     location.hash = '#/capture';
   });
   await page.waitForTimeout(300);
@@ -166,7 +166,7 @@ function serve() {
 
   await page.evaluate(async () => {
     const s = await import('./js/store.js');
-    s.signIn(s.db.users.find((u) => u.role === 'sales').id);
+    s.signInAsUser(s.db.users.find((u) => u.role === 'sales').id);
     location.hash = '#/leads';
   });
   await page.waitForTimeout(300);
@@ -181,7 +181,7 @@ function serve() {
 
   await page.evaluate(async () => {
     const s = await import('./js/store.js');
-    s.signIn('u-admin');
+    s.signInAsUser('u-admin');
     location.hash = '#/dashboard';
   });
   await page.waitForTimeout(200);

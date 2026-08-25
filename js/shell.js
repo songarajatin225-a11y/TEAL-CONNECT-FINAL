@@ -199,19 +199,42 @@ export function renderTabbar() {
     </a>`).join('');
 }
 
-/* ---- network status (§28) ------------------------------------------------ */
+/* ---- sync status (§28) ---------------------------------------------------
+   The old build said "Online" whenever the browser had a connection, which
+   told you about the wifi rather than about your leads. With a server behind
+   it the useful question is whether what you captured has actually arrived,
+   so the indicator answers that instead — and says how many operations are
+   still waiting rather than rounding it to a reassuring green dot.
+
+   Never colour alone: every state carries a word, which is what makes it
+   readable to anyone who cannot separate the hues. */
+const SYNC_LABELS = {
+  local:   ['Saved on this device', 'No server in this build. Everything is stored in this browser, on this device only.'],
+  synced:  ['Synced', 'Everything captured on this device has reached the server.'],
+  syncing: ['Syncing…', 'Sending your latest changes.'],
+  pending: ['{n} waiting', 'Captured here and not yet sent. This will clear itself when the connection allows.'],
+  offline: ['Offline — {n} waiting', 'No connection. Capture still works; everything is queued and sent when you are back online.'],
+  error:   ['Sync problem', 'The last attempt to reach the server failed. Your work is safe on this device and will be retried.'],
+};
+
 function updateNetStatus() {
   const dot = document.getElementById('netdot');
   if (!dot) return;
-  const online = navigator.onLine;
-  dot.dataset.state = online ? 'online' : 'offline';
-  dot.textContent = online ? 'Online' : 'Offline — saved locally';
-  dot.title = online
-    ? 'Captured leads are stored on this device.'
-    : 'No connection. Capture still works; everything is written to this device.';
+
+  const { state, pending, error } = store.syncState();
+  const [label, hint] = SYNC_LABELS[state] ?? SYNC_LABELS.local;
+  const withCount = (text) => text.replace('{n}', String(pending));
+
+  dot.dataset.state = state;
+  dot.textContent = withCount(label);
+  dot.title = error ? `${withCount(hint)}\n\n${error}` : withCount(hint);
 }
+
 window.addEventListener('online', updateNetStatus);
 window.addEventListener('offline', updateNetStatus);
+/* The store drives this: a queued write, a completed flush and a failed
+   attempt all change what the indicator should say. */
+store.onSyncChange(updateNetStatus);
 
 /* ---- exhibition picker --------------------------------------------------- */
 function openExhibitionPicker() {
@@ -291,17 +314,28 @@ function openProfile() {
         ${['system', 'light', 'dark'].map((mode) => `<button class="chip" data-theme-set="${mode}"
           aria-pressed="${mode === theme}">${mode[0].toUpperCase() + mode.slice(1)}</button>`).join('')}
       </div>
-      <p class="t-eyebrow mt-6">Switch account</p>
-      <p class="t-cap">Roles change what is visible. There is no password because this build has no
-        authentication server — see Settings.</p>
-      <div class="stack gap-2 mt-2">
-        ${store.db.users.filter((u) => u.active).map((u) => `
-          <button class="chip" style="width:100%" data-user="${attr(u.id)}"
-            aria-pressed="${u.id === user.id}">
-            <b style="display:block">${esc(u.name)}</b>
-            <span class="t-cap">${esc(u.title)}</span>
-          </button>`).join('')}
-      </div>`,
+      ${store.isServerMode() ? `
+        <p class="t-eyebrow mt-6">Password</p>
+        <div id="pw-error" class="alert" role="alert" hidden style="margin-top:var(--sp-2)"></div>
+        <label class="field mt-2"><span>New password</span>
+          <input class="input" id="pw-new" type="password" autocomplete="new-password"
+            aria-describedby="pw-hint pw-error">
+        </label>
+        <p class="t-cap mt-2" id="pw-hint">At least 8 characters. You stay signed in here;
+          other devices will need the new password.</p>
+        <button class="btn btn-sec btn-sm mt-3" id="pw-save">Change password</button>
+      ` : `
+        <p class="t-eyebrow mt-6">Switch account</p>
+        <p class="t-cap">Roles change what is visible. There is no password because this build has no
+          authentication server — see Settings.</p>
+        <div class="stack gap-2 mt-2">
+          ${store.db.users.filter((u) => u.active).map((u) => `
+            <button class="chip" style="width:100%" data-user="${attr(u.id)}"
+              aria-pressed="${u.id === user.id}">
+              <b style="display:block">${esc(u.name)}</b>
+              <span class="t-cap">${esc(u.title)}</span>
+            </button>`).join('')}
+        </div>`}`,
     footer: `<button class="btn btn-sec" data-close>Close</button>
              <button class="btn btn-danger" id="signout">Sign out</button>`,
     onMount(host, close) {
@@ -315,14 +349,52 @@ function openProfile() {
         }));
       host.querySelectorAll('[data-user]').forEach((btn) =>
         btn.addEventListener('click', () => {
-          store.signIn(btn.dataset.user);
+          store.signInAsUser(btn.dataset.user);
           close();
           go('/dashboard');
           renderAll();
           toast(`Signed in as ${store.me().name}`);
         }));
-      host.querySelector('#signout').addEventListener('click', () => {
-        store.signOut(); close(); go('/signin'); renderAll();
+      const pwSave = host.querySelector('#pw-save');
+      pwSave?.addEventListener('click', async () => {
+        const field = host.querySelector('#pw-new');
+        const errorBox = host.querySelector('#pw-error');
+        const showError = (message) => {
+          errorBox.textContent = message; errorBox.hidden = false; field.focus();
+        };
+
+        if (field.value.length < 8) { showError('Use at least 8 characters.'); return; }
+
+        pwSave.disabled = true;
+        pwSave.textContent = 'Changing…';
+        try {
+          await store.changePassword(field.value);
+          field.value = '';
+          errorBox.hidden = true;
+          close();
+          toast('Password changed');
+        } catch (err) {
+          showError(err.message);
+        } finally {
+          pwSave.disabled = false;
+          pwSave.textContent = 'Change password';
+        }
+      });
+
+      host.querySelector('#signout').addEventListener('click', async (event) => {
+        // Signing out drains the outbox first, so this can take a moment on a
+        // bad connection. Close only once it has actually finished, or a lead
+        // captured a minute ago could be dropped along with the session.
+        const btn = event.currentTarget;
+        btn.disabled = true;
+        btn.textContent = 'Signing out…';
+        try {
+          await store.signOut();
+        } finally {
+          close();
+          go('/signin');
+          renderAll();
+        }
       });
     },
   });
