@@ -105,9 +105,18 @@ async function boot() {
 
   // A service worker makes the app installable and keeps the shell available
   // with no connection. It is an enhancement — failure is silent by design.
-  if ('serviceWorker' in navigator && location.protocol.startsWith('http')) {
+  //
+  // Skipped in the single-file build: there is no separate sw.js to register,
+  // and import.meta.url is empty there, which would make the URL throw before
+  // the catch could swallow it. That build needs no shell cache anyway — the
+  // shell is the file the browser already has.
+  if ('serviceWorker' in navigator
+      && location.protocol.startsWith('http')
+      && import.meta.url) {
     window.addEventListener('load', () => {
-      navigator.serviceWorker.register(new URL('../sw.js', import.meta.url)).catch(() => {});
+      try {
+        navigator.serviceWorker.register(new URL('../sw.js', import.meta.url)).catch(() => {});
+      } catch { /* enhancement only */ }
     });
   }
 }

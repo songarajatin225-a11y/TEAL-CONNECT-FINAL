@@ -10,6 +10,8 @@ the one dependency, and verify the build.
 | `smoke.js` | 67 checks: boot, routes, deep links, palette, theme, roles. |
 | `a11y.js` | 1570 checks: 13 routes × 6 widths × 2 themes, plus keyboard journeys. |
 | `server-mode.js` | 30 checks: the app against a stub Supabase — auth, hydration, the outbox. |
+| `build-single-file.js` | Bundles the whole app into one `dist/leadconnect.html`. Needs esbuild. |
+| `verify-single-file.js` | 32 checks on that file, including that it makes exactly one request. |
 
 ```sh
 python3 tools/gendata.py
@@ -19,6 +21,10 @@ node tools/smoke.js
 node tools/a11y.js
 node tools/server-mode.js
 supabase/tests/run.sh              # 55 checks — needs a local PostgreSQL 15+
+
+npm install --no-save esbuild      # build-only, not committed
+node tools/build-single-file.js
+node tools/verify-single-file.js
 ```
 
 All four exit non-zero on failure and none of them needs network access or a

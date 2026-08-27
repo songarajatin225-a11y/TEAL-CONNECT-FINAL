@@ -14,7 +14,10 @@
    blank screen.
    ========================================================================== */
 
-const CONFIG_URL = new URL('../config.json', import.meta.url);
+/* Resolved on first use: a bundled build has no import.meta.url, and
+   `new URL(path, undefined)` throws. That build inlines its config instead
+   and returns before this is ever called. */
+const configUrl = () => new URL('../config.json', import.meta.url);
 
 const DEFAULTS = {
   supabaseUrl: '',
@@ -53,10 +56,18 @@ function normalise(raw) {
 export async function load() {
   if (cached) return cached;
 
+  // The single-file build has no config.json to fetch — it inlines the values
+  // instead, and the reader edits them at the top of the file. Checked before
+  // the network so that build never makes a request that cannot succeed.
+  if (globalThis.TEAL_CONFIG) {
+    cached = normalise(globalThis.TEAL_CONFIG);
+    return cached;
+  }
+
   try {
     // no-store: a stale config.json cached by the service worker would point a
     // freshly reconfigured deployment at the previous project.
-    const res = await fetch(CONFIG_URL, { cache: 'no-store' });
+    const res = await fetch(configUrl(), { cache: 'no-store' });
     cached = res.ok ? normalise(await res.json()) : normalise(null);
   } catch {
     // Absent file, offline boot, or invalid JSON. Demo mode is the safe floor.

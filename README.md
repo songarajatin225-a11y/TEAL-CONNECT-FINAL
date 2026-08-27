@@ -21,6 +21,12 @@ Demo mode is what a fresh checkout does, with no setup. Server mode is the real
 deployment — see **[BACKEND.md](BACKEND.md)** to set up the database and
 **[DEPLOY.md](DEPLOY.md)** to put it on a server.
 
+There is also a **[single-file build](SINGLE-FILE.md)**: the entire application
+as one `.html` file you copy onto any web server, or open straight from disk.
+Same screens, same code, and it runs in either mode — edit the config block at
+the top of the file to point it at Supabase. Use it when you do not control the
+server: shared hosting, an intranet, a laptop at a stand.
+
 ---
 
 ## Running it

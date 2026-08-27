@@ -51,11 +51,22 @@ export const currentMode = () => mode;
 export const isServerMode = () => mode === 'server';
 
 /* Relative paths only: under a project subpath an absolute '/data/x.json'
-   resolves to the domain root and 404s. */
-const DATA_BASE = new URL('../data/', import.meta.url);
+   resolves to the domain root and 404s.
+
+   Resolved on first use rather than at module load. A bundled build has no
+   import.meta.url — it is empty under a non-module output format — and
+   `new URL(path, undefined)` throws, which at module scope would take the
+   whole application down before it rendered anything. The single-file build
+   never reaches this: its data is already inlined. */
+const dataBase = () => new URL('../data/', import.meta.url);
 
 async function loadSeedFile(name) {
-  const res = await fetch(new URL(`${name}.json`, DATA_BASE));
+  // The single-file build carries data/*.json inside it, which is also what
+  // lets that build run from a file:// URL with no server at all.
+  const inlined = globalThis.TEAL_SEED?.[name];
+  if (inlined) return inlined;
+
+  const res = await fetch(new URL(`${name}.json`, dataBase()));
   if (!res.ok) throw new Error(`${name}.json — ${res.status}`);
   return res.json();
 }
